@@ -1,0 +1,492 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>2장 기초 이론 – 눈·굴절·조절 · 검안 교재 · 안경사 국가시험 공부</title><meta name="description" content="안경원 시력검사·굴절검사 표준 업무 웹 교재 (직원 교육용)">
+<style>*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic","NanumGothic",sans-serif;font-size:17px;line-height:1.65;color:#1d2330;background:#f6f8fb;word-break:keep-all;overflow-wrap:anywhere;padding-bottom:96px}
+a{color:#1f5fbf}
+header.top{position:sticky;top:0;z-index:20;background:#1f3a5f;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+header.top .in{max-width:760px;margin:0 auto;padding:8px 12px;display:flex;align-items:center;gap:8px}
+header.top .ttl{font-weight:700;font-size:16px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;max-width:760px;margin:0 auto;padding:0 8px 8px;scrollbar-width:none}
+nav.tabs a{flex:0 0 auto;color:#fff;text-decoration:none;font-size:14px;padding:6px 11px;border-radius:16px;background:rgba(255,255,255,.14)}
+nav.tabs a.on{background:#e07b00}
+main{max-width:760px;margin:0 auto;padding:12px}
+h1{font-size:1.45em;line-height:1.35;margin:.4em 0 .3em;color:#1f3a5f}
+h2{font-size:1.2em;line-height:1.4;margin:1.4em 0 .5em;color:#1f3a5f;border-left:5px solid #1f3a5f;padding-left:8px}
+h3{font-size:1.05em;margin:1em 0 .4em}
+.card{background:#fff;border-radius:14px;padding:14px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.core{background:#fff8ec;border:2px solid #e07b00;border-radius:14px;padding:12px 14px;margin:12px 0}
+.core h2{border:0;padding:0;margin:.2em 0 .4em;color:#b35f00}
+.core ol{margin:0;padding-left:1.3em}
+.box{border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95em}
+.box b:first-child{display:inline-block;margin-right:6px}
+.box.term{background:#eef5ff;border-left:5px solid #2a6fdb}
+.box.bg{background:#f1f3f6;border-left:5px solid #777}
+.box.must{background:#fff1de;border-left:5px solid #e07b00}
+.box.must b:first-child{color:#b35f00}
+.box.star{background:#fffbe6;border-left:5px solid #d4a400}
+.box.err{background:#fdeeee;border-left:5px solid #c0392b}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.two>div{background:#fff;border:2px solid #1f3a5f;border-radius:10px;padding:8px 10px;font-size:.92em}
+.two>div:last-child{border-color:#e07b00}
+@media (max-width:380px){.two{grid-template-columns:1fr}}
+.case{background:#fff;border:1px solid #d7deea;border-radius:10px;padding:10px;margin:10px 0}
+.tblw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.tbl{border-collapse:collapse;width:100%;font-size:.88em;margin:8px 0;background:#fff}
+table.tbl th,table.tbl td{border:1px solid #cfd8e6;padding:6px 7px;vertical-align:top;text-align:left}
+table.tbl th{background:#e9eff8}
+svg.fig{display:block;width:100%;max-width:520px;height:auto;margin:10px auto;background:#fff;border-radius:10px}
+.sec{background:#fff;border-radius:14px;padding:4px 14px 12px;margin:14px 0;box-shadow:0 1px 3px rgba(20,40,80,.08);scroll-margin-top:96px}
+.sec h2{margin-top:.8em}
+.meta{font-size:.8em;color:#556}
+.stars{color:#d48a00;letter-spacing:1px}
+.tier{display:inline-block;font-size:.75em;padding:1px 8px;border-radius:10px;color:#fff;vertical-align:middle}
+.t-기본{background:#1b7a43}.t-응용{background:#2a6fdb}.t-심화{background:#7b3fb5}
+.tag{display:inline-block;font-size:.72em;padding:1px 7px;border-radius:10px;border:1px solid;vertical-align:middle}
+.tag.ok{color:#a3460a;border-color:#e07b00;background:#fff4e6}.tag.est{color:#445;border-color:#99a;background:#f4f5f8}
+.note{font-size:.9em;color:#556}.src{font-size:.78em;color:#667;word-break:break-all}
+.btn,button.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 14px;border-radius:10px;border:0;background:#1f3a5f;color:#fff;font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;margin:4px 4px 4px 0}
+.btn.o{background:#e07b00}.btn.g{background:#1b7a43}.btn.l{background:#e9eff8;color:#1f3a5f}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.grid a.tile{display:block;background:#fff;border:2px solid #d7deea;border-radius:12px;padding:10px;text-decoration:none;color:#1d2330;min-height:64px}
+.grid a.tile b{display:block;color:#1f3a5f}
+.grid a.tile.done{border-color:#1b7a43;background:#effaf2}
+.q{background:#fff;border-radius:14px;padding:12px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.1)}
+.qh{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+.qh .num{font-weight:700;color:#1f3a5f}
+.qh .mtl{font-size:.72em;color:#667}
+.qt{font-weight:600;margin-bottom:8px}
+button.opt{display:block;width:100%;text-align:left;background:#f4f7fb;border:2px solid #d7deea;border-radius:10px;padding:10px 12px;margin:6px 0;font-size:16px;line-height:1.45;color:#1d2330;cursor:pointer;min-height:44px;font-family:inherit}
+button.opt:disabled{cursor:default;color:#1d2330}
+button.opt.right{background:#e6f6ea;border-color:#1b7a43}
+button.opt.wrong{background:#fdeaea;border-color:#c0392b}
+button.opt.pick{background:#eef5ff;border-color:#2a6fdb}
+.diag{margin-top:8px;border-top:1px dashed #ccd;padding-top:8px;font-size:.94em}
+.diag .ok{color:#1b7a43;font-weight:700}.diag .no{color:#c0392b;font-weight:700}
+.diag details{margin:6px 0}.diag summary{cursor:pointer;color:#1f5fbf}
+.simbox{border-left:4px solid #e07b00;padding-left:8px;margin-top:8px}
+.ctrl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ctrl select{font-size:15px;min-height:44px;border-radius:10px;border:1px solid #bcc7d8;padding:6px 8px;max-width:100%;background:#fff}
+.chip{border:2px solid #1f3a5f;background:#fff;color:#1f3a5f;border-radius:18px;padding:6px 12px;min-height:40px;font-size:14px;font-weight:700;cursor:pointer}
+.chip.on{background:#1f3a5f;color:#fff}
+.askbar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid #d7deea;box-shadow:0 -2px 8px rgba(0,0,0,.08)}
+.askbar form{max-width:760px;margin:0 auto;display:flex;gap:6px;padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
+.askbar input{flex:1;min-width:0;font-size:16px;border:1px solid #bcc7d8;border-radius:10px;padding:10px}
+.askbar button{min-height:44px;border:0;border-radius:10px;background:#e07b00;color:#fff;font-weight:700;padding:0 12px;font-size:15px}
+.askbar .alt{background:#e9eff8;color:#1f3a5f;padding:0 8px;font-size:13px}
+.bigbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bigbtns button{min-height:64px;font-size:17px;font-weight:700;border-radius:14px;border:2px solid #1f3a5f;background:#fff;color:#1f3a5f}
+.bigbtns button.on{background:#1f3a5f;color:#fff}
+.flash{background:#fff;border-radius:16px;min-height:200px;padding:18px;box-shadow:0 2px 8px rgba(20,40,80,.12);font-size:1.05em}
+.flash .front{font-weight:700;font-size:1.1em;color:#1f3a5f}
+.flash .back{margin-top:12px;border-top:1px dashed #ccd;padding-top:12px}
+.boxes{display:flex;gap:6px;flex-wrap:wrap;font-size:.85em}
+.boxes span{background:#e9eff8;border-radius:8px;padding:3px 8px}
+.dis{background:#fff;border-radius:14px;padding:12px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.dis img{width:100%;max-width:520px;height:auto;border-radius:10px;display:block;margin:6px auto}
+.dis dl{margin:6px 0}.dis dt{font-weight:700;color:#1f3a5f}.dis dd{margin:0 0 6px 0}
+.cap{font-size:.75em;color:#556;word-break:break-all}
+.link1{background:#effaf2;border-left:5px solid #1b7a43;padding:8px 10px;border-radius:8px;font-size:.93em}
+.ref{display:grid;gap:8px}.ref div{border-radius:10px;padding:8px 10px;color:#fff}
+.dday{font-size:1.6em;font-weight:800;color:#c0392b}
+.progress{height:10px;background:#e3e8f0;border-radius:6px;overflow:hidden}.progress i{display:block;height:100%;background:#1b7a43}
+.hide{display:none!important}
+footer{max-width:760px;margin:20px auto;padding:0 12px;font-size:.8em;color:#667}
+
+figure.gf{margin:14px 0;padding:6px 4px 8px;background:#fff;border:1px solid #e3e8f0;border-radius:12px}
+figure.gf svg.fig{max-width:640px;margin:4px auto}
+figure.gf figcaption{font-size:.84em;color:#3a4456;text-align:center;padding:0 6px;line-height:1.5}
+figure.gf figcaption b{color:#1f3a5f}
+.gnav{display:flex;gap:6px;align-items:stretch;margin:8px 0}
+.gnav a{flex:1;min-height:44px;display:flex;align-items:center;justify-content:center;text-align:center;background:#e9eff8;color:#1f3a5f;border-radius:10px;text-decoration:none;font-size:14px;font-weight:700;padding:6px 8px;line-height:1.3}
+.gnav a.mid{flex:0 0 auto;background:#1f3a5f;color:#fff}
+.gnav span{flex:1}
+.lbl{font-size:.98em;color:#1f3a5f;margin:1em 0 .3em;padding:2px 8px;background:#eef3fa;border-radius:6px;display:inline-block}
+ul.chk{list-style:none;padding-left:0;margin:6px 0}
+ul.chk li{border-bottom:1px dashed #dde3ec;padding:6px 2px}
+ul.chk label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+ul.chk input{width:20px;height:20px;flex:0 0 auto;margin-top:3px}
+ul.chk .rm{font-size:.82em;color:#667;margin-left:28px}
+details.qa{background:#fff;border:1px solid #d7deea;border-radius:10px;padding:8px 12px;margin:8px 0}
+details.qa summary{cursor:pointer;font-weight:700;color:#1f3a5f;min-height:32px}
+details.qa[open] summary{margin-bottom:6px}
+sup.rf{font-size:.7em}sup.rf a{text-decoration:none}
+.chkt{font-weight:700;color:#1b7a43;margin-top:10px}
+.gq .diag{display:none}.gq.done .diag{display:block}
+.qz-score{font-weight:700;color:#1f3a5f}
+.cover{background:linear-gradient(135deg,#1f3a5f,#2a5a8f);color:#fff;border-radius:16px;padding:16px;margin:12px 0}
+.cover h1{color:#fff;margin:.1em 0 .2em}.cover p{margin:.2em 0}
+.cover img{width:100%;height:auto;border-radius:12px;display:block;margin:10px 0 4px}
+.cover .cap{color:#dbe6f5}
+.toc a.tile small{display:block;color:#556;font-size:.8em}
+.toc a.tile.new{border-color:#e07b00}
+.newb{display:inline-block;font-size:.7em;background:#e07b00;color:#fff;border-radius:8px;padding:0 6px;margin-left:4px;vertical-align:middle}
+.lab{background:#f7fafd;border:2px dashed #2a6fdb;border-radius:12px;padding:10px 12px;margin:12px 0}
+.lab h3{margin-top:.2em;color:#2a6fdb}
+.lab label{display:block;font-size:.92em;margin:6px 0 2px}
+.lab input[type=range]{width:100%}
+.lab input[type=number],.lab select{font-size:16px;min-height:40px;border:1px solid #bcc7d8;border-radius:8px;padding:4px 8px;width:7.5em;max-width:100%}
+.lab .out{background:#fff;border-radius:8px;padding:8px 10px;margin-top:8px;font-size:.95em;border:1px solid #d7deea}
+.lab .row{display:flex;flex-wrap:wrap;gap:10px}
+.lab .row>div{flex:1 1 90px}
+#gsearch{width:100%;font-size:16px;min-height:44px;border:1px solid #bcc7d8;border-radius:10px;padding:8px 10px}
+ol.refs li{margin:6px 0;font-size:.9em}ol.refs li:target{background:#fff4e6}
+.tag.add{color:#1b7a43;border-color:#1b7a43;background:#effaf2}
+</style></head><body data-cat="검안 실무"><header class="top"><div class="in"><span class="ttl">2장 기초 이론 – 눈·굴절·조절</span></div><nav class="tabs"><a data-l="index.html" href="index.html">홈</a><a data-l="d01.html" href="d01.html">10일</a><a data-l="p1.html" href="p1.html">1 구조</a><a data-l="p2.html" href="p2.html">2 법규</a><a data-l="p3.html" href="p3.html">3 기하</a><a data-l="p4.html" href="p4.html">4 물리</a><a data-l="p5.html" href="p5.html">5 안경·프리즘</a><a data-l="p6.html" href="p6.html">6 CL·실기</a><a data-l="p7.html" href="p7.html">7 안과·양안시</a><a data-l="eye.html" href="eye.html">안질환</a><a data-l="g00.html" href="g00.html" class=on>검안교재</a><a data-l="quiz.html" href="quiz.html">퀴즈</a><a data-l="cards.html" href="cards.html">카드</a><a data-l="ask.html" href="ask.html">질문</a><a data-l="credits.html" href="credits.html">출처</a></nav></header>
+<main><nav class="gnav" aria-label="교재 이동"><a data-l="g02.html" href="g02.html">← 1 검사 흐름</a><a data-l="g00.html" href="g00.html" class="mid">목차</a><a data-l="g04.html" href="g04.html">3-① 문진~타각 →</a></nav><p class="note" style="text-align:right;margin:4px 0"><a data-l="index.html" href="index.html">🏠 사이트 홈(안경사 국가시험 공부)</a></p><h1>2. 기초 이론 – 눈의 구조, 굴절, 조절, 굴절이상</h1><div class="core"><h2>핵심 포인트</h2><ol><li>D = 1 ÷ 초점거리(m). +는 모으고(원시·노안), −는 퍼뜨린다(근시).</li><li>근시는 초점이 망막 <b>앞</b>, 원시는 <b>뒤</b>, 난시는 두 초선. 교정렌즈는 원점을 무한원으로 옮긴다.</li><li>조절 개입 → 근시 과대·원시 과소 측정. SE = S + C/2.</li><li>고도수(±4 D 이상)는 정점간거리 영향: Fc = F ÷ (1 − dF).</li></ol></div><div class="card"><b>이 페이지 차례</b><ol><li><a href="#s2-1">2.1 눈의 구조와 굴절 관련 기능</a></li><li><a href="#s2-2">2.2 굴절의 원리: 디옵터, 초점, 원점·근점</a></li><li><a href="#s2-3">2.3 조절의 원리</a></li><li><a href="#s2-4">2.4 굴절이상과 노안: 정의·원인·위험요인</a></li><li><a href="#quiz">자가 점검 퀴즈</a></li></ol></div><p>검사 절차를 &#x27;외우는&#x27; 것보다 &#x27;왜 그렇게 하는지&#x27; 이해하면 예외 상황에서도 올바르게 판단할 수 있습니다. 이 장은 검사에 직접 필요한 이론만 추렸습니다.</p><section class="sec" id="s2-1"><h2>2.1 눈의 구조와 굴절 관련 기능</h2><div class="tblw"><table class="tbl"><thead><tr><th>구조</th><th>위치·형태</th><th>굴절·검사와의 관련성</th><th>검사·상담 시 포인트</th></tr></thead><tbody><tr><td>각막 (cornea)</td><td>눈 앞쪽의 투명한 돔 모양 조직</td><td>눈 전체 굴절력의 가장 큰 부분을 담당. 각막 곡률이 경선(방향)마다 다르면 각막난시가 생김</td><td>오토케라토미터로 곡률(K값) 측정. 불규칙한 측정상(마이어 왜곡)·불안정한 값은 원추각막·건성안 등 의심 신호</td></tr><tr><td>눈물막 (tear film)</td><td>각막 표면을 덮는 얇은 층</td><td>매끄러운 광학면을 만들어 줌. 건조하면 시력이 깜빡일 때마다 변동</td><td>자동굴절·각막곡률 값이 흔들리면 깜빡임 후 재측정</td></tr><tr><td>홍채·동공</td><td>각막 뒤 색을 띠는 조직, 가운데 구멍이 동공</td><td>동공 크기는 초점 깊이(피사계 심도)와 수차에 영향. 동공이 작으면 흐림이 덜 느껴짐</td><td>밝은 조명에서는 작은 도수 차이를 덜 구분 → 검사실 조명 일정하게</td></tr><tr><td>수정체 (crystalline lens)</td><td>홍채 뒤 볼록렌즈 모양</td><td>두께(곡률)를 바꿔 초점을 조절. 나이가 들면 탄력이 줄어 노안. 혼탁해지면 백내장</td><td>교정해도 시력이 안 나오면 수정체·망막 문제 가능성 → 안과 의뢰</td></tr><tr><td>모양체근 (ciliary muscle)</td><td>수정체 주변을 둘러싼 고리 모양 근육</td><td>수축하면 소대가 느슨해져 수정체가 두꺼워짐(=조절)</td><td>근거리 작업 후 모양체근 긴장이 남아 있으면 근시가 과대 측정될 수 있음</td></tr><tr><td>소대 (zonules, 섬모소대)</td><td>모양체와 수정체를 잇는 가는 섬유</td><td>모양체근 이완 시 팽팽 → 수정체 얇아짐(원거리), 수축 시 느슨 → 두꺼워짐(근거리)</td><td>—</td></tr><tr><td>유리체 (vitreous)</td><td>수정체 뒤 젤 형태</td><td>나이가 들며 액화·수축 → 비문증(날파리증) 원인이 될 수 있음</td><td>새로 생긴 비문증·섬광은 망막 열공·박리 신호일 수 있어 안과 의뢰</td></tr><tr><td>망막·황반 (retina, macula)</td><td>눈 안쪽 벽의 감각막. 중심부가 황반</td><td>상이 맺히는 &#x27;스크린&#x27;. 황반이 선명한 중심시력 담당</td><td>교정시력 저하, 사물이 휘어 보임(변시증)은 안과 의뢰</td></tr><tr><td>안축장 (axial length)</td><td>각막에서 망막까지의 길이</td><td>같은 굴절력이라도 안축이 길면 근시, 짧으면 원시(축성 굴절이상). 성장기 근시 진행은 주로 안축 증가와 관련</td><td>안경원 장비로는 보통 측정하지 않음. 근시 진행 관리 상담은 안과로</td></tr></tbody></table></div><figure class="gf" id="fig2-1"><svg class="fig" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="눈의 수평 단면 구조" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g3e07b00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e07b00"/></marker></defs><ellipse cx="225.0" cy="140.0" rx="112.0" ry="100.0" fill="#fff" stroke="#1f3a5f" stroke-width="3" /><ellipse cx="225.0" cy="140.0" rx="108.0" ry="96.0" fill="none" stroke="#8e5b3a" stroke-width="1.5" opacity=".5"/><ellipse cx="225.0" cy="140.0" rx="105.0" ry="93.0" fill="none" stroke="#c0392b" stroke-width="2.5" opacity=".55"/><path d="M129,80 Q81,140 129,200" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="3" /><path d="M129,80 Q76,140 129,200" stroke="#2a9fd6" fill="none" stroke-width="1.5" stroke-dasharray="3 2" /><line x1="143.0" y1="80.0" x2="143.0" y2="122.0" stroke="#7a4a2a" stroke-width="6" /><line x1="143.0" y1="158.0" x2="143.0" y2="200.0" stroke="#7a4a2a" stroke-width="6" /><ellipse cx="163.0" cy="140.0" rx="14.0" ry="36.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="2" /><path d="M147,78 L173,68 L177,84 Z" stroke="#a35a5a" fill="#d9a0a0" stroke-width="1.5" /><path d="M147,202 L173,212 L177,196 Z" stroke="#a35a5a" fill="#d9a0a0" stroke-width="1.5" /><line x1="169.0" y1="80.0" x2="163.0" y2="106.0" stroke="#888" stroke-width="0.8" /><line x1="169.0" y1="200.0" x2="163.0" y2="174.0" stroke="#888" stroke-width="0.8" /><line x1="171.0" y1="81.0" x2="163.0" y2="106.0" stroke="#888" stroke-width="0.8" /><line x1="171.0" y1="199.0" x2="163.0" y2="174.0" stroke="#888" stroke-width="0.8" /><line x1="173.0" y1="82.0" x2="163.0" y2="106.0" stroke="#888" stroke-width="0.8" /><line x1="173.0" y1="198.0" x2="163.0" y2="174.0" stroke="#888" stroke-width="0.8" /><line x1="175.0" y1="83.0" x2="163.0" y2="106.0" stroke="#888" stroke-width="0.8" /><line x1="175.0" y1="197.0" x2="163.0" y2="174.0" stroke="#888" stroke-width="0.8" /><path d="M323,154 L383,162 L383,188 L323,180" stroke="#a07a00" fill="#f7e3a1" stroke-width="2" /><circle cx="330.0" cy="134.0" r="4.5" fill="#e9b000" stroke="#a07a00" stroke-width="1" /><line x1="83.0" y1="140.0" x2="330.0" y2="134.0" stroke="#666" stroke-width="1" stroke-dasharray="4 3" /><line x1="99.0" y1="254.0" x2="337.0" y2="254.0" stroke="#e07b00" stroke-width="1.5" marker-end="url(#g3e07b00)" marker-start="url(#g3e07b00)" /><text x="225.0" y="272.0" font-size="12" fill="#e07b00" text-anchor="middle" font-weight="bold" >안축장(각막~망막 길이)</text><line x1="99.0" y1="170.0" x2="99.0" y2="258.0" stroke="#e07b00" stroke-width="1" stroke-dasharray="2 2" /><line x1="337.0" y1="190.0" x2="337.0" y2="258.0" stroke="#e07b00" stroke-width="1" stroke-dasharray="2 2" /><line x1="110.0" y1="110.0" x2="34.0" y2="36.0" stroke="#1f3a5f" stroke-width="1" opacity=".8"/><circle cx="110.0" cy="110.0" r="2.2" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="1" /><text x="6.0" y="40.0" font-size="12.5" fill="#1f3a5f" text-anchor="start" font-weight="normal" >각막</text><line x1="104.0" y1="162.0" x2="46.0" y2="202.0" stroke="#2a9fd6" stroke-width="1" opacity=".8"/><circle cx="104.0" cy="162.0" r="2.2" fill="#2a9fd6" stroke="#2a9fd6" stroke-width="1" /><text x="6.0" y="206.0" font-size="12.5" fill="#2a9fd6" text-anchor="start" font-weight="normal" >눈물막</text><line x1="143.0" y1="96.0" x2="68.0" y2="14.0" stroke="#7a4a2a" stroke-width="1" opacity=".8"/><circle cx="143.0" cy="96.0" r="2.2" fill="#7a4a2a" stroke="#7a4a2a" stroke-width="1" /><text x="40.0" y="18.0" font-size="12.5" fill="#7a4a2a" text-anchor="start" font-weight="normal" >홍채</text><line x1="137.0" y1="146.0" x2="34.0" y2="232.0" stroke="#1f3a5f" stroke-width="1" opacity=".8"/><circle cx="137.0" cy="146.0" r="2.2" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="1" /><text x="6.0" y="236.0" font-size="12.5" fill="#1f3a5f" text-anchor="start" font-weight="normal" >동공</text><line x1="163.0" y1="124.0" x2="148.0" y2="60.0" stroke="#2a6fdb" stroke-width="1" opacity=".8"/><circle cx="163.0" cy="124.0" r="2.2" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="112.4" y="58.0" font-size="12.5" fill="#2a6fdb" text-anchor="start" font-weight="normal" >수정체</text><line x1="173.0" y1="72.0" x2="128.0" y2="26.0" stroke="#a35a5a" stroke-width="1" opacity=".8"/><circle cx="173.0" cy="72.0" r="2.2" fill="#a35a5a" stroke="#a35a5a" stroke-width="1" /><text x="80.5" y="24.0" font-size="12.5" fill="#a35a5a" text-anchor="start" font-weight="normal" >모양체근</text><line x1="167.0" y1="176.0" x2="148.0" y2="210.0" stroke="#666" stroke-width="1" opacity=".8"/><circle cx="167.0" cy="176.0" r="2.2" fill="#666" stroke="#666" stroke-width="1" /><text x="66.4" y="224.0" font-size="12" fill="#666" text-anchor="start" font-weight="normal" >소대(섬모소대)</text><line x1="255.0" y1="160.0" x2="234.0" y2="192.0" stroke="#666" stroke-width="1" opacity=".8"/><circle cx="255.0" cy="160.0" r="2.2" fill="#666" stroke="#666" stroke-width="1" /><text x="198.4" y="206.0" font-size="12.5" fill="#666" text-anchor="start" font-weight="normal" >유리체</text><line x1="328.0" y1="90.0" x2="352.0" y2="34.0" stroke="#c0392b" stroke-width="1" opacity=".8"/><circle cx="328.0" cy="90.0" r="2.2" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="352.0" y="32.0" font-size="12.5" fill="#c0392b" text-anchor="start" font-weight="normal" >망막</text><line x1="330.0" y1="134.0" x2="372.0" y2="102.0" stroke="#a07a00" stroke-width="1" opacity=".8"/><circle cx="330.0" cy="134.0" r="2.2" fill="#a07a00" stroke="#a07a00" stroke-width="1" /><text x="372.0" y="100.0" font-size="12.5" fill="#a07a00" text-anchor="start" font-weight="normal" >황반</text><line x1="367.0" y1="184.0" x2="382.0" y2="206.0" stroke="#a07a00" stroke-width="1" opacity=".8"/><circle cx="367.0" cy="184.0" r="2.2" fill="#a07a00" stroke="#a07a00" stroke-width="1" /><text x="382.0" y="220.0" font-size="12.5" fill="#a07a00" text-anchor="start" font-weight="normal" >시신경</text><text x="6.0" y="292.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >※ 개념도(비율 단순화). 빛은 왼쪽에서 들어와요. 점선 = 시축</text></svg><figcaption><b>그림 2-1.</b> 눈의 수평 단면 구조</figcaption></figure><figure class="gf" id="fig2-2"><svg class="fig" viewBox="0 0 380 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="정시·근시·원시에서 평행광선이 맺히는 위치" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><ellipse cx="210.0" cy="70.0" rx="66.0" ry="50.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M153.24,45.0 Q132.12,70 153.24,95.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="173.7" cy="70.0" rx="7.3" ry="18.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M254.2,32.8 A66,50 0 0 1 254.2,107.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><line x1="70.0" y1="47.5" x2="146.7" y2="47.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="47.5" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="58.8" x2="146.7" y2="58.8" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="58.8" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="70.0" x2="146.7" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="81.2" x2="146.7" y2="81.2" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="81.2" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="92.5" x2="146.7" y2="92.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="92.5" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="70.0" x2="274.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><circle cx="274.0" cy="70.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="10.0" y="34.0" font-size="16" fill="#1b7a43" text-anchor="start" font-weight="bold" >정시</text><text x="10.0" y="140.0" font-size="12.5" fill="#1b7a43" text-anchor="start" font-weight="normal" >초점이 망막 위 → 선명</text><line x1="274.0" y1="78.0" x2="274.0" y2="124.0" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="2 2" /><text x="274.0" y="136.0" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="normal" >초점</text><ellipse cx="210.0" cy="206.0" rx="66.0" ry="50.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M153.24,181.0 Q132.12,206 153.24,231.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="173.7" cy="206.0" rx="7.3" ry="18.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M254.2,168.8 A66,50 0 0 1 254.2,243.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><line x1="70.0" y1="183.5" x2="146.7" y2="183.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="183.5" x2="246.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="246.0" y1="206.0" x2="274.0" y2="212.1" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="194.8" x2="146.7" y2="194.8" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="194.8" x2="246.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="246.0" y1="206.0" x2="274.0" y2="209.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="206.0" x2="146.7" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="206.0" x2="246.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="246.0" y1="206.0" x2="274.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="217.2" x2="146.7" y2="217.2" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="217.2" x2="246.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="246.0" y1="206.0" x2="274.0" y2="203.0" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><line x1="70.0" y1="228.5" x2="146.7" y2="228.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="228.5" x2="246.0" y2="206.0" stroke="#e07b00" stroke-width="1.6" /><line x1="246.0" y1="206.0" x2="274.0" y2="199.9" stroke="#e07b00" stroke-width="1.6" opacity=".6"/><circle cx="246.0" cy="206.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="10.0" y="170.0" font-size="16" fill="#2a6fdb" text-anchor="start" font-weight="bold" >근시</text><text x="10.0" y="276.0" font-size="12.5" fill="#2a6fdb" text-anchor="start" font-weight="normal" >초점이 망막 앞 → 먼 곳이 흐림</text><line x1="246.0" y1="214.0" x2="246.0" y2="260.0" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="2 2" /><text x="246.0" y="272.0" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="normal" >초점</text><ellipse cx="210.0" cy="342.0" rx="66.0" ry="50.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M153.24,317.0 Q132.12,342 153.24,367.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="173.7" cy="342.0" rx="7.3" ry="18.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M254.2,304.8 A66,50 0 0 1 254.2,379.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><line x1="70.0" y1="319.5" x2="146.7" y2="319.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="319.5" x2="274.0" y2="338.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="338.0" x2="302.0" y2="342.0" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="3 3" /><line x1="70.0" y1="330.8" x2="146.7" y2="330.8" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="330.8" x2="274.0" y2="340.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="340.0" x2="302.0" y2="342.0" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="3 3" /><line x1="70.0" y1="342.0" x2="146.7" y2="342.0" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="342.0" x2="274.0" y2="342.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="342.0" x2="302.0" y2="342.0" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="3 3" /><line x1="70.0" y1="353.2" x2="146.7" y2="353.2" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="353.2" x2="274.0" y2="344.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="344.0" x2="302.0" y2="342.0" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="3 3" /><line x1="70.0" y1="364.5" x2="146.7" y2="364.5" stroke="#e07b00" stroke-width="1.6" /><line x1="146.7" y1="364.5" x2="274.0" y2="346.0" stroke="#e07b00" stroke-width="1.6" /><line x1="274.0" y1="346.0" x2="302.0" y2="342.0" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="3 3" /><circle cx="302.0" cy="342.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="10.0" y="306.0" font-size="16" fill="#c0392b" text-anchor="start" font-weight="bold" >원시</text><text x="10.0" y="412.0" font-size="12.5" fill="#c0392b" text-anchor="start" font-weight="normal" >초점이 망막 뒤 → 조절로 당겨야 함</text><line x1="302.0" y1="350.0" x2="302.0" y2="396.0" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="2 2" /><text x="302.0" y="408.0" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="normal" >초점</text><text x="10.0" y="432.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >※ 개념도(비율 무시). 조절을 쉰 상태, 먼 곳(평행광선) 기준.</text></svg><figcaption><b>그림 2-2.</b> 정시·근시·원시에서 평행광선이 맺히는 위치</figcaption></figure></section><section class="sec" id="s2-2"><h2>2.2 굴절의 원리: 디옵터, 초점, 원점·근점</h2><h3>디옵터(D)</h3><ul><li>렌즈의 굴절력 단위. <b>굴절력(D) = 1 ÷ 초점거리(m)</b>. 예) 초점거리 0.5m 렌즈 = 2.00D, 0.25m = 4.00D.</li><li><b>+(플러스) 렌즈</b>: 볼록렌즈, 빛을 모음(수렴). 원시·노안 교정. <b>−(마이너스) 렌즈</b>: 오목렌즈, 빛을 퍼뜨림(발산). 근시 교정.</li><li>안경 도수는 보통 0.25D 단위로 처방합니다. 0.25D는 대략 &#x27;시력표 한 줄 전후&#x27;의 차이로 체감되는 경우가 많습니다(개인차 큼).</li></ul><figure class="gf" id="fig2-3"><svg class="fig" viewBox="0 0 380 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="플러스(볼록) 렌즈와 마이너스(오목) 렌즈의 모양과 초점" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g51f3a5f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/></marker></defs><path d="M95,40 Q114.8,95 95,150 Q75.2,95 95,40 Z" stroke="#c0392b" fill="#ffe3e0" stroke-width="2" /><line x1="10.0" y1="55.0" x2="95.0" y2="55.0" stroke="#e07b00" stroke-width="1.5" /><line x1="95.0" y1="55.0" x2="165.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="165.0" y1="95.0" x2="193.0" y2="111.0" stroke="#e07b00" stroke-width="1.5" opacity=".5"/><line x1="10.0" y1="75.0" x2="95.0" y2="75.0" stroke="#e07b00" stroke-width="1.5" /><line x1="95.0" y1="75.0" x2="165.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="165.0" y1="95.0" x2="193.0" y2="103.0" stroke="#e07b00" stroke-width="1.5" opacity=".5"/><line x1="10.0" y1="95.0" x2="95.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="95.0" y1="95.0" x2="165.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="165.0" y1="95.0" x2="193.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" opacity=".5"/><line x1="10.0" y1="115.0" x2="95.0" y2="115.0" stroke="#e07b00" stroke-width="1.5" /><line x1="95.0" y1="115.0" x2="165.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="165.0" y1="95.0" x2="193.0" y2="87.0" stroke="#e07b00" stroke-width="1.5" opacity=".5"/><line x1="10.0" y1="135.0" x2="95.0" y2="135.0" stroke="#e07b00" stroke-width="1.5" /><line x1="95.0" y1="135.0" x2="165.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="165.0" y1="95.0" x2="193.0" y2="79.0" stroke="#e07b00" stroke-width="1.5" opacity=".5"/><circle cx="165.0" cy="95.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="169.0" y="81.0" font-size="11" fill="#c0392b" text-anchor="start" font-weight="normal" >F′ (실초점)</text><line x1="95.0" y1="165.0" x2="165.0" y2="165.0" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#g51f3a5f)" marker-start="url(#g51f3a5f)" /><text x="130.0" y="181.0" font-size="11" fill="#1f3a5f" text-anchor="middle" font-weight="normal" >초점거리 f</text><text x="95.0" y="18.0" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="bold" >+ 볼록렌즈</text><text x="95.0" y="36.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >가운데 두껍고 가장자리 얇음</text><path d="M280.4,40 L299.6,40 Q287.6,95 299.6,150 L280.4,150 Q292.4,95 280.4,40 Z" stroke="#2a6fdb" fill="#cfe6ff" stroke-width="2" /><line x1="200.0" y1="55.0" x2="290.0" y2="55.0" stroke="#e07b00" stroke-width="1.5" /><line x1="290.0" y1="55.0" x2="360.0" y2="15.0" stroke="#e07b00" stroke-width="1.5" /><line x1="220.0" y1="95.0" x2="290.0" y2="55.0" stroke="#2a6fdb" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="200.0" y1="75.0" x2="290.0" y2="75.0" stroke="#e07b00" stroke-width="1.5" /><line x1="290.0" y1="75.0" x2="360.0" y2="55.0" stroke="#e07b00" stroke-width="1.5" /><line x1="220.0" y1="95.0" x2="290.0" y2="75.0" stroke="#2a6fdb" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="200.0" y1="95.0" x2="290.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="290.0" y1="95.0" x2="360.0" y2="95.0" stroke="#e07b00" stroke-width="1.5" /><line x1="200.0" y1="115.0" x2="290.0" y2="115.0" stroke="#e07b00" stroke-width="1.5" /><line x1="290.0" y1="115.0" x2="360.0" y2="135.0" stroke="#e07b00" stroke-width="1.5" /><line x1="220.0" y1="95.0" x2="290.0" y2="115.0" stroke="#2a6fdb" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="200.0" y1="135.0" x2="290.0" y2="135.0" stroke="#e07b00" stroke-width="1.5" /><line x1="290.0" y1="135.0" x2="360.0" y2="175.0" stroke="#e07b00" stroke-width="1.5" /><line x1="220.0" y1="95.0" x2="290.0" y2="135.0" stroke="#2a6fdb" stroke-width="0.8" stroke-dasharray="2 3" /><circle cx="220.0" cy="95.0" r="4.0" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="220.0" y="169.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >F′ (허초점)</text><line x1="220.0" y1="157.0" x2="220.0" y2="101.0" stroke="#2a6fdb" stroke-width="0.8" stroke-dasharray="2 2" /><text x="290.0" y="18.0" font-size="14" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >− 오목렌즈</text><text x="290.0" y="36.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >가운데 얇고 가장자리 두꺼움</text><rect x="10.0" y="200.0" width="360.0" height="52.0" rx="10" fill="#fff8ec" stroke="#e07b00" stroke-width="1.5" /><text x="190.0" y="222.0" font-size="14" fill="#e07b00" text-anchor="middle" font-weight="bold" >굴절력 D = 1 ÷ 초점거리(m)</text><text x="190.0" y="242.0" font-size="12" fill="#333" text-anchor="middle" font-weight="normal" >f = 0.5 m → 2.00 D · f = 0.25 m → 4.00 D</text></svg><figcaption><b>그림 2-3.</b> 플러스(볼록) 렌즈와 마이너스(오목) 렌즈의 모양과 초점</figcaption></figure><h3>정시와 비정시</h3><ul><li><b>정시(正視)</b>: 조절을 쉬고 있을 때 먼 곳(무한원)에서 오는 평행광선이 망막에 정확히 초점을 맺는 눈.</li><li><b>비정시(굴절이상)</b>: 초점이 망막 앞(근시) 또는 뒤(원시)에 맺히거나, 방향(경선)마다 초점이 달라 한 점에 모이지 않는(난시) 상태.</li><li>원인 분류: <b>축성</b>(안축장이 길거나 짧음) / <b>굴절성</b>(각막·수정체 굴절력이 강하거나 약함).</li></ul><figure class="gf" id="fig2-4"><svg class="fig" viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="근시는 오목(−)렌즈, 원시는 볼록(+)렌즈로 교정" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><ellipse cx="245.0" cy="70.0" rx="60.0" ry="46.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M193.4,47.0 Q174.2,70 193.4,93.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="212.0" cy="70.0" rx="6.6" ry="16.6" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M285.1,35.8 A60,46 0 0 1 285.1,104.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><path d="M102.8,30 L117.2,30 Q108.2,70 117.2,110 L102.8,110 Q111.8,70 102.8,30 Z" stroke="#2a6fdb" fill="#cfe6ff" stroke-width="2" /><line x1="20.0" y1="46.0" x2="110.0" y2="46.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="46.0" x2="187.8" y2="26.3" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="46.0" x2="20.0" y2="70.0" stroke="#e07b00" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="187.8" y1="26.3" x2="303.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="58.0" x2="110.0" y2="58.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="58.0" x2="187.8" y2="48.2" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="58.0" x2="20.0" y2="70.0" stroke="#e07b00" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="187.8" y1="48.2" x2="303.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="82.0" x2="110.0" y2="82.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="82.0" x2="187.8" y2="91.8" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="82.0" x2="20.0" y2="70.0" stroke="#e07b00" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="187.8" y1="91.8" x2="303.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="94.0" x2="110.0" y2="94.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="94.0" x2="187.8" y2="113.7" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="94.0" x2="20.0" y2="70.0" stroke="#e07b00" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="187.8" y1="113.7" x2="303.0" y2="70.0" stroke="#e07b00" stroke-width="1.6" /><circle cx="303.0" cy="70.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><circle cx="20.0" cy="70.0" r="3.0" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="22.0" y="100.0" font-size="11" fill="#2a6fdb" text-anchor="start" font-weight="normal" >원점(허상)</text><text x="10.0" y="18.0" font-size="14" fill="#2a6fdb" text-anchor="start" font-weight="bold" >근시 + 오목(−)렌즈</text><text x="110.0" y="128.0" font-size="11.5" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >− 렌즈: 빛을 퍼뜨림</text><text x="295.0" y="132.0" font-size="11.5" fill="#1b7a43" text-anchor="middle" font-weight="normal" >망막에 초점 ✓</text><ellipse cx="245.0" cy="215.0" rx="60.0" ry="46.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M193.4,192.0 Q174.2,215 193.4,238.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="212.0" cy="215.0" rx="6.6" ry="16.6" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M285.1,180.8 A60,46 0 0 1 285.1,249.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><path d="M110,175 Q123.2,215 110,255 Q96.8,215 110,175 Z" stroke="#c0392b" fill="#ffe3e0" stroke-width="2" /><line x1="20.0" y1="191.0" x2="110.0" y2="191.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="191.0" x2="187.8" y2="197.7" stroke="#e07b00" stroke-width="1.6" /><line x1="187.8" y1="197.7" x2="303.0" y2="215.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="203.0" x2="110.0" y2="203.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="203.0" x2="187.8" y2="206.3" stroke="#e07b00" stroke-width="1.6" /><line x1="187.8" y1="206.3" x2="303.0" y2="215.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="227.0" x2="110.0" y2="227.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="227.0" x2="187.8" y2="223.7" stroke="#e07b00" stroke-width="1.6" /><line x1="187.8" y1="223.7" x2="303.0" y2="215.0" stroke="#e07b00" stroke-width="1.6" /><line x1="20.0" y1="239.0" x2="110.0" y2="239.0" stroke="#e07b00" stroke-width="1.6" /><line x1="110.0" y1="239.0" x2="187.8" y2="232.3" stroke="#e07b00" stroke-width="1.6" /><line x1="187.8" y1="232.3" x2="303.0" y2="215.0" stroke="#e07b00" stroke-width="1.6" /><line x1="303.0" y1="215.0" x2="375.0" y2="215.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3" /><circle cx="303.0" cy="215.0" r="4.0" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><text x="10.0" y="163.0" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" >원시 + 볼록(+)렌즈</text><text x="110.0" y="273.0" font-size="11.5" fill="#c0392b" text-anchor="middle" font-weight="normal" >+ 렌즈: 빛을 모음</text><text x="295.0" y="277.0" font-size="11.5" fill="#1b7a43" text-anchor="middle" font-weight="normal" >망막에 초점 ✓</text><text x="10.0" y="294.0" font-size="11.5" fill="#1f3a5f" text-anchor="start" font-weight="normal" >교정렌즈의 역할 = 눈의 원점을 무한원으로 옮기기</text></svg><figcaption><b>그림 2-4.</b> 근시는 오목(−)렌즈, 원시는 볼록(+)렌즈로 교정</figcaption></figure><figure class="gf" id="fig2-5"><svg class="fig" viewBox="0 0 380 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="굴절이상의 원인: 축성과 굴절성" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g7e07b00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e07b00"/></marker></defs><rect x="10.0" y="8.0" width="175.0" height="204.0" rx="12" fill="#fff" stroke="#d7deea" stroke-width="1" /><text x="98.0" y="30.0" font-size="13.5" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >축성 근시</text><text x="98.0" y="196.0" font-size="11.5" fill="#666" text-anchor="middle" font-weight="normal" >안축장이 길어 초점이 앞</text><ellipse cx="102.0" cy="105.0" rx="78.0" ry="46.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M34.92,82.0 Q9.960000000000008,105 34.92,128.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="59.1" cy="105.0" rx="8.6" ry="16.6" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M154.2,70.8 A78,46 0 0 1 154.2,139.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><line x1="16.0" y1="85.0" x2="25.4" y2="85.0" stroke="#e07b00" stroke-width="1.4" /><line x1="25.4" y1="85.0" x2="156.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="156.0" y1="105.0" x2="178.0" y2="108.3" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="16.0" y1="97.0" x2="25.4" y2="97.0" stroke="#e07b00" stroke-width="1.4" /><line x1="25.4" y1="97.0" x2="156.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="156.0" y1="105.0" x2="178.0" y2="106.3" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="16.0" y1="113.0" x2="25.4" y2="113.0" stroke="#e07b00" stroke-width="1.4" /><line x1="25.4" y1="113.0" x2="156.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="156.0" y1="105.0" x2="178.0" y2="103.7" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="16.0" y1="125.0" x2="25.4" y2="125.0" stroke="#e07b00" stroke-width="1.4" /><line x1="25.4" y1="125.0" x2="156.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="156.0" y1="105.0" x2="178.0" y2="101.7" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><circle cx="156.0" cy="105.0" r="3.5" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><line x1="22.4" y1="165.0" x2="180.0" y2="165.0" stroke="#e07b00" stroke-width="1.2" marker-end="url(#g7e07b00)" marker-start="url(#g7e07b00)" /><text x="101.2" y="179.0" font-size="11" fill="#e07b00" text-anchor="middle" font-weight="normal" >안축장 김</text><rect x="195.0" y="8.0" width="175.0" height="204.0" rx="12" fill="#fff" stroke="#d7deea" stroke-width="1" /><text x="283.0" y="30.0" font-size="13.5" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >굴절성 근시</text><text x="283.0" y="196.0" font-size="11.5" fill="#666" text-anchor="middle" font-weight="normal" >각막·수정체 굴절력이 강함</text><ellipse cx="295.0" cy="105.0" rx="62.0" ry="46.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M241.68,82.0 Q221.84,105 241.68,128.0" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><ellipse cx="260.9" cy="105.0" rx="6.8" ry="16.6" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="1.5" /><path d="M336.5,70.8 A62,46 0 0 1 336.5,139.2" stroke="#c0392b" fill="none" stroke-width="3.5" opacity=".75"/><line x1="201.0" y1="85.0" x2="234.8" y2="85.0" stroke="#e07b00" stroke-width="1.4" /><line x1="234.8" y1="85.0" x2="335.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="335.0" y1="105.0" x2="355.0" y2="108.9" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="201.0" y1="97.0" x2="234.8" y2="97.0" stroke="#e07b00" stroke-width="1.4" /><line x1="234.8" y1="97.0" x2="335.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="335.0" y1="105.0" x2="355.0" y2="106.5" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="201.0" y1="113.0" x2="234.8" y2="113.0" stroke="#e07b00" stroke-width="1.4" /><line x1="234.8" y1="113.0" x2="335.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="335.0" y1="105.0" x2="355.0" y2="103.5" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><line x1="201.0" y1="125.0" x2="234.8" y2="125.0" stroke="#e07b00" stroke-width="1.4" /><line x1="234.8" y1="125.0" x2="335.0" y2="105.0" stroke="#e07b00" stroke-width="1.4" /><line x1="335.0" y1="105.0" x2="355.0" y2="101.1" stroke="#e07b00" stroke-width="1.4" opacity=".55"/><circle cx="335.0" cy="105.0" r="3.5" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><path d="M241.68,82.0 Q214.39999999999998,105 241.68,128.0" stroke="#c0392b" fill="none" stroke-width="2.5" /><line x1="231.8" y1="165.0" x2="357.0" y2="165.0" stroke="#e07b00" stroke-width="1.2" marker-end="url(#g7e07b00)" marker-start="url(#g7e07b00)" /><text x="294.4" y="179.0" font-size="11" fill="#e07b00" text-anchor="middle" font-weight="normal" >안축장 보통</text></svg><figcaption><b>그림 2-5.</b> 굴절이상의 원인: 축성과 굴절성</figcaption></figure><h3>원점(遠點)과 근점(近點)</h3><div class="tblw"><table class="tbl"><thead><tr><th>개념</th><th>정의</th><th>공식·예시</th><th>검사와의 연결</th></tr></thead><tbody><tr><td>원점 (far point)</td><td>조절을 완전히 쉰 상태에서 선명하게 보이는 가장 먼 점</td><td>근시 −2.00D → 원점 = 1/2 = 0.5m(50cm). 그보다 먼 것은 흐림. 정시의 원점은 무한원. 원시의 원점은 &#x27;눈 뒤쪽&#x27;(허상)</td><td>교정렌즈의 역할 = 원점을 무한원으로 옮기는 것. 검영법의 원리도 원점 위치 찾기</td></tr><tr><td>근점 (near point)</td><td>최대로 조절했을 때 선명하게 보이는 가장 가까운 점</td><td>정시이고 조절력 4D → 근점 = 1/4 = 25cm</td><td>근점 측정(푸시업)으로 조절력 추정 → 노안 가입도 계산</td></tr><tr><td>조절력 (amplitude)</td><td>원점과 근점 사이를 바꾸는 능력(디옵터)</td><td>조절력 = (1/근점거리) − (1/원점거리). 교정된 눈에서는 ≈ 1/근점거리(m)</td><td>나이에 따라 감소(5장 Hofstetter 공식)</td></tr></tbody></table></div><figure class="gf" id="fig2-6"><svg class="fig" viewBox="0 0 380 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="원점과 근점, 조절력" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g81b7a43" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b7a43"/></marker></defs><ellipse cx="345.0" cy="70.0" rx="22.0" ry="18.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M327,61 Q318,70 327,79" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><line x1="20.0" y1="70.0" x2="322.0" y2="70.0" stroke="#666" stroke-width="1.2" /><line x1="42.0" y1="65.0" x2="42.0" y2="75.0" stroke="#666" stroke-width="1.2" /><text x="42.0" y="90.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >1 m</text><line x1="182.0" y1="65.0" x2="182.0" y2="75.0" stroke="#666" stroke-width="1.2" /><text x="182.0" y="90.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >50 cm</text><line x1="252.0" y1="65.0" x2="252.0" y2="75.0" stroke="#666" stroke-width="1.2" /><text x="252.0" y="90.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >25 cm</text><text x="20.0" y="22.0" font-size="13" fill="#2a6fdb" text-anchor="start" font-weight="bold" >근시 −2.00 D 의 원점</text><circle cx="182.0" cy="70.0" r="5.0" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="182.0" y="58.0" font-size="12" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >원점 50 cm</text><line x1="30.0" y1="40.0" x2="174.0" y2="40.0" stroke="#2a6fdb" stroke-width="1" stroke-dasharray="3 3" /><text x="80.0" y="34.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >더 먼 것은 흐림</text><ellipse cx="345.0" cy="180.0" rx="22.0" ry="18.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M327,171 Q318,180 327,189" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><line x1="20.0" y1="180.0" x2="322.0" y2="180.0" stroke="#666" stroke-width="1.2" /><line x1="42.0" y1="175.0" x2="42.0" y2="185.0" stroke="#666" stroke-width="1.2" /><text x="42.0" y="200.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >1 m</text><line x1="182.0" y1="175.0" x2="182.0" y2="185.0" stroke="#666" stroke-width="1.2" /><text x="182.0" y="200.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >50 cm</text><line x1="252.0" y1="175.0" x2="252.0" y2="185.0" stroke="#666" stroke-width="1.2" /><text x="252.0" y="200.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >25 cm</text><circle cx="252.0" cy="180.0" r="5.0" fill="#1b7a43" stroke="#1b7a43" stroke-width="1" /><text x="252.0" y="168.0" font-size="12" fill="#1b7a43" text-anchor="middle" font-weight="bold" >근점 25 cm</text><line x1="252.0" y1="152.0" x2="20.0" y2="152.0" stroke="#1b7a43" stroke-width="1.5" marker-end="url(#g81b7a43)" /><text x="150.0" y="146.0" font-size="11" fill="#1b7a43" text-anchor="middle" font-weight="normal" >원점 = 무한원(정시)</text><text x="20.0" y="125.0" font-size="13" fill="#1b7a43" text-anchor="start" font-weight="bold" >정시 · 조절력 4 D 의 근점</text><rect x="10.0" y="212.0" width="360.0" height="32.0" rx="8" fill="#fff8ec" stroke="#e07b00" stroke-width="1.2" /><text x="190.0" y="233.0" font-size="12" fill="#333" text-anchor="middle" font-weight="normal" >원점 = 1 ÷ |근시 D| · 조절력 ≈ 1 ÷ 근점(m) (교정된 눈)</text></svg><figcaption><b>그림 2-6.</b> 원점과 근점, 조절력</figcaption></figure><h3>구면등가와 정점간거리</h3><ul><li><b>구면등가(SE) = 구면도수 + 원주도수/2</b>. 예) S −2.00 C −1.00 → SE = −2.50D. 난시를 덜 넣거나 뺄 때 SE를 유지하면 &#x27;최소착란원&#x27;이 망막에 유지되어 선명도 손실이 적음.</li><li><b>정점간거리(vertex distance)</b>: 렌즈 뒷면과 각막 사이 거리(일반적으로 약 12mm 내외로 가정). 고도수(대략 ±4.00D 이상)에서는 거리 변화가 실제 효과 도수에 영향. 각막면 환산 도수 Fc = F ÷ (1 − d×F) (d: 미터). 예) −8.00D를 12mm에서 → 각막면 약 −7.30D. 콘택트렌즈 도수 환산이나 시험테-안경테 정점간거리 차이를 고려할 때 사용.</li></ul><figure class="gf" id="fig2-7"><svg class="fig" viewBox="0 0 380 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="정점간거리와 고도수 렌즈의 효과 도수" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g9e07b00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e07b00"/></marker></defs><ellipse cx="300.0" cy="80.0" rx="48.0" ry="44.0" fill="#fff" stroke="#1f3a5f" stroke-width="2" /><path d="M260,54 Q244,80 260,106" stroke="#1f3a5f" fill="#cfe6ff" stroke-width="2" /><path d="M197.8,34 L212.2,34 Q203.2,80 212.2,126 L197.8,126 Q206.8,80 197.8,34 Z" stroke="#2a6fdb" fill="#cfe6ff" stroke-width="2" /><line x1="212.0" y1="136.0" x2="250.0" y2="136.0" stroke="#e07b00" stroke-width="1.5" marker-end="url(#g9e07b00)" marker-start="url(#g9e07b00)" /><text x="231.0" y="154.0" font-size="12" fill="#e07b00" text-anchor="middle" font-weight="bold" >약 12 mm</text><text x="200.0" y="24.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >렌즈</text><text x="262.0" y="18.0" font-size="11" fill="#1f3a5f" text-anchor="start" font-weight="normal" >각막 정점</text><rect x="10.0" y="20.0" width="170.0" height="110.0" rx="10" fill="#fff8ec" stroke="#e07b00" stroke-width="1.2" /><text x="95.0" y="42.0" font-size="13" fill="#e07b00" text-anchor="middle" font-weight="bold" >Fc = F ÷ (1 − d·F)</text><text x="95.0" y="62.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >d: 미터, F: 안경 도수</text><text x="95.0" y="86.0" font-size="12" fill="#333" text-anchor="middle" font-weight="normal" >−8.00 D @ 12 mm</text><text x="95.0" y="104.0" font-size="12" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >→ 각막면 약 −7.30 D</text><text x="95.0" y="122.0" font-size="11" fill="#666" text-anchor="middle" font-weight="normal" >±4.00 D 이상이면 계산</text><text x="190.0" y="190.0" font-size="11.5" fill="#1f3a5f" text-anchor="middle" font-weight="normal" >근시 렌즈를 눈에 가까이 할수록(CL) 필요한 마이너스가 줄어요</text></svg><figcaption><b>그림 2-7.</b> 정점간거리와 고도수 렌즈의 효과 도수</figcaption></figure><div class="lab" id="lab-focus"><h3>🧪 직접 해 보기: 굴절이상과 교정렌즈 → 초점은 어디에?</h3>
+<div class="row"><div><label for="lf-a">눈의 굴절이상(완전교정 도수) <b id="lf-av">−3.00</b> D</label><input id="lf-a" type="range" min="-6" max="6" step="0.25" value="-3"></div>
+<div><label for="lf-l">앞에 댄 렌즈 <b id="lf-lv">0.00</b> D</label><input id="lf-l" type="range" min="-6" max="6" step="0.25" value="0"></div></div>
+<svg class="fig" viewBox="0 0 340 150" role="img" aria-label="초점 위치 시뮬레이션" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+<ellipse cx="225" cy="75" rx="85" ry="62" fill="#fff" stroke="#1f3a5f" stroke-width="2"/><path d="M300,30 Q318,75 300,120" fill="none" stroke="#c0392b" stroke-width="4"/><text x="318" y="20" font-size="11" fill="#c0392b" text-anchor="end">망막</text>
+<path d="M143,40 Q128,75 143,110" fill="none" stroke="#2a6fdb" stroke-width="3"/><text x="140" y="142" font-size="11" fill="#2a6fdb" text-anchor="middle">각막·수정체</text>
+<rect id="lf-lens" x="60" y="30" width="10" height="90" rx="5" fill="#cfe3ff" stroke="#2a6fdb"/><text x="65" y="142" font-size="11" fill="#333" text-anchor="middle">렌즈</text>
+<g id="lf-rays" stroke="#e07b00" stroke-width="1.6" fill="none"></g><circle id="lf-pt" cx="300" cy="75" r="5" fill="#e07b00"/></svg>
+<div class="out" id="lf-out"></div><p class="note">개념 모형이에요(거리 비율은 실제와 다름). 잔여 굴절이상 = 굴절이상 − 렌즈. 음수면 초점이 망막 앞(근시 상태), 양수면 뒤(원시 상태). 원시 상태는 젊은 눈이 조절로 일부 보상할 수 있어요.</p></div></section><section class="sec" id="s2-3"><h2>2.3 조절의 원리</h2><p>가까운 물체에서 오는 빛은 퍼지면서(발산) 들어오므로, 눈은 굴절력을 늘려야 망막에 초점을 맞출 수 있습니다. 이 과정을 <b>조절(accommodation)</b>이라 하며, 일반적으로 다음과 같이 설명합니다(Helmholtz 이론).</p><div class="tblw"><table class="tbl"><thead><tr><th>상태</th><th>모양체근</th><th>소대</th><th>수정체</th><th>결과</th></tr></thead><tbody><tr><td>먼 곳 볼 때 (조절 이완)</td><td>이완</td><td>팽팽하게 당김</td><td>얇고 평평해짐</td><td>굴절력 감소</td></tr><tr><td>가까운 곳 볼 때 (조절)</td><td>수축</td><td>느슨해짐</td><td>탄성으로 두꺼워짐(특히 앞면)</td><td>굴절력 증가</td></tr></tbody></table></div><figure class="gf" id="fig2-8"><svg class="fig" viewBox="0 0 380 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="조절의 원리(Helmholtz): 먼 곳 볼 때와 가까운 곳 볼 때" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><rect x="10.0" y="8.0" width="175.0" height="234.0" rx="12" fill="#fff" stroke="#d7deea" stroke-width="1" /><text x="98.0" y="30.0" font-size="13.5" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >먼 곳: 조절 이완</text><ellipse cx="80.0" cy="130.0" rx="9.0" ry="40.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="2" /><ellipse cx="80.0" cy="62.0" rx="22.0" ry="8.0" fill="#f1c3c3" stroke="#a35a5a" stroke-width="1.5" /><ellipse cx="80.0" cy="198.0" rx="22.0" ry="8.0" fill="#f1c3c3" stroke="#a35a5a" stroke-width="1.5" /><line x1="72.0" y1="70.0" x2="76.0" y2="92.0" stroke="#666" stroke-width="1.3" /><line x1="72.0" y1="190.0" x2="76.0" y2="168.0" stroke="#666" stroke-width="1.3" /><line x1="80.0" y1="70.0" x2="80.0" y2="92.0" stroke="#666" stroke-width="1.3" /><line x1="80.0" y1="190.0" x2="80.0" y2="168.0" stroke="#666" stroke-width="1.3" /><line x1="88.0" y1="70.0" x2="84.0" y2="92.0" stroke="#666" stroke-width="1.3" /><line x1="88.0" y1="190.0" x2="84.0" y2="168.0" stroke="#666" stroke-width="1.3" /><line x1="98.0" y1="62.0" x2="122.0" y2="50.0" stroke="#a35a5a" stroke-width="1" opacity=".8"/><circle cx="98.0" cy="62.0" r="2.2" fill="#a35a5a" stroke="#a35a5a" stroke-width="1" /><text x="122.0" y="48.0" font-size="11" fill="#a35a5a" text-anchor="start" font-weight="normal" >모양체근</text><text x="160.0" y="62.0" font-size="11" fill="#a35a5a" text-anchor="middle" font-weight="normal" >(이완)</text><line x1="84.0" y1="82.0" x2="124.0" y2="96.0" stroke="#666" stroke-width="1" opacity=".8"/><circle cx="84.0" cy="82.0" r="2.2" fill="#666" stroke="#666" stroke-width="1" /><text x="124.0" y="110.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" >소대 팽팽</text><line x1="89.0" y1="136.0" x2="124.0" y2="144.0" stroke="#2a6fdb" stroke-width="1" opacity=".8"/><circle cx="89.0" cy="136.0" r="2.2" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="124.0" y="158.0" font-size="11" fill="#2a6fdb" text-anchor="start" font-weight="normal" >수정체</text><text x="98.0" y="232.0" font-size="12" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >얇음 → 굴절력 ↓</text><rect x="195.0" y="8.0" width="175.0" height="234.0" rx="12" fill="#fff" stroke="#d7deea" stroke-width="1" /><text x="283.0" y="30.0" font-size="13.5" fill="#e07b00" text-anchor="middle" font-weight="bold" >가까운 곳: 조절</text><ellipse cx="265.0" cy="130.0" rx="18.0" ry="40.0" fill="#cfe6ff" stroke="#2a6fdb" stroke-width="2" /><ellipse cx="265.0" cy="68.0" rx="22.0" ry="12.0" fill="#f1c3c3" stroke="#a35a5a" stroke-width="1.5" /><ellipse cx="265.0" cy="192.0" rx="22.0" ry="12.0" fill="#f1c3c3" stroke="#a35a5a" stroke-width="1.5" /><path d="M257,80 q7,6 4.0,12" stroke="#666" fill="none" stroke-width="1.1" /><path d="M257,180 q7,-6 4.0,-12" stroke="#666" fill="none" stroke-width="1.1" /><path d="M265,80 q7,6 0.0,12" stroke="#666" fill="none" stroke-width="1.1" /><path d="M265,180 q7,-6 0.0,-12" stroke="#666" fill="none" stroke-width="1.1" /><path d="M273,80 q7,6 -4.0,12" stroke="#666" fill="none" stroke-width="1.1" /><path d="M273,180 q7,-6 -4.0,-12" stroke="#666" fill="none" stroke-width="1.1" /><line x1="283.0" y1="68.0" x2="307.0" y2="56.0" stroke="#a35a5a" stroke-width="1" opacity=".8"/><circle cx="283.0" cy="68.0" r="2.2" fill="#a35a5a" stroke="#a35a5a" stroke-width="1" /><text x="307.0" y="54.0" font-size="11" fill="#a35a5a" text-anchor="start" font-weight="normal" >모양체근</text><text x="345.0" y="68.0" font-size="11" fill="#a35a5a" text-anchor="middle" font-weight="normal" >(수축)</text><line x1="269.0" y1="82.0" x2="309.0" y2="96.0" stroke="#666" stroke-width="1" opacity=".8"/><circle cx="269.0" cy="82.0" r="2.2" fill="#666" stroke="#666" stroke-width="1" /><text x="309.0" y="110.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" >소대 느슨</text><line x1="283.0" y1="136.0" x2="309.0" y2="144.0" stroke="#2a6fdb" stroke-width="1" opacity=".8"/><circle cx="283.0" cy="136.0" r="2.2" fill="#2a6fdb" stroke="#2a6fdb" stroke-width="1" /><text x="309.0" y="158.0" font-size="11" fill="#2a6fdb" text-anchor="start" font-weight="normal" >수정체</text><text x="283.0" y="232.0" font-size="12" fill="#e07b00" text-anchor="middle" font-weight="bold" >두꺼움 → 굴절력 ↑</text></svg><figcaption><b>그림 2-8.</b> 조절의 원리(Helmholtz): 먼 곳 볼 때와 가까운 곳 볼 때</figcaption></figure><ul><li><b>근거리 삼중반응(near triad)</b>: 가까이 볼 때 조절 + 폭주(두 눈이 안쪽으로 모임) + 동공 축소가 함께 일어남. 그래서 조절 이상은 사위·눈 피로와 연결됨(조절성 폭주).</li><li>조절은 <b>두 눈에 같은 양</b>으로 일어남(Hering의 동등 신경지배 법칙). → 양안균형 검사가 필요한 이유(3.10).</li><li>검사 중 고객이 무의식적으로 조절하면 근시는 과대(−가 과하게), 원시는 과소 측정됨 → 운무법·최대 플러스 원칙·적록검사로 조절 개입을 줄임.</li><li><b>노안</b>은 나이가 들며 수정체 탄력이 줄어 조절력이 감소한 상태(질병이 아닌 생리적 변화). 근시·원시 여부와 무관하게 누구나 진행.</li></ul></section><section class="sec" id="s2-4"><h2>2.4 굴절이상과 노안: 정의·원인·위험요인</h2><div class="tblw"><table class="tbl"><thead><tr><th>구분</th><th>정의</th><th>주요 원인</th><th>알려진 위험요인·관련 요인</th><th>전형적 증상</th></tr></thead><tbody><tr><td>근시 (myopia)</td><td>조절 휴식 시 평행광선이 망막 앞에 초점</td><td>안축장 증가(축성)가 대부분, 각막·수정체 굴절력 과다(굴절성)</td><td>부모의 근시(유전 소인), 장시간 근거리 작업, 실외활동 부족 등이 문헌에서 반복 보고됨. 고도근시는 망막 질환 위험과 관련되므로 정기 안과 검진 권고</td><td>먼 곳 흐림, 눈 찡그림, 칠판·TV 가까이 봄</td></tr><tr><td>원시 (hyperopia)</td><td>조절 휴식 시 초점이 망막 뒤</td><td>안축장이 짧음(축성), 굴절력 부족</td><td>소아는 생리적 원시가 흔하고 성장하며 감소하는 경향. 젊을수록 조절로 보상(잠복원시)</td><td>근거리 피로·두통, 독서 시 흐림. 고도이면 먼 곳도 흐림. 아동은 내사시·약시와 관련될 수 있음</td></tr><tr><td>난시 (astigmatism)</td><td>경선(방향)마다 굴절력이 달라 한 점에 초점이 맺히지 않음</td><td>각막(대부분) 또는 수정체 곡률의 방향별 차이</td><td>정난시(규칙난시): 두 주경선이 90°로 직교, 안경으로 교정 가능. 부정난시(불규칙난시): 주경선이 직교하지 않거나 불규칙(원추각막, 외상·수술 후 반흔, 각막 질환 등) → 안경으로 완전 교정 어려움, 안과 의뢰</td><td>원·근 모두 흐림·겹침, 글자 번짐, 눈 피로, 두통</td></tr><tr><td>노안 (presbyopia)</td><td>나이에 따른 조절력 감소로 근거리 초점이 어려운 상태</td><td>수정체 경화·탄력 감소 등 노화</td><td>나이(대개 40대 전후부터 자각). 원시는 더 일찍, 근시는 안경을 벗으면 늦게 느끼는 경향</td><td>가까운 글씨를 멀리 떼어 봄, 어두운 곳에서 더 불편, 근거리 작업 후 피로</td></tr></tbody></table></div><figure class="gf" id="fig2-9"><svg class="fig" viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="난시: 두 초선과 최소착란원(스텀 원뿔)" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g112a6fdb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a6fdb"/></marker><marker id="g11e07b00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e07b00"/></marker></defs><ellipse cx="50.0" cy="170.0" rx="10.0" ry="70.0" fill="#cfe6ff" stroke="#1f3a5f" stroke-width="2" /><line x1="10.0" y1="110.0" x2="50.0" y2="110.0" stroke="#666" stroke-width="1" /><line x1="50.0" y1="110.0" x2="200.0" y2="170.0" stroke="#2a6fdb" stroke-width="1.7" /><line x1="200.0" y1="170.0" x2="260.0" y2="194.0" stroke="#2a6fdb" stroke-width="1.2" opacity=".5"/><line x1="50.0" y1="110.0" x2="320.0" y2="170.0" stroke="#e07b00" stroke-width="1.7" stroke-dasharray="5 3" /><line x1="10.0" y1="140.0" x2="50.0" y2="140.0" stroke="#666" stroke-width="1" /><line x1="50.0" y1="140.0" x2="200.0" y2="170.0" stroke="#2a6fdb" stroke-width="1.7" /><line x1="200.0" y1="170.0" x2="260.0" y2="182.0" stroke="#2a6fdb" stroke-width="1.2" opacity=".5"/><line x1="50.0" y1="140.0" x2="320.0" y2="170.0" stroke="#e07b00" stroke-width="1.7" stroke-dasharray="5 3" /><line x1="10.0" y1="200.0" x2="50.0" y2="200.0" stroke="#666" stroke-width="1" /><line x1="50.0" y1="200.0" x2="200.0" y2="170.0" stroke="#2a6fdb" stroke-width="1.7" /><line x1="200.0" y1="170.0" x2="260.0" y2="158.0" stroke="#2a6fdb" stroke-width="1.2" opacity=".5"/><line x1="50.0" y1="200.0" x2="320.0" y2="170.0" stroke="#e07b00" stroke-width="1.7" stroke-dasharray="5 3" /><line x1="10.0" y1="230.0" x2="50.0" y2="230.0" stroke="#666" stroke-width="1" /><line x1="50.0" y1="230.0" x2="200.0" y2="170.0" stroke="#2a6fdb" stroke-width="1.7" /><line x1="200.0" y1="170.0" x2="260.0" y2="146.0" stroke="#2a6fdb" stroke-width="1.2" opacity=".5"/><line x1="50.0" y1="230.0" x2="320.0" y2="170.0" stroke="#e07b00" stroke-width="1.7" stroke-dasharray="5 3" /><line x1="50.0" y1="170.0" x2="360.0" y2="170.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 3" /><line x1="120.0" y1="68.0" x2="120.0" y2="104.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 2" /><ellipse cx="120.0" cy="46.0" rx="13.3" ry="9.6" fill="#fff" stroke="#666" stroke-width="2" /><text x="120.0" y="80.0" font-size="11" fill="#666" text-anchor="middle" font-weight="bold" >가로 타원</text><line x1="200.0" y1="68.0" x2="200.0" y2="104.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 2" /><line x1="192.0" y1="46.0" x2="208.0" y2="46.0" stroke="#2a6fdb" stroke-width="3" /><text x="200.0" y="96.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >앞초선(가로)</text><line x1="242.9" y1="68.0" x2="242.9" y2="104.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 2" /><ellipse cx="242.9" cy="46.0" rx="5.1" ry="5.1" fill="#fff" stroke="#1b7a43" stroke-width="2" /><text x="242.9" y="80.0" font-size="11" fill="#1b7a43" text-anchor="middle" font-weight="bold" >최소착란원</text><line x1="287.4" y1="68.0" x2="287.4" y2="104.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 2" /><ellipse cx="287.4" cy="46.0" rx="2.2" ry="10.5" fill="#fff" stroke="#666" stroke-width="2" /><text x="287.4" y="96.0" font-size="11" fill="#666" text-anchor="middle" font-weight="bold" >세로 타원</text><line x1="320.0" y1="68.0" x2="320.0" y2="104.0" stroke="#666" stroke-width="0.8" stroke-dasharray="2 2" /><line x1="320.0" y1="31.6" x2="320.0" y2="60.4" stroke="#e07b00" stroke-width="3" /><text x="320.0" y="80.0" font-size="11" fill="#e07b00" text-anchor="middle" font-weight="bold" >뒤초선(세로)</text><circle cx="200.0" cy="170.0" r="3.5" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><circle cx="320.0" cy="170.0" r="3.5" fill="#c0392b" stroke="#c0392b" stroke-width="1" /><circle cx="242.9" cy="170.0" r="4.0" fill="#1b7a43" stroke="#1b7a43" stroke-width="1" /><line x1="50.0" y1="258.0" x2="200.0" y2="258.0" stroke="#2a6fdb" stroke-width="1.3" marker-end="url(#g112a6fdb)" /><text x="125.0" y="274.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >강주경선(수직) 초점거리</text><line x1="50.0" y1="288.0" x2="320.0" y2="288.0" stroke="#e07b00" stroke-width="1.3" marker-end="url(#g11e07b00)" /><text x="215.0" y="304.0" font-size="11" fill="#e07b00" text-anchor="middle" font-weight="normal" >약주경선(수평) 초점거리</text><text x="10.0" y="344.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >파랑 실선 = 수직 경선 광선, 주황 점선 = 수평 경선 광선 (직난시 예)</text></svg><figcaption><b>그림 2-9.</b> 난시: 두 초선과 최소착란원(스텀 원뿔)</figcaption></figure><div class="box bg"><b>통계 인용 주의</b><ul><li>유병률·진행 속도 등 수치는 연구마다 다르므로 고객 상담 시 출처 없이 숫자를 말하지 않습니다. 근시 진행 억제 치료(약물 등)는 의료 영역이므로 &#x27;안과 상담&#x27;을 안내합니다.</li></ul></div></section><section class="sec qzset" id="quiz"><h2>자가 점검 퀴즈 (4문항)</h2><p class="note">보기를 누르면 바로 정답과 해설이 나와요. 기록은 저장되지 않아요.</p><div class="q gq"><div class="qh"><span class="num">문제 1</span></div><div class="qt">근시 눈에서 평행광선의 초점은?</div><button type="button" class="opt" data-ok="0">① 망막 위</button><button type="button" class="opt" data-ok="1">② 망막 앞</button><button type="button" class="opt" data-ok="0">③ 망막 뒤</button><button type="button" class="opt" data-ok="0">④ 두 초선</button><div class="diag"><div class="res"></div><div>💡 근시는 초점이 망막 앞 → 오목(−)렌즈로 교정.</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 2</span></div><div class="qt">초점거리 0.25 m 렌즈의 굴절력은?</div><button type="button" class="opt" data-ok="0">① 0.25 D</button><button type="button" class="opt" data-ok="0">② 2.50 D</button><button type="button" class="opt" data-ok="1">③ 4.00 D</button><button type="button" class="opt" data-ok="0">④ 25 D</button><div class="diag"><div class="res"></div><div>💡 D = 1 ÷ 0.25 = 4.00 D.</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 3</span></div><div class="qt">S −2.00 C −1.00의 구면등가는?</div><button type="button" class="opt" data-ok="0">① −2.00</button><button type="button" class="opt" data-ok="1">② −2.50</button><button type="button" class="opt" data-ok="0">③ −3.00</button><button type="button" class="opt" data-ok="0">④ −1.50</button><div class="diag"><div class="res"></div><div>💡 SE = S + C/2 = −2.00 + (−0.50) = −2.50 D.</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 4</span></div><div class="qt">가까운 곳을 볼 때 모양체근과 수정체는?</div><button type="button" class="opt" data-ok="0">① 이완·얇아짐</button><button type="button" class="opt" data-ok="1">② 수축·두꺼워짐</button><button type="button" class="opt" data-ok="0">③ 수축·얇아짐</button><button type="button" class="opt" data-ok="0">④ 이완·두꺼워짐</button><div class="diag"><div class="res"></div><div>💡 모양체근 수축 → 소대 느슨 → 수정체가 두꺼워져 굴절력 증가.</div></div></div><p><span class="qz-score"></span></p><button type="button" class="btn l qz-reset">다시 풀기</button></section><nav class="gnav" aria-label="교재 이동"><a data-l="g02.html" href="g02.html">← 1 검사 흐름</a><a data-l="g00.html" href="g00.html" class="mid">목차</a><a data-l="g04.html" href="g04.html">3-① 문진~타각 →</a></nav></main>
+<footer>자체 제작 학습 자료(문항·그림 직접 제작, 사진은 재사용 허락 라이선스만 사용 → <a data-l="credits.html" href="credits.html">출처·라이선스</a>). 합격을 보장하지 않아요. 시험 정보는 국시원 공고를 기준으로 하세요.</footer>
+<div class="askbar"><form id="askform" autocomplete="off"><input id="askq" type="text" placeholder="궁금한 걸 물어보세요 (검안 실무)" aria-label="질문"><button type="submit">Grok에 묻기</button><button type="button" class="alt" id="askalt">ChatGPT</button></form></div>
+<script>window.OE_DATA={"cfg": {"qr_base": "https://gl-hub-edu.github.io/", "preview_host": "html-preview.github.io"}, "page": "gbook", "offline": false, "fullBank": false, "qs": [], "mts": {"unit": "단위 바꾸기 실수 — mm, cm, m, D를 헷갈림", "base": "기저 방향 실수 — 프리즘 기저가 안쪽인지 바깥쪽인지", "sign": "부호 실수 — +와 −를 반대로 씀", "vertex": "정점간거리 실수 — 안경과 눈 사이 거리를 빼먹음", "fine": "벌금 vs 과태료 — 형벌인지 돈만 내는 것인지", "punish": "형벌 vs 행정처분 — 징역·벌금과 면허 정지를 헷갈림", "number": "조문·숫자 실수 — 기간·금액 숫자를 바꿔 외움", "phoria": "사위 종류 — 내사위·외사위를 반대로 판단", "age": "근점과 나이 — 나이별 조절력 숫자 혼동", "symptom": "증상 → 질환 연결 — 비슷한 증상의 다른 병을 고름", "concept": "개념 혼동 — 비슷한 용어·원리를 바꿔 기억"}, "theory": {"unit": "p3.html#p3-vergence", "base": "p5.html#p5-prentice", "sign": "p3.html#p3-thinlens", "vertex": "p5.html#p5-vertex", "fine": "p2.html#p2-ladder", "punish": "p2.html#p2-ladder", "number": "p2.html#p2-scope", "phoria": "p7.html#p7-bv", "age": "p5.html#p5-add", "symptom": "eye.html#eye-list", "ch:law": "p2.html#p2-sum-law", "ch:geo": "p3.html#p3-sum-geo", "ch:phy": "p4.html#p4-sum-phy", "ch:sopt": "p5.html#p5-sum-sopt", "ch:mat": "p5.html#p5-sum-mat", "ch:fab": "p5.html#p5-sum-fab", "ch:refr": "p5.html#p5-sum-refr", "ch:cl": "p6.html#p6-sum-cl", "ch:prac": "p6.html#p6-sum-prac", "ch:inst": "p6.html#p6-sum-inst", "ch:anat": "p7.html#p7-sum-anat", "ch:phys": "p7.html#p7-sum-phys", "ch:dis": "p7.html#p7-sum-dis", "ch:bv": "p7.html#p7-sum-bv", "ch:eye": "eye.html#eye-list"}, "chtitle": {"anat": "시기해부학(눈해부학)", "phys": "시기생리학(눈생리학)", "dis": "안질환", "mat": "안경재료학", "sopt": "안경광학", "geo": "기하광학", "phy": "물리광학", "law": "의료관계법규", "refr": "굴절검사", "fab": "안경조제가공", "bv": "시기능이상(양안시기능)", "cl": "콘택트렌즈", "inst": "안광학기기", "prac": "실기시험(시광학 실무)", "eye": "안질환 단원(사진·의뢰)"}, "partsSel": [{"key": "p2", "title": "파트2 의료기사법·의료관계법규", "chs": ["law"]}, {"key": "p3", "title": "파트3 기하광학·행렬", "chs": ["geo"]}, {"key": "p4", "title": "파트4 물리광학", "chs": ["phy"]}, {"key": "p5", "title": "파트5 안경광학·누진·프리즘", "chs": ["sopt", "mat", "fab", "refr"]}, {"key": "p6", "title": "파트6 콘택트렌즈·실기", "chs": ["cl", "prac", "inst"]}, {"key": "p7", "title": "파트7 안과학·양안시·안질환", "chs": ["anat", "phys", "dis", "bv", "eye"]}], "examDate": "2026-12-19"};</script><script>(function(){
+'use strict';
+var D = window.OE_DATA || {}, CFG = D.cfg || {};
+var CIRC = ['①','②','③','④','⑤'];
+function $(s, r){return (r||document).querySelector(s);}
+function $$(s, r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
+function onPreview(){return CFG.preview_host && location.hostname.indexOf(CFG.preview_host) >= 0;}
+// 링크: 로컬/일반 호스팅은 상대 경로, html-preview에서는 미리보기 주소로 감싸기, 한 파일(offline)에서는 페이지 안 이동
+function L(p){
+  if (D.offline){
+    var h = p.indexOf('#') >= 0 ? p.slice(p.indexOf('#')) : '';
+    var f = p.split('#')[0].replace('.html','');
+    if (f === 'quiz' || f === 'cards' || f === 'ask') return h && h.indexOf('=') > 0 ? h : '#' + f;
+    if (h) return h;
+    return '#' + (f === 'index' ? 'home' : f);
+  }
+  if (onPreview()) return CFG.qr_base + p;
+  return p;
+}
+window.OE_L = L;
+function fixLinks(root){ $$('a[data-l]', root).forEach(function(a){ a.href = L(a.getAttribute('data-l')); }); }
+// 저장소
+var KEY = 'oe-study-v1';
+function load(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){ return {}; } }
+var S = load(); S.q = S.q || {}; S.mt = S.mt || {}; S.cards = S.cards || {}; S.days = S.days || {};
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
+function rec(q, ok){
+  var r = S.q[q.id] || {r:0, w:0}; if (ok) r.r++; else r.w++; r.last = ok ? 1 : 0; r.t = Date.now(); if (!q.gen) S.q[q.id] = r;
+  if (q.mt){ var m = S.mt[q.mt] || {r:0, w:0}; if (ok) m.r++; else m.w++; S.mt[q.mt] = m; }
+  save();
+}
+function shuffle(a){ a = a.slice(); for (var i = a.length - 1; i > 0; i--){ var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+function mtName(k){ var s = (D.mts || {})[k] || ''; return s.split(' — ')[0]; }
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+// ---------- 숫자 문제 자동 생성 (같은 실수 종류) ----------
+function pick(a){ return a[Math.floor(Math.random() * a.length)]; }
+function fD(x){ x = Math.round(x * 100) / 100; return (x > 0 ? '+' : (x < 0 ? '−' : '')) + Math.abs(x).toFixed(2) + ' D'; }
+function q4(x){ return Math.round(x * 4) / 4; }
+function mk(mt, q, opts, why, e){
+  var seen = {}, o = [], w = [];
+  for (var i = 0; i < opts.length; i++){ if (!seen[opts[i]]){ seen[opts[i]] = 1; o.push(opts[i]); w.push(why[i]); } }
+  var idx = shuffle(o.map(function(_, i){ return i; }));
+  return {id:'gen-' + mt + '-' + Math.random().toString(36).slice(2, 8), gen:true, tier:'응용', tag:'[출제기준 추정]', mt:mt,
+    q:q + ' <span class="meta">(자동 생성 연습)</span>', o:idx.map(function(i){ return o[i]; }), why:idx.map(function(i){ return w[i]; }), a:idx.indexOf(0), e:e || '', th:''};
+}
+var GEN = {
+  unit: function(){
+    var x = pick([20, 25, 40, 50, 80, 125, 200]); var v = -100 / x;
+    return mk('unit', '물체가 렌즈 앞 ' + x + ' cm에 있을 때 렌즈에 들어오는 빛의 버전스는?',
+      [fD(v), fD(-v), fD(-x / 100), fD(-x), fD(v * 10)],
+      ['앞쪽 거리는 −, ' + x + ' cm = ' + (x / 100) + ' m → −1 ÷ ' + (x / 100) + ' = ' + fD(v) + '.', '부호 실수: 렌즈 앞 물체에서 나온 빛은 퍼지므로 −예요.', 'm 값을 그대로 썼어요(역수를 안 함).', 'cm 숫자를 그대로 썼어요.', 'cm를 m로 바꿀 때 자릿수를 틀렸어요.'],
+      '단위: D = 1 ÷ m. cm면 100 ÷ cm.');
+  },
+  base: function(){
+    var F = pick([-6, -5, -4, -3, -2.5, 2, 2.5, 3, 4, 5, 6]), c = pick([2, 3, 4, 5, 6, 8]);
+    var dir = pick(['코 쪽', '귀 쪽', '위', '아래']);
+    var P = Math.round(c / 10 * Math.abs(F) * 100) / 100;
+    var plus = F > 0;
+    var toward = {'코 쪽':'BO', '귀 쪽':'BI', '위':'BD', '아래':'BU'}, away = {'코 쪽':'BI', '귀 쪽':'BO', '위':'BU', '아래':'BD'}, opp = {BI:'BO', BO:'BI', BU:'BD', BD:'BU'};
+    var b = plus ? toward[dir] : away[dir];
+    var ps = function(x){ return (Math.round(x * 100) / 100) + 'Δ '; };
+    return mk('base', fD(F) + ' 렌즈에서 시선이 광학중심보다 ' + c + ' mm ' + dir + '을(를) 지날 때 생기는 프리즘은?',
+      [ps(P) + b, ps(P) + opp[b], ps(P * 10) + b, ps(P / 10) + b, ps(Math.abs(F) / c) + b],
+      [(c / 10) + ' cm × ' + Math.abs(F) + ' = ' + P + 'Δ. ' + (plus ? '볼록렌즈는 기저가 광학중심 쪽' : '오목렌즈는 기저가 광학중심 반대쪽') + ' → ' + b + '.', '기저 방향 실수: ' + (plus ? '볼록' : '오목') + '렌즈 규칙을 반대로 썼어요.', 'mm를 cm로 바꾸지 않았어요.', '자릿수를 한 번 더 줄였어요.', '곱하지 않고 나눴어요.'],
+      '프렌티스: Δ = c(cm) × F.');
+  },
+  vertex: function(){
+    var F = pick([-12, -10, -9, -8, -7, -6, -5, 5, 6, 7, 8, 10, 12]), dmm = pick([10, 12, 14]), d = dmm / 1000;
+    var fc = F / (1 - d * F), fq = q4(fc), wrongDir = q4(F / (1 + d * F)), approx = F + d * F * F;
+    var opts = [fD(fq), fD(F), fD(wrongDir), fD(fq + (F > 0 ? 0.75 : -0.75)), fD(fq - (F > 0 ? 0.75 : -0.75))];
+    return mk('vertex', '정점간거리 ' + dmm + ' mm에서 ' + fD(F) + ' 안경을 쓰는 사람의 CL 도수(0.25 D 단위)에 가장 가까운 것은?', opts,
+      ['정식: ' + F + ' ÷ (1 − ' + d + ' × ' + F + ') = ' + fc.toFixed(2) + ' → ' + fD(fq) + '. 간편: F + dF² = ' + approx.toFixed(2) + ' D.', '정점간거리를 빼먹었어요.', '방향 실수: 안경 → CL은 F/(1 − dF)예요.', '너무 많이 바꿨어요.', '바꾸는 양이 틀렸어요.'],
+      (F < 0 ? '근시는 CL이 약해져요.' : '원시는 CL이 강해져요.') + ' ±4 D 이상이면 꼭 계산해요.');
+  },
+  sign: function(){
+    var x = pick([20, 25, 40, 50, 100]); var v = -100 / x;
+    return mk('sign', '원점이 눈앞 ' + x + ' cm인 근시안의 완전 교정 도수(정점간거리 무시)는?',
+      [fD(v), fD(-v), fD(-x / 100), fD(-x / 10), fD(v / 2)],
+      ['원점 ' + x + ' cm → 100 ÷ ' + x + ' = ' + Math.abs(v).toFixed(2) + ', 근시는 (−)렌즈 → ' + fD(v) + '.', '부호 실수: 근시는 (−)렌즈예요.', '역수를 하지 않았어요.', '단위 실수예요.', '절반으로 잘못 나눴어요.'],
+      '근시 교정 렌즈의 초점은 원점에 맞춰요.');
+  },
+  age: function(){
+    var a = pick([36, 38, 40, 42, 44, 46, 48, 50, 52, 55]); var amp = Math.round((18.5 - 0.3 * a) * 100) / 100, np = Math.round(100 / amp * 10) / 10;
+    var mn = Math.round((15 - 0.25 * a) * 100) / 100, mx = Math.round((25 - 0.4 * a) * 100) / 100;
+    var f = function(x){ return x.toFixed(2) + ' D, 근점 약 ' + (Math.round(100 / x * 10) / 10) + ' cm'; };
+    return mk('age', 'Hofstetter 평균 조절력 공식으로 ' + a + '세 정시안의 조절력과 근점은?',
+      [f(amp), f(mn), f(mx), amp.toFixed(2) + ' D, 근점 약 ' + (amp * 10).toFixed(0) + ' cm', f(amp + 2)],
+      ['평균 18.5 − 0.3 × ' + a + ' = ' + amp.toFixed(2) + ' D → 근점 100 ÷ ' + amp.toFixed(2) + ' ≈ ' + np + ' cm.', '최소 공식(15 − 0.25 × 나이)이에요.', '최대 공식(25 − 0.4 × 나이)이에요.', 'D를 cm로 바꿀 때 역수를 하지 않았어요.', '나이 계산 실수예요.'],
+      '최소 15 − 0.25×나이 · 평균 18.5 − 0.3×나이 · 최대 25 − 0.4×나이');
+  }
+};
+window.OE_GEN = GEN;
+
+// ---------- 문제 카드 ----------
+var BANK = D.qs || [];
+var byId = {}; BANK.forEach(function(q){ byId[q.id] = q; });
+function theoryLink(q){ var t = D.theory || {}; return t[q.mt] && q.mt !== 'concept' ? t[q.mt] : (t['ch:' + q.ch] || ''); }
+function qCard(q, n, opt){
+  opt = opt || {};
+  var el = document.createElement('div'); el.className = 'q'; el.id = 'q-' + q.id;
+  var tagc = q.tag.indexOf('기출') >= 0 ? 'ok' : 'est';
+  el.innerHTML = '<div class="qh"><span class="num">' + (n ? n + '.' : '') + '</span><span class="tier t-' + q.tier + '">' + q.tier + '</span><span class="tag ' + tagc + '">' + q.tag + '</span>' +
+    (q.ch && D.chtitle ? '<span class="mtl">' + (D.chtitle[q.ch] || '') + '</span>' : '') + '</div><div class="qt">' + q.q + '</div>' +
+    q.o.map(function(o, i){ return '<button class="opt" type="button" data-i="' + i + '"><b>' + CIRC[i] + '</b> ' + o + '</button>'; }).join('') +
+    '<div class="diag" hidden></div>';
+  $$('.opt', el).forEach(function(b){ b.addEventListener('click', function(){ choose(el, q, +b.getAttribute('data-i'), opt); }); });
+  return el;
+}
+function choose(el, q, i, opt){
+  if (el.getAttribute('data-done')) return;
+  if (opt.deferred){ $$('.opt', el).forEach(function(b){ b.classList.remove('pick'); }); $$('.opt', el)[i].classList.add('pick'); el.setAttribute('data-pick', i); if (opt.onPick) opt.onPick(); return; }
+  reveal(el, q, i);
+}
+function reveal(el, q, i){
+  el.setAttribute('data-done', '1');
+  var ok = i === q.a; rec(q, ok);
+  $$('.opt', el).forEach(function(b, k){ b.disabled = true; if (k === q.a) b.classList.add('right'); else if (k === i) b.classList.add('wrong'); });
+  var d = $('.diag', el), h = '';
+  if (i < 0) h += '<div class="no">답을 고르지 않았어요. 정답은 ' + CIRC[q.a] + '</div>';
+  else h += ok ? '<div class="ok">정답이에요! ' + CIRC[q.a] + '</div>' : '<div class="no">아쉬워요. 정답은 ' + CIRC[q.a] + '</div>';
+  if (!ok && i >= 0 && q.why) h += '<p><b>내가 고른 ' + CIRC[i] + '가 틀린 이유</b> ' + q.why[i] + '</p>';
+  h += '<p><b>정답 근거</b> ' + (q.why ? q.why[q.a] + ' ' : '') + (q.e || '') + '</p>';
+  if (q.th) h += '<p class="note"><b>관련 이론</b> ' + q.th + '</p>';
+  if (q.why) h += '<details><summary>보기별 오답 분석 보기</summary><ol>' + q.why.map(function(w, k){ return '<li>' + (k === q.a ? '<b>(정답)</b> ' : '') + w + '</li>'; }).join('') + '</ol></details>';
+  if (q.cite) h += '<p class="src">' + q.cite + '</p>';
+  if (q.mt) h += '<p class="meta">실수 종류: ' + (D.mts[q.mt] || q.mt) + '</p>';
+  var tl = theoryLink(q);
+  h += '<div class="ctrl">' + (tl ? '<a class="btn l" data-l="' + tl + '">이론 보러 가기</a>' : '') + '<button class="btn o sim" type="button">비슷한 문제 더 풀기</button></div><div class="simbox" hidden></div>';
+  d.innerHTML = h; d.hidden = false; fixLinks(d);
+  $('.sim', d).addEventListener('click', function(){ similar(el, q); });
+}
+function similar(el, q){
+  var box = $('.simbox', el); box.hidden = false;
+  var pool = shuffle(BANK.filter(function(x){ return x.mt === q.mt && x.id !== q.id && !(S.q[x.id] && S.q[x.id].last === 1); }));
+  var items = pool.slice(0, GEN[q.mt] ? 2 : 3);
+  if (GEN[q.mt]) items.push(GEN[q.mt]());
+  if (!items.length) items = shuffle(BANK.filter(function(x){ return x.ch === q.ch && x.id !== q.id; })).slice(0, 2);
+  box.innerHTML = '<p class="meta"><b>같은 실수 종류(' + mtName(q.mt) + ') 문제</b></p>';
+  items.forEach(function(x){ box.appendChild(qCard(x, '')); });
+  if (!D.fullBank){ var a = document.createElement('a'); a.className = 'btn l'; a.setAttribute('data-l', 'quiz.html#mt=' + q.mt); a.textContent = '이 실수 종류만 더 풀기'; box.appendChild(a); fixLinks(box); }
+}
+window.OE_qCard = qCard;
+
+// ---------- 페이지 안 문제 묶음 (파트·날짜 페이지) ----------
+function mountSet(root){
+  var ids = (root.getAttribute('data-ids') || '').split(',').filter(Boolean);
+  var qs = ids.map(function(id){ return byId[id]; }).filter(Boolean);
+  var tabs = document.createElement('div'); tabs.className = 'ctrl';
+  var list = document.createElement('div');
+  var tiers = ['전체', '기본', '응용', '심화'];
+  function draw(t){
+    list.innerHTML = ''; var n = 0;
+    qs.forEach(function(q){ if (t === '전체' || q.tier === t){ n++; list.appendChild(qCard(q, n)); } });
+    if (!n) list.innerHTML = '<p class="note">이 단계 문제가 없어요.</p>';
+    $$('.chip', tabs).forEach(function(c){ c.classList.toggle('on', c.textContent.indexOf(t) === 0); });
+  }
+  tiers.forEach(function(t){ var b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = t + ' ' + (t === '전체' ? qs.length : qs.filter(function(q){ return q.tier === t; }).length); b.onclick = function(){ draw(t); }; tabs.appendChild(b); });
+  root.appendChild(tabs); root.appendChild(list); draw('전체');
+}
+
+// ---------- 퀴즈 앱 (quiz.html, offline) ----------
+function weakList(){
+  var arr = Object.keys(S.mt).map(function(k){ var m = S.mt[k]; return {k:k, n:m.r + m.w, rate:m.w / Math.max(1, m.r + m.w)}; }).filter(function(x){ return x.n >= 2 && x.rate > 0; });
+  arr.sort(function(a, b){ return b.rate - a.rate || b.n - a.n; }); return arr;
+}
+window.OE_weak = weakList;
+function mountQuiz(root){
+  var parts = D.partsSel || [];
+  root.innerHTML = '<div class="card"><div class="ctrl"><select id="qz-cat"><option value="">전체 과목</option>' +
+    parts.map(function(p){ return '<optgroup label="' + p.title + '">' + p.chs.map(function(c){ return '<option value="ch:' + c + '">' + (D.chtitle[c] || c) + '</option>'; }).join('') + '</optgroup>'; }).join('') +
+    '</select><select id="qz-mt"><option value="">모든 실수 종류</option>' + Object.keys(D.mts).map(function(k){ return '<option value="' + k + '">' + mtName(k) + '</option>'; }).join('') + '</select>' +
+    '<select id="qz-n"><option>10</option><option selected>20</option><option value="999">전부</option></select></div>' +
+    '<div class="ctrl" id="qz-tier"></div><div class="ctrl"><button class="btn" id="qz-go" type="button">문제 풀기</button><button class="btn o" id="qz-weak" type="button">약한 부분 훈련</button>' +
+    '<button class="btn g" id="qz-mock" type="button">짧은 모의고사 40</button><button class="btn l" id="qz-gc" type="button">기출 응용</button></div><p class="meta" id="qz-info"></p></div><div id="qz-list"></div>';
+  var tier = '전체', tw = $('#qz-tier', root);
+  ['전체', '기본', '응용', '심화'].forEach(function(t){ var b = document.createElement('button'); b.type = 'button'; b.className = 'chip' + (t === tier ? ' on' : ''); b.textContent = t; b.onclick = function(){ tier = t; $$('.chip', tw).forEach(function(c){ c.classList.toggle('on', c.textContent === t); }); }; tw.appendChild(b); });
+  var list = $('#qz-list', root), info = $('#qz-info', root);
+  function show(qs, msg, deferred){
+    list.innerHTML = ''; info.textContent = msg || '';
+    var cards = [];
+    qs.forEach(function(q, i){ var c = qCard(q, i + 1, {deferred:deferred}); cards.push([c, q]); list.appendChild(c); });
+    if (deferred){
+      var t0 = Date.now(), bar = document.createElement('div'); bar.className = 'card';
+      bar.innerHTML = '<p>모의고사: 다 풀고 「채점하기」를 누르세요. <span id="qz-time"></span></p><button class="btn o" type="button" id="qz-grade">채점하기</button><div id="qz-res"></div>';
+      list.appendChild(bar);
+      var tm = setInterval(function(){ var s = Math.floor((Date.now() - t0) / 1000); var e = $('#qz-time'); if (e) e.textContent = '경과 ' + Math.floor(s / 60) + '분 ' + (s % 60) + '초'; else clearInterval(tm); }, 1000);
+      $('#qz-grade', bar).onclick = function(){
+        clearInterval(tm); var by = {};
+        cards.forEach(function(cq){ var c = cq[0], q = cq[1]; var p = c.getAttribute('data-pick'); var i = p === null ? -1 : +p; if (!c.getAttribute('data-done')) reveal(c, q, i); var a = by[q.area] = by[q.area] || {r:0, n:0}; a.n++; if (i === q.a) a.r++; });
+        var tot = 0, n = 0, rows = Object.keys(by).map(function(k){ var a = by[k]; tot += a.r; n += a.n; var p = Math.round(a.r / a.n * 100); return '<tr><td>' + k + '</td><td>' + a.r + '/' + a.n + '</td><td>' + p + '%' + (k === '실기' ? (p >= 60 ? '' : ' (60% 미만)') : (p >= 40 ? '' : ' (40% 미만)')) + '</td></tr>'; }).join('');
+        $('#qz-res', bar).innerHTML = '<div class="tblw"><table class="tbl"><tr><th>영역</th><th>맞힘</th><th>비율</th></tr>' + rows + '</table></div><p>전체 ' + tot + '/' + n + ' (' + Math.round(tot / n * 100) + '%). 실제 기준: 필기 총점 60% + 과목별 40%, 실기 60%.</p><p class="note">짧은 연습용 점검이에요. 이 점수로 합격을 예측하거나 보장할 수 없어요. 틀린 문제는 「약한 부분 훈련」에 모여요.</p>';
+        bar.scrollIntoView({behavior:'smooth'});
+      };
+    }
+    if (!qs.length) list.innerHTML = '<p class="card">조건에 맞는 문제가 없어요.</p>';
+  }
+  function filtered(){
+    var cat = $('#qz-cat', root).value, mt = $('#qz-mt', root).value;
+    return BANK.filter(function(q){ return (!cat || ('ch:' + q.ch) === cat || ('part:' + q.part) === cat) && (!mt || q.mt === mt) && (tier === '전체' || q.tier === tier); });
+  }
+  function go(){ var n = +$('#qz-n', root).value; var qs = shuffle(filtered()); var tot = qs.length; qs = qs.slice(0, n); var mt = $('#qz-mt', root).value; if (mt && GEN[mt]) { qs.push(GEN[mt]()); } show(qs, '조건에 맞는 ' + tot + '문제 중 ' + Math.min(n, tot) + '문제' + (mt && GEN[mt] ? ' + 자동 생성 1문제' : '')); }
+  function weak(){
+    var w = weakList(), wrong = BANK.filter(function(q){ return S.q[q.id] && S.q[q.id].last === 0; });
+    if (!w.length && !wrong.length){ show(shuffle(BANK.filter(function(q){ return q.tier === '기본'; })).slice(0, 10), '아직 틀린 기록이 없어요. 먼저 기본 문제 10개로 시작해요.'); return; }
+    var top = w.slice(0, 3).map(function(x){ return x.k; });
+    var qs = shuffle(wrong).slice(0, 8);
+    var more = shuffle(BANK.filter(function(q){ return top.indexOf(q.mt) >= 0 && qs.indexOf(q) < 0 && !(S.q[q.id] && S.q[q.id].last === 1); })).slice(0, 15 - qs.length);
+    qs = qs.concat(more); top.forEach(function(k){ if (GEN[k]) qs.push(GEN[k]()); });
+    show(qs, '약한 실수 종류: ' + (top.map(mtName).join(', ') || '없음') + ' · 최근 틀린 문제 ' + wrong.length + '개');
+  }
+  function mock(){
+    var plan = {법규:4, 이론:14, 응용:14, 실기:8}, qs = [];
+    Object.keys(plan).forEach(function(k){ qs = qs.concat(shuffle(BANK.filter(function(q){ return q.area === k; })).slice(0, plan[k])); });
+    show(qs, '짧은 모의고사 40문제 (법규 4 · 이론 14 · 응용 14 · 실기 8). 권장 시간 약 30분.', true);
+  }
+  function gc(){ show(BANK.filter(function(q){ return q.tag.indexOf('기출') >= 0; }), '[기출 확인] 유형: 국시원 공개 예시문항과 같은 형식의 문제'); }
+  $('#qz-go', root).onclick = go; $('#qz-weak', root).onclick = weak; $('#qz-mock', root).onclick = mock; $('#qz-gc', root).onclick = gc;
+  function applyHash(){
+    var h = decodeURIComponent(location.hash.slice(1)); if (!h || h.indexOf('=') < 0) return false;
+    var p = {}; h.split('&').forEach(function(kv){ var x = kv.split('='); p[x[0]] = x[1]; });
+    if (p.ch) $('#qz-cat', root).value = 'ch:' + p.ch;
+    if (p.part){ var o = document.createElement('option'); o.value = 'part:' + p.part; o.textContent = '파트 전체'; $('#qz-cat', root).appendChild(o); $('#qz-cat', root).value = 'part:' + p.part; }
+    if (p.mt) $('#qz-mt', root).value = p.mt;
+    if (p.tier){ tier = p.tier; $$('.chip', tw).forEach(function(c){ c.classList.toggle('on', c.textContent === tier); }); }
+    if (p.mode === 'weak') weak(); else if (p.mode === 'mock') mock(); else if (p.mode === 'gichul') gc(); else go();
+    if (D.offline){ var z = document.getElementById('quiz'); if (z) z.scrollIntoView(); }
+    return true;
+  }
+  window.addEventListener('hashchange', applyHash);
+  if (!applyHash()) go();
+}
+
+// ---------- 플래시카드 (라이트너) ----------
+var INTERVAL = [0, 1, 3, 7, 14];
+function mountCards(root){
+  var cards = D.cards || [], DAY = 86400000;
+  root.innerHTML = '<div class="card"><div class="boxes" id="fc-boxes"></div><div class="ctrl"><select id="fc-part"><option value="">모든 파트</option>' + (D.partsSel || []).map(function(p){ return '<option value="' + p.key + '">' + p.title + '</option>'; }).join('') + '</select></div></div><div class="flash" id="fc"></div><div class="ctrl"><button class="btn l" id="fc-show" type="button">뒤집기</button><button class="btn g" id="fc-ok" type="button">알았어요</button><button class="btn o" id="fc-no" type="button">몰랐어요</button></div>';
+  var cur = null, part = '';
+  function st(c){ return S.cards[c.id] || {b:0, due:0}; }
+  function counts(){ var n = [0, 0, 0, 0, 0]; cards.forEach(function(c){ n[st(c).b]++; }); $('#fc-boxes', root).innerHTML = n.map(function(x, i){ return '<span>' + (i < 4 ? '상자' + (i + 1) : '완료') + ' ' + x + '</span>'; }).join(''); }
+  function next(){
+    var now = Date.now(); var pool = cards.filter(function(c){ return (!part || c.part === part) && st(c).due <= now; });
+    counts();
+    if (!pool.length){ $('#fc', root).innerHTML = '<p>오늘 볼 카드를 다 봤어요. 내일 다시 와요!</p>'; cur = null; return; }
+    pool.sort(function(a, b){ return st(a).b - st(b).b; }); var low = st(pool[0]).b; pool = shuffle(pool.filter(function(c){ return st(c).b === low; }));
+    cur = pool[0]; $('#fc', root).innerHTML = '<div class="meta">' + (cur.ptitle || '') + ' · ' + (st(cur).b < 4 ? '상자' + (st(cur).b + 1) : '완료') + '</div><div class="front">' + cur.f + '</div><div class="back" hidden>' + cur.b + '</div>';
+  }
+  function mark(ok){ if (!cur) return; var s = st(cur); s.b = ok ? Math.min(4, s.b + 1) : 0; s.due = Date.now() + INTERVAL[s.b] * DAY; S.cards[cur.id] = s; save(); next(); }
+  $('#fc-show', root).onclick = function(){ var b = $('#fc .back', root); if (b) b.hidden = !b.hidden; };
+  $('#fc-ok', root).onclick = function(){ mark(true); }; $('#fc-no', root).onclick = function(){ mark(false); };
+  $('#fc-part', root).onchange = function(){ part = this.value; next(); };
+  next();
+}
+
+// ---------- 질문 바 (AI로 연결) ----------
+function askUrl(svc, text){
+  var cat = (document.body.getAttribute('data-cat') || '기타');
+  var prompt = '저는 한국 안경사 국가시험을 준비하는 학생입니다. [' + cat + '] 쉬운 말로, 근거(이론·공식·법조문)와 함께 설명해 주세요: ' + text;
+  return (svc === 'gpt' ? 'https://chatgpt.com/?q=' : 'https://grok.com/?q=') + encodeURIComponent(prompt);
+}
+function mountAsk(){
+  var f = $('#askform'); if (!f) return;
+  function go(svc){ var t = $('#askq').value.trim(); if (!t){ $('#askq').focus(); return; } window.open(askUrl(svc, t), '_blank', 'noopener'); }
+  f.addEventListener('submit', function(e){ e.preventDefault(); go('grok'); });
+  var alt = $('#askalt'); if (alt) alt.addEventListener('click', function(){ go('gpt'); });
+  $$('.bigbtns button').forEach(function(b){ b.addEventListener('click', function(){ document.body.setAttribute('data-cat', b.textContent); $$('.bigbtns button').forEach(function(x){ x.classList.toggle('on', x === b); }); var q = $('#askq'); q.placeholder = '[' + b.textContent + '] 궁금한 걸 적어 주세요'; q.focus(); }); });
+}
+
+// ---------- 홈: D-day, 오늘, 진행 ----------
+function mountHome(){
+  var ex = new Date(D.examDate + 'T09:00:00+09:00'), now = new Date();
+  var dd = Math.ceil((ex - now) / 86400000), e = $('#dday'); if (e) e.textContent = dd > 0 ? 'D-' + dd : (dd === 0 ? 'D-DAY' : '시험 종료');
+  var start = new Date('2026-11-10T00:00:00+09:00'), k = Math.floor((now - start) / 86400000);
+  var t = $('#today');
+  if (t){
+    if (k < 0) t.innerHTML = '11월 10일에 D1부터 시작해요.';
+    else if (k < 21){ var d = (k % 10) + 1; t.innerHTML = '오늘은 <b>' + (k < 10 ? '1회차' : (k < 20 ? '2회차' : '마무리')) + ' D' + d + '</b> → <a data-l="d' + (d < 10 ? '0' + d : d) + '.html">오늘 할 일 열기</a>'; }
+    else if (dd > 0) t.innerHTML = '지금은 <b>복습 기간</b>이에요 → <a data-l="quiz.html#mode=weak">약한 부분 훈련</a> · <a data-l="quiz.html#mode=mock">모의고사</a>';
+    else t.innerHTML = '시험이 끝났어요. 수고했어요!';
+  }
+  $$('[data-day]').forEach(function(a){ if (S.days[a.getAttribute('data-day')]) a.classList.add('done'); });
+  var n = 0, r = 0; Object.keys(S.q).forEach(function(k){ n++; if (S.q[k].last) r++; });
+  var st = $('#stats'); if (st){ var w = weakList().slice(0, 3); st.innerHTML = '푼 문제 ' + n + '개 · 최근 정답 ' + r + '개' + (n ? ' (' + Math.round(r / n * 100) + '%)' : '') + (w.length ? '<br>약한 실수 종류: ' + w.map(function(x){ return mtName(x.k) + ' ' + Math.round(x.rate * 100) + '%'; }).join(', ') : ''); }
+  fixLinks(t);
+}
+function mountDayDone(){
+  var c = $('#daydone'); if (!c) return; var k = c.getAttribute('data-d');
+  c.checked = !!S.days[k]; c.addEventListener('change', function(){ S.days[k] = c.checked ? Date.now() : 0; save(); });
+}
+// ---------- 해시 → 섹션 이동 ----------
+function scrollHash(){
+  var h = decodeURIComponent(location.hash.slice(1)); if (!h || h.indexOf('=') >= 0) return;
+  var el = document.getElementById(h); if (el) setTimeout(function(){ el.scrollIntoView(); }, 60);
+}
+// ---------- QA 훅 (#qa 일 때만) ----------
+function qa(){
+  if (location.hash.indexOf('qa') < 0) return;
+  var W = document.documentElement.clientWidth, over = [];
+  $$('body *').forEach(function(el){ var r = el.getBoundingClientRect(); if (r.width > 0 && (r.right > W + 1 || r.left < -1) && !el.closest('.tblw') && !el.closest('nav.tabs') && getComputedStyle(el).position !== 'fixed') over.push(el.tagName + '.' + el.className); });
+  var b = $('.q .opt'), clicked = 'none';
+  if (b){ b.click(); var d = b.closest('.q').querySelector('.diag'); clicked = d && !d.hidden ? 'ok' : 'fail'; var s = d && d.querySelector('.sim'); if (s){ s.click(); clicked += (d.querySelector('.simbox .q') ? '+sim' : '+nosim'); } }
+  document.body.setAttribute('data-qa', JSON.stringify({w:W, sw:document.documentElement.scrollWidth, over:over.slice(0, 10), click:clicked, qn:$$('.q').length}));
+}
+document.addEventListener('DOMContentLoaded', function(){
+  fixLinks();
+  var on = $('nav.tabs a.on'); if (on) on.parentNode.scrollLeft = Math.max(0, on.offsetLeft - 60);
+  $$('[data-set]').forEach(mountSet);
+  var qz = $('#quizapp'); if (qz) mountQuiz(qz);
+  var fc = $('#cardapp'); if (fc) mountCards(fc);
+  mountAsk(); mountDayDone();
+  if (D.page === 'home' || D.offline) mountHome();
+  scrollHash(); window.addEventListener('hashchange', scrollHash);
+  setTimeout(qa, 300);
+});
+})();
+</script><script>
+(function(){
+function $(i){return document.getElementById(i)}
+function f2(x){var s=(Math.abs(x)<0.005?0:x).toFixed(2);return (x>0.004?'+':(x<-0.004?'−':''))+s.replace('-','')}
+if($('lab-focus')){var A=$('lf-a'),Lz=$('lf-l');function uf(){var a=+A.value,l=+Lz.value,r=a-l;$('lf-av').textContent=f2(a);$('lf-lv').textContent=f2(l);
+var x=300+r*14;x=Math.max(170,Math.min(332,x));var pt=$('lf-pt');pt.setAttribute('cx',x);
+var g=$('lf-rays');var ys=[45,60,90,105],h='';ys.forEach(function(y){h+='<path d="M0,'+y+' L65,'+y+' L145,'+(y+(75-y)*0.18)+' L'+x+',75'+(x<300?' L300,'+(75+(75-(y+(75-y)*0.18))*-(300-x)/(x-145)):'')+'"/>'});g.innerHTML=h;
+$('lf-lens').setAttribute('fill',l<0?'#ffe3c7':(l>0?'#cfe3ff':'#eef1f5'));
+var msg=Math.abs(r)<0.13?'<b style="color:#1b7a43">초점이 망막 위 → 선명(완전교정)</b>':(r<0?'초점이 망막 <b>앞</b> (근시 상태, 잔여 '+f2(r)+' D) → 먼 곳이 흐림. 마이너스를 '+f2(-r).replace('+','')+' D 더 필요':'초점이 망막 <b>뒤</b> (원시 상태, 잔여 '+f2(r)+' D) → 조절해야 선명. '+(a<0&&l<a?'<b style="color:#c0392b">근시 과교정(과마이너스)</b>':'플러스가 '+f2(r).replace('+','')+' D 더 필요'));
+$('lf-out').innerHTML='잔여 굴절이상 = '+f2(a)+' − ('+f2(l)+') = <b>'+f2(r)+' D</b><br>'+msg}A.oninput=uf;Lz.oninput=uf;uf()}
+if($('lab-rx')){function ur(){var s=parseFloat($('rx-s').value)||0,c=parseFloat($('rx-c').value)||0,ax=parseInt($('rx-a').value)||180,note='';
+if(c>0){s=s+c;c=-c;ax=ax>90?ax-90:ax+90;note='마이너스 원주로 변환: <b>'+f2(s)+' '+f2(c)+' × '+ax+'</b><br>'}
+ax=((ax%180)+180)%180;if(ax===0)ax=180;var m1=s,m2=s+c,o=ax>90?ax-90:ax+90,se=s+c/2,t;
+if(Math.abs(c)<0.01)t=s<0?'근시(난시 없음)':(s>0?'원시(난시 없음)':'정시');else if(m1<=0&&m2<=0)t=(Math.abs(m1)<0.01||Math.abs(m2)<0.01?'단순':'복합')+' 근시성 난시';else if(m1>=0&&m2>=0)t=(Math.abs(m1)<0.01||Math.abs(m2)<0.01?'단순':'복합')+' 원시성 난시';else t='혼합난시';
+var k=Math.abs(c)<0.01?'':((ax<=30||ax>=150)?'직난시(축 180±30)':((ax>=60&&ax<=120)?'도난시(축 90±30)':'사난시'));
+$('rx-out').innerHTML=note+'축 '+ax+'° 경선 = <b>'+f2(m1)+' D</b>, '+o+'° 경선 = <b>'+f2(m2)+' D</b><br>구면등가 SE = <b>'+f2(se)+' D</b><br>판정: <b>'+t+'</b>'+(k?' · '+k:'')}
+['rx-s','rx-c','rx-a'].forEach(function(i){$(i).oninput=ur});ur()}
+if($('lab-add')){function ua(){var age=+$('ad-age').value||45,am=$('ad-amp').value,d=+$('ad-d').value||40;var avg=Math.max(0,18.5-0.3*age),mn=Math.max(0,15-0.25*age),amp=am===''?mn:+am;
+var add=1/(d/100)-amp/2;add=Math.max(0,Math.round(add*4)/4);var near=1/(add+amp)*100,far=add>0?100/add:Infinity;
+$('ad-out').innerHTML='Hofstetter: 최소 '+mn.toFixed(2)+' D · 평균 '+avg.toFixed(2)+' D<br>사용한 조절력 '+amp.toFixed(2)+' D, 작업거리 '+d+' cm → 필요 '+(100/d).toFixed(2)+' D<br>잠정 ADD = <b>'+f2(add)+' D</b><br>이 ADD의 이론적 선명 범위: 약 '+near.toFixed(0)+' cm ~ '+(isFinite(far)?far.toFixed(0)+' cm':'무한대')+' (조절력 전부 사용 시)'}
+['ad-age','ad-amp','ad-d'].forEach(function(i){$(i).oninput=ua});ua()}
+if($('lab-degr')){function ud(){var ad=+$('dg-add').value||0,dg=+$('dg-deg').value||0,r=ad-dg;$('dg-out').innerHTML='맨 위 남은 근용 도수 = '+f2(ad)+' − '+dg.toFixed(2)+' = <b>'+f2(r)+' D</b><br>'+(r<=0.01?'남은 도수가 0 이하 → 이론상 먼 곳까지(이 경우 일반 누진과 비슷)':'선명 한계 ≈ 1 ÷ '+r.toFixed(2)+' = <b>'+(1/r).toFixed(2)+' m</b> (그보다 먼 곳은 흐림 → 실내 전용)')}
+['dg-add','dg-deg'].forEach(function(i){$(i).oninput=ud});ud()}
+document.querySelectorAll('.gq').forEach(function(q){q.querySelectorAll('button.opt').forEach(function(b){b.addEventListener('click',function(){if(q.classList.contains('done'))return;var ok=b.getAttribute('data-ok')==='1';q.classList.add('done');
+q.querySelectorAll('button.opt').forEach(function(x){x.disabled=true;if(x.getAttribute('data-ok')==='1')x.classList.add('right')});if(!ok)b.classList.add('wrong');var d=q.querySelector('.diag');d.querySelector('.res').innerHTML=ok?'<span class="ok">정답이에요!</span>':'<span class="no">아쉬워요.</span> 정답은 초록색 보기예요.';
+var box=q.closest('.qzset');if(box){var n=box.querySelectorAll('.gq.done').length,r=box.querySelectorAll('.gq.done button.opt.right:not(.wrong)').length,w=box.querySelectorAll('.gq.done button.wrong').length;box.querySelector('.qz-score').textContent='푼 문제 '+n+' / '+box.querySelectorAll('.gq').length+' · 맞힌 문제 '+(n-w)}})})});
+var rs=document.querySelectorAll('.qz-reset');rs.forEach(function(b){b.onclick=function(){var box=b.closest('.qzset');box.querySelectorAll('.gq').forEach(function(q){q.classList.remove('done');q.querySelectorAll('button.opt').forEach(function(x){x.disabled=false;x.classList.remove('right','wrong')})});box.querySelector('.qz-score').textContent=''}});
+var gs=$('gsearch');if(gs){gs.oninput=function(){var v=gs.value.trim().toLowerCase();document.querySelectorAll('#gloss tbody tr').forEach(function(tr){tr.style.display=!v||tr.textContent.toLowerCase().indexOf(v)>=0?'':'none'})}}
+})();
+</script></body></html>

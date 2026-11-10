@@ -1,0 +1,486 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>4장 근시·원시·난시 구분(처방 읽기) · 검안 교재 · 안경사 국가시험 공부</title><meta name="description" content="안경원 시력검사·굴절검사 표준 업무 웹 교재 (직원 교육용)">
+<style>*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic","NanumGothic",sans-serif;font-size:17px;line-height:1.65;color:#1d2330;background:#f6f8fb;word-break:keep-all;overflow-wrap:anywhere;padding-bottom:96px}
+a{color:#1f5fbf}
+header.top{position:sticky;top:0;z-index:20;background:#1f3a5f;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+header.top .in{max-width:760px;margin:0 auto;padding:8px 12px;display:flex;align-items:center;gap:8px}
+header.top .ttl{font-weight:700;font-size:16px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;max-width:760px;margin:0 auto;padding:0 8px 8px;scrollbar-width:none}
+nav.tabs a{flex:0 0 auto;color:#fff;text-decoration:none;font-size:14px;padding:6px 11px;border-radius:16px;background:rgba(255,255,255,.14)}
+nav.tabs a.on{background:#e07b00}
+main{max-width:760px;margin:0 auto;padding:12px}
+h1{font-size:1.45em;line-height:1.35;margin:.4em 0 .3em;color:#1f3a5f}
+h2{font-size:1.2em;line-height:1.4;margin:1.4em 0 .5em;color:#1f3a5f;border-left:5px solid #1f3a5f;padding-left:8px}
+h3{font-size:1.05em;margin:1em 0 .4em}
+.card{background:#fff;border-radius:14px;padding:14px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.core{background:#fff8ec;border:2px solid #e07b00;border-radius:14px;padding:12px 14px;margin:12px 0}
+.core h2{border:0;padding:0;margin:.2em 0 .4em;color:#b35f00}
+.core ol{margin:0;padding-left:1.3em}
+.box{border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95em}
+.box b:first-child{display:inline-block;margin-right:6px}
+.box.term{background:#eef5ff;border-left:5px solid #2a6fdb}
+.box.bg{background:#f1f3f6;border-left:5px solid #777}
+.box.must{background:#fff1de;border-left:5px solid #e07b00}
+.box.must b:first-child{color:#b35f00}
+.box.star{background:#fffbe6;border-left:5px solid #d4a400}
+.box.err{background:#fdeeee;border-left:5px solid #c0392b}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.two>div{background:#fff;border:2px solid #1f3a5f;border-radius:10px;padding:8px 10px;font-size:.92em}
+.two>div:last-child{border-color:#e07b00}
+@media (max-width:380px){.two{grid-template-columns:1fr}}
+.case{background:#fff;border:1px solid #d7deea;border-radius:10px;padding:10px;margin:10px 0}
+.tblw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.tbl{border-collapse:collapse;width:100%;font-size:.88em;margin:8px 0;background:#fff}
+table.tbl th,table.tbl td{border:1px solid #cfd8e6;padding:6px 7px;vertical-align:top;text-align:left}
+table.tbl th{background:#e9eff8}
+svg.fig{display:block;width:100%;max-width:520px;height:auto;margin:10px auto;background:#fff;border-radius:10px}
+.sec{background:#fff;border-radius:14px;padding:4px 14px 12px;margin:14px 0;box-shadow:0 1px 3px rgba(20,40,80,.08);scroll-margin-top:96px}
+.sec h2{margin-top:.8em}
+.meta{font-size:.8em;color:#556}
+.stars{color:#d48a00;letter-spacing:1px}
+.tier{display:inline-block;font-size:.75em;padding:1px 8px;border-radius:10px;color:#fff;vertical-align:middle}
+.t-기본{background:#1b7a43}.t-응용{background:#2a6fdb}.t-심화{background:#7b3fb5}
+.tag{display:inline-block;font-size:.72em;padding:1px 7px;border-radius:10px;border:1px solid;vertical-align:middle}
+.tag.ok{color:#a3460a;border-color:#e07b00;background:#fff4e6}.tag.est{color:#445;border-color:#99a;background:#f4f5f8}
+.note{font-size:.9em;color:#556}.src{font-size:.78em;color:#667;word-break:break-all}
+.btn,button.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 14px;border-radius:10px;border:0;background:#1f3a5f;color:#fff;font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;margin:4px 4px 4px 0}
+.btn.o{background:#e07b00}.btn.g{background:#1b7a43}.btn.l{background:#e9eff8;color:#1f3a5f}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.grid a.tile{display:block;background:#fff;border:2px solid #d7deea;border-radius:12px;padding:10px;text-decoration:none;color:#1d2330;min-height:64px}
+.grid a.tile b{display:block;color:#1f3a5f}
+.grid a.tile.done{border-color:#1b7a43;background:#effaf2}
+.q{background:#fff;border-radius:14px;padding:12px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.1)}
+.qh{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+.qh .num{font-weight:700;color:#1f3a5f}
+.qh .mtl{font-size:.72em;color:#667}
+.qt{font-weight:600;margin-bottom:8px}
+button.opt{display:block;width:100%;text-align:left;background:#f4f7fb;border:2px solid #d7deea;border-radius:10px;padding:10px 12px;margin:6px 0;font-size:16px;line-height:1.45;color:#1d2330;cursor:pointer;min-height:44px;font-family:inherit}
+button.opt:disabled{cursor:default;color:#1d2330}
+button.opt.right{background:#e6f6ea;border-color:#1b7a43}
+button.opt.wrong{background:#fdeaea;border-color:#c0392b}
+button.opt.pick{background:#eef5ff;border-color:#2a6fdb}
+.diag{margin-top:8px;border-top:1px dashed #ccd;padding-top:8px;font-size:.94em}
+.diag .ok{color:#1b7a43;font-weight:700}.diag .no{color:#c0392b;font-weight:700}
+.diag details{margin:6px 0}.diag summary{cursor:pointer;color:#1f5fbf}
+.simbox{border-left:4px solid #e07b00;padding-left:8px;margin-top:8px}
+.ctrl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ctrl select{font-size:15px;min-height:44px;border-radius:10px;border:1px solid #bcc7d8;padding:6px 8px;max-width:100%;background:#fff}
+.chip{border:2px solid #1f3a5f;background:#fff;color:#1f3a5f;border-radius:18px;padding:6px 12px;min-height:40px;font-size:14px;font-weight:700;cursor:pointer}
+.chip.on{background:#1f3a5f;color:#fff}
+.askbar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid #d7deea;box-shadow:0 -2px 8px rgba(0,0,0,.08)}
+.askbar form{max-width:760px;margin:0 auto;display:flex;gap:6px;padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
+.askbar input{flex:1;min-width:0;font-size:16px;border:1px solid #bcc7d8;border-radius:10px;padding:10px}
+.askbar button{min-height:44px;border:0;border-radius:10px;background:#e07b00;color:#fff;font-weight:700;padding:0 12px;font-size:15px}
+.askbar .alt{background:#e9eff8;color:#1f3a5f;padding:0 8px;font-size:13px}
+.bigbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bigbtns button{min-height:64px;font-size:17px;font-weight:700;border-radius:14px;border:2px solid #1f3a5f;background:#fff;color:#1f3a5f}
+.bigbtns button.on{background:#1f3a5f;color:#fff}
+.flash{background:#fff;border-radius:16px;min-height:200px;padding:18px;box-shadow:0 2px 8px rgba(20,40,80,.12);font-size:1.05em}
+.flash .front{font-weight:700;font-size:1.1em;color:#1f3a5f}
+.flash .back{margin-top:12px;border-top:1px dashed #ccd;padding-top:12px}
+.boxes{display:flex;gap:6px;flex-wrap:wrap;font-size:.85em}
+.boxes span{background:#e9eff8;border-radius:8px;padding:3px 8px}
+.dis{background:#fff;border-radius:14px;padding:12px;margin:12px 0;box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.dis img{width:100%;max-width:520px;height:auto;border-radius:10px;display:block;margin:6px auto}
+.dis dl{margin:6px 0}.dis dt{font-weight:700;color:#1f3a5f}.dis dd{margin:0 0 6px 0}
+.cap{font-size:.75em;color:#556;word-break:break-all}
+.link1{background:#effaf2;border-left:5px solid #1b7a43;padding:8px 10px;border-radius:8px;font-size:.93em}
+.ref{display:grid;gap:8px}.ref div{border-radius:10px;padding:8px 10px;color:#fff}
+.dday{font-size:1.6em;font-weight:800;color:#c0392b}
+.progress{height:10px;background:#e3e8f0;border-radius:6px;overflow:hidden}.progress i{display:block;height:100%;background:#1b7a43}
+.hide{display:none!important}
+footer{max-width:760px;margin:20px auto;padding:0 12px;font-size:.8em;color:#667}
+
+figure.gf{margin:14px 0;padding:6px 4px 8px;background:#fff;border:1px solid #e3e8f0;border-radius:12px}
+figure.gf svg.fig{max-width:640px;margin:4px auto}
+figure.gf figcaption{font-size:.84em;color:#3a4456;text-align:center;padding:0 6px;line-height:1.5}
+figure.gf figcaption b{color:#1f3a5f}
+.gnav{display:flex;gap:6px;align-items:stretch;margin:8px 0}
+.gnav a{flex:1;min-height:44px;display:flex;align-items:center;justify-content:center;text-align:center;background:#e9eff8;color:#1f3a5f;border-radius:10px;text-decoration:none;font-size:14px;font-weight:700;padding:6px 8px;line-height:1.3}
+.gnav a.mid{flex:0 0 auto;background:#1f3a5f;color:#fff}
+.gnav span{flex:1}
+.lbl{font-size:.98em;color:#1f3a5f;margin:1em 0 .3em;padding:2px 8px;background:#eef3fa;border-radius:6px;display:inline-block}
+ul.chk{list-style:none;padding-left:0;margin:6px 0}
+ul.chk li{border-bottom:1px dashed #dde3ec;padding:6px 2px}
+ul.chk label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+ul.chk input{width:20px;height:20px;flex:0 0 auto;margin-top:3px}
+ul.chk .rm{font-size:.82em;color:#667;margin-left:28px}
+details.qa{background:#fff;border:1px solid #d7deea;border-radius:10px;padding:8px 12px;margin:8px 0}
+details.qa summary{cursor:pointer;font-weight:700;color:#1f3a5f;min-height:32px}
+details.qa[open] summary{margin-bottom:6px}
+sup.rf{font-size:.7em}sup.rf a{text-decoration:none}
+.chkt{font-weight:700;color:#1b7a43;margin-top:10px}
+.gq .diag{display:none}.gq.done .diag{display:block}
+.qz-score{font-weight:700;color:#1f3a5f}
+.cover{background:linear-gradient(135deg,#1f3a5f,#2a5a8f);color:#fff;border-radius:16px;padding:16px;margin:12px 0}
+.cover h1{color:#fff;margin:.1em 0 .2em}.cover p{margin:.2em 0}
+.cover img{width:100%;height:auto;border-radius:12px;display:block;margin:10px 0 4px}
+.cover .cap{color:#dbe6f5}
+.toc a.tile small{display:block;color:#556;font-size:.8em}
+.toc a.tile.new{border-color:#e07b00}
+.newb{display:inline-block;font-size:.7em;background:#e07b00;color:#fff;border-radius:8px;padding:0 6px;margin-left:4px;vertical-align:middle}
+.lab{background:#f7fafd;border:2px dashed #2a6fdb;border-radius:12px;padding:10px 12px;margin:12px 0}
+.lab h3{margin-top:.2em;color:#2a6fdb}
+.lab label{display:block;font-size:.92em;margin:6px 0 2px}
+.lab input[type=range]{width:100%}
+.lab input[type=number],.lab select{font-size:16px;min-height:40px;border:1px solid #bcc7d8;border-radius:8px;padding:4px 8px;width:7.5em;max-width:100%}
+.lab .out{background:#fff;border-radius:8px;padding:8px 10px;margin-top:8px;font-size:.95em;border:1px solid #d7deea}
+.lab .row{display:flex;flex-wrap:wrap;gap:10px}
+.lab .row>div{flex:1 1 90px}
+#gsearch{width:100%;font-size:16px;min-height:44px;border:1px solid #bcc7d8;border-radius:10px;padding:8px 10px}
+ol.refs li{margin:6px 0;font-size:.9em}ol.refs li:target{background:#fff4e6}
+.tag.add{color:#1b7a43;border-color:#1b7a43;background:#effaf2}
+</style></head><body data-cat="검안 실무"><header class="top"><div class="in"><span class="ttl">4장 근시·원시·난시 구분(처방 읽기)</span></div><nav class="tabs"><a data-l="index.html" href="index.html">홈</a><a data-l="d01.html" href="d01.html">10일</a><a data-l="p1.html" href="p1.html">1 구조</a><a data-l="p2.html" href="p2.html">2 법규</a><a data-l="p3.html" href="p3.html">3 기하</a><a data-l="p4.html" href="p4.html">4 물리</a><a data-l="p5.html" href="p5.html">5 안경·프리즘</a><a data-l="p6.html" href="p6.html">6 CL·실기</a><a data-l="p7.html" href="p7.html">7 안과·양안시</a><a data-l="eye.html" href="eye.html">안질환</a><a data-l="g00.html" href="g00.html" class=on>검안교재</a><a data-l="quiz.html" href="quiz.html">퀴즈</a><a data-l="cards.html" href="cards.html">카드</a><a data-l="ask.html" href="ask.html">질문</a><a data-l="credits.html" href="credits.html">출처</a></nav></header>
+<main><nav class="gnav" aria-label="교재 이동"><a data-l="g06.html" href="g06.html">← 3-③ 양안시·처방</a><a data-l="g00.html" href="g00.html" class="mid">목차</a><a data-l="g08.html" href="g08.html">5 노안·조절 →</a></nav><p class="note" style="text-align:right;margin:4px 0"><a data-l="index.html" href="index.html">🏠 사이트 홈(안경사 국가시험 공부)</a></p><h1>4. 근시·원시·난시·혼합난시 구분 방법</h1><div class="core"><h2>핵심 포인트</h2><ol><li>축 경선 = S, 90° 경선 = S + C. 둘의 부호로 근시성/원시성/혼합 판정.</li><li>축 범위: 직 180±30, 도 90±30, 사 그 외(마이너스 원주 기준).</li><li>플러스 원주는 먼저 변환: 새 S = S + C, 새 C = −C, 축 ± 90.</li><li>SE가 0이어도 혼합난시는 흐리다.</li></ol></div><div class="card"><b>이 페이지 차례</b><ol><li><a href="#s4-1">4.1 처방 표기 읽는 법</a></li><li><a href="#s4-2">4.2 예시 처방 판별 표 (교육용 가상 값)</a></li><li><a href="#s4-3">4.3 증상 비교 표</a></li><li><a href="#quiz">자가 점검 퀴즈</a></li></ol></div><div class="box star"><b>핵심: 따로 검사하지 않는다</b><ul><li>근시·원시·난시는 별개 검사로 찾는 것이 아니라, 하나의 통합 굴절검사(타각적+자각적)로 얻은 처방값(S, C, Ax)에서 &#x27;읽어내는&#x27; 것입니다.</li><li>AOA도 굴절검사를 &#x27;근시·원시·난시를 보정하는 데 필요한 렌즈 도수를 결정하는 검사&#x27;로 설명합니다.</li></ul></div><section class="sec" id="s4-1"><h2>4.1 처방 표기 읽는 법</h2><div class="tblw"><table class="tbl"><thead><tr><th>표기</th><th>의미</th><th>읽는 법</th></tr></thead><tbody><tr><td>R / L (OD / OS)</td><td>오른눈 / 왼눈</td><td>OU = 양안</td></tr><tr><td>S (SPH, 구면도수)</td><td>모든 방향에 같은 굴절력</td><td>− = 근시 교정, + = 원시 교정, 0.00(PL, 플라노) = 구면 이상 없음</td></tr><tr><td>C (CYL, 원주도수)</td><td>특정 방향(경선)에만 작용하는 도수 = 난시 교정량</td><td>한국 안경원은 주로 마이너스(−) 원주 표기. 크기가 클수록 난시가 큼</td></tr><tr><td>Ax (AXIS, 축)</td><td>원주렌즈의 축 방향(0~180°)</td><td>도수가 &#x27;없는&#x27; 방향. 원주 굴절력은 축과 90° 방향에 작용</td></tr><tr><td>ADD (가입도)</td><td>근거리용으로 원용 도수에 더하는 플러스</td><td>노안 교정. 항상 +로 표기</td></tr><tr><td>Prism / Base</td><td>프리즘 양(Δ)과 기저 방향</td><td>BI(안쪽)/BO(바깥)/BU(위)/BD(아래)</td></tr><tr><td>PD</td><td>동공간거리(mm)</td><td>원용/근용, 단안 PD</td></tr></tbody></table></div><figure class="gf" id="fig4-1"><svg class="fig" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="처방전 읽는 법: 예시 처방의 각 칸 의미" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><rect x="12.0" y="40.0" width="40.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="32.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" ></text><rect x="52.0" y="40.0" width="68.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="86.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" >S(구면)</text><rect x="120.0" y="40.0" width="68.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="154.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" >C(원주)</text><rect x="188.0" y="40.0" width="60.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="218.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" >AX(축)</text><rect x="248.0" y="40.0" width="58.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="277.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" >ADD</text><rect x="306.0" y="40.0" width="58.0" height="34.0" rx="0" fill="#e9eff8" stroke="#9fb0c8" stroke-width="1" /><text x="335.0" y="62.0" font-size="11.5" fill="#111" text-anchor="middle" font-weight="bold" >PD</text><rect x="12.0" y="74.0" width="40.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="32.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="bold" >R</text><rect x="52.0" y="74.0" width="68.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="86.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >−2.25</text><rect x="120.0" y="74.0" width="68.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="154.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >−0.75</text><rect x="188.0" y="74.0" width="60.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="218.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >180</text><rect x="248.0" y="74.0" width="58.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="277.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >+1.50</text><rect x="306.0" y="74.0" width="58.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="335.0" y="96.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >32.0</text><rect x="12.0" y="108.0" width="40.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="32.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="bold" >L</text><rect x="52.0" y="108.0" width="68.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="86.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >−2.00</text><rect x="120.0" y="108.0" width="68.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="154.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >−1.00</text><rect x="188.0" y="108.0" width="60.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="218.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >170</text><rect x="248.0" y="108.0" width="58.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="277.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >+1.50</text><rect x="306.0" y="108.0" width="58.0" height="34.0" rx="0" fill="#fff" stroke="#9fb0c8" stroke-width="1" /><text x="335.0" y="130.0" font-size="12.5" fill="#111" text-anchor="middle" font-weight="normal" >31.5</text><text x="200.0" y="24.0" font-size="13" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >예시 처방(교육용 가상 값)</text><text x="32.0" y="164.0" font-size="13" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >①</text><text x="86.0" y="164.0" font-size="13" fill="#2a6fdb" text-anchor="middle" font-weight="bold" >②</text><text x="154.0" y="164.0" font-size="13" fill="#7b3fb5" text-anchor="middle" font-weight="bold" >③</text><text x="218.0" y="164.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="bold" >④</text><text x="277.0" y="164.0" font-size="13" fill="#e07b00" text-anchor="middle" font-weight="bold" >⑤</text><text x="335.0" y="164.0" font-size="13" fill="#1b7a43" text-anchor="middle" font-weight="bold" >⑥</text><text x="40.0" y="196.0" font-size="11.5" fill="#1f3a5f" text-anchor="start" font-weight="normal" >① R/L = 오른눈/왼눈 (OD/OS)</text><text x="40.0" y="213.0" font-size="11.5" fill="#2a6fdb" text-anchor="start" font-weight="normal" >② S: − 근시 교정 / + 원시 교정</text><text x="40.0" y="230.0" font-size="11.5" fill="#7b3fb5" text-anchor="start" font-weight="normal" >③ C: 난시 교정량(한국은 주로 − 표기)</text><text x="40.0" y="247.0" font-size="11.5" fill="#c0392b" text-anchor="start" font-weight="normal" >④ AX: 원주 방향 0~180° (도수 없는 방향)</text><text x="40.0" y="264.0" font-size="11.5" fill="#e07b00" text-anchor="start" font-weight="normal" >⑤ ADD: 근용으로 더하는 + 도수</text><text x="40.0" y="281.0" font-size="11.5" fill="#1b7a43" text-anchor="start" font-weight="normal" >⑥ PD: 단안 동공간거리(mm)</text></svg><figcaption><b>그림 4-1.</b> 처방전 읽는 법: 예시 처방의 각 칸 의미</figcaption></figure><h3>두 주경선 도수로 바꾸어 생각하기 (가장 확실한 판별법)</h3><p>마이너스 원주 표기 <b>S / C × Ax</b>에서 두 주경선의 도수는 다음과 같습니다.</p><ul><li><b>축 방향 경선의 도수 = S</b></li><li><b>축과 90° 방향 경선의 도수 = S + C</b></li><li>두 값이 <b>모두 0 이하(−)</b> → 근시성 난시 (하나가 0이면 &#x27;단순&#x27;, 둘 다 −이면 &#x27;복합(복성)&#x27;)</li><li>두 값이 <b>모두 0 이상(+)</b> → 원시성 난시 (하나가 0이면 &#x27;단순&#x27;, 둘 다 +이면 &#x27;복합&#x27;)</li><li>두 값의 <b>부호가 서로 다름(+와 −)</b> → <b>혼합난시</b></li><li>C = 0 → 난시 없음: S가 −면 근시, +면 원시</li></ul><figure class="gf" id="fig4-2"><svg class="fig" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="마이너스 원주 처방을 두 주경선 도수로 바꾸기(파워 크로스)" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><text x="200.0" y="22.0" font-size="14" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >S −2.00  C −1.00 × 90</text><line x1="110.0" y1="60.0" x2="110.0" y2="220.0" stroke="#2a6fdb" stroke-width="4" /><line x1="30.0" y1="140.0" x2="190.0" y2="140.0" stroke="#c0392b" stroke-width="4" /><text x="110.0" y="54.0" font-size="11" fill="#2a6fdb" text-anchor="middle" font-weight="normal" >90° 경선(축)</text><text x="118.0" y="82.0" font-size="12" fill="#2a6fdb" text-anchor="start" font-weight="bold" >−2.00 = S</text><text x="194.0" y="132.0" font-size="11" fill="#c0392b" text-anchor="start" font-weight="normal" >180° 경선</text><text x="194.0" y="154.0" font-size="12" fill="#c0392b" text-anchor="start" font-weight="bold" >−3.00</text><text x="194.0" y="170.0" font-size="11" fill="#c0392b" text-anchor="start" font-weight="normal" >= S + C</text><rect x="236.0" y="60.0" width="156.0" height="170.0" rx="10" fill="#fff8ec" stroke="#e07b00" stroke-width="1.2" /><text x="314.0" y="82.0" font-size="12.5" fill="#e07b00" text-anchor="middle" font-weight="bold" >판정 순서</text><text x="246.0" y="106.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >축 방향 경선 = S</text><text x="246.0" y="126.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >축 + 90° 경선 = S + C</text><text x="246.0" y="146.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >둘 다 − → 근시성 난시</text><text x="246.0" y="166.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >둘 다 + → 원시성 난시</text><text x="246.0" y="186.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >부호가 다름 → 혼합난시</text><text x="246.0" y="206.0" font-size="11.5" fill="#333" text-anchor="start" font-weight="normal" >하나가 0 → '단순'</text><text x="160.0" y="250.0" font-size="11.5" fill="#1f3a5f" text-anchor="middle" font-weight="normal" >→ 이 예: 둘 다 − = 복합(복성) 근시성 난시, 축 90° = 도난시</text></svg><figcaption><b>그림 4-2.</b> 마이너스 원주 처방을 두 주경선 도수로 바꾸기(파워 크로스)</figcaption></figure><h3>난시 축에 따른 분류 (마이너스 원주 기준)</h3><div class="tblw"><table class="tbl"><thead><tr><th>분류</th><th>마이너스 원주 축 범위</th><th>의미</th><th>참고</th></tr></thead><tbody><tr><td>직난시 (WTR, with-the-rule)</td><td>180° ± 30° (0~30°, 150~180°)</td><td>수직 경선의 굴절력이 더 강함</td><td>젊은 층에 흔하다고 알려짐</td></tr><tr><td>도난시 (ATR, against-the-rule)</td><td>90° ± 30° (60~120°)</td><td>수평 경선의 굴절력이 더 강함</td><td>나이가 들며 증가 경향</td></tr><tr><td>사난시 (oblique)</td><td>31~59°, 121~149°</td><td>주경선이 비스듬함</td><td>적응이 상대적으로 어려울 수 있어 착용 테스트 중요</td></tr></tbody></table></div><figure class="gf" id="fig4-3"><svg class="fig" viewBox="0 0 380 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="마이너스 원주 축 범위로 보는 직난시·도난시·사난시" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><path d="M190,190 L340.0,190.0 A150,150 0 0 0 319.9,115.0 Z" stroke="#fff" fill="#1b7a43" stroke-width="1" fill-opacity=".85" stroke-width="1"/><path d="M190,190 L340.0,190.0 A150,150 0 0 0 319.9,115.0 Z" fill="#1b7a43" fill-opacity=".25" stroke="none"/><path d="M190,190 L60.1,115.0 A150,150 0 0 0 40.0,190.0 Z" stroke="#fff" fill="#1b7a43" stroke-width="1" fill-opacity=".85" stroke-width="1"/><path d="M190,190 L60.1,115.0 A150,150 0 0 0 40.0,190.0 Z" fill="#1b7a43" fill-opacity=".25" stroke="none"/><path d="M190,190 L265.0,60.1 A150,150 0 0 0 115.0,60.1 Z" stroke="#fff" fill="#e07b00" stroke-width="1" fill-opacity=".85" stroke-width="1"/><path d="M190,190 L265.0,60.1 A150,150 0 0 0 115.0,60.1 Z" fill="#e07b00" fill-opacity=".25" stroke="none"/><path d="M190,190 L319.9,115.0 A150,150 0 0 0 265.0,60.1 Z" stroke="#fff" fill="#7b3fb5" stroke-width="1" fill-opacity=".85" stroke-width="1"/><path d="M190,190 L319.9,115.0 A150,150 0 0 0 265.0,60.1 Z" fill="#7b3fb5" fill-opacity=".25" stroke="none"/><path d="M190,190 L115.0,60.1 A150,150 0 0 0 60.1,115.0 Z" stroke="#fff" fill="#7b3fb5" stroke-width="1" fill-opacity=".85" stroke-width="1"/><path d="M190,190 L115.0,60.1 A150,150 0 0 0 60.1,115.0 Z" fill="#7b3fb5" fill-opacity=".25" stroke="none"/><text x="352.0" y="194.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >0°</text><text x="330.3" y="113.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >30°</text><text x="271.0" y="53.7" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >60°</text><text x="190.0" y="32.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >90°</text><text x="109.0" y="53.7" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >120°</text><text x="49.7" y="113.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >150°</text><text x="28.0" y="194.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >180°</text><text x="290.0" y="170.0" font-size="12" fill="#1b7a43" text-anchor="middle" font-weight="bold" >직난시</text><text x="90.0" y="170.0" font-size="12" fill="#1b7a43" text-anchor="middle" font-weight="bold" >직난시</text><text x="190.0" y="90.0" font-size="12" fill="#e07b00" text-anchor="middle" font-weight="bold" >도난시</text><text x="270.0" y="100.0" font-size="11.5" fill="#7b3fb5" text-anchor="middle" font-weight="bold" >사난시</text><text x="110.0" y="100.0" font-size="11.5" fill="#7b3fb5" text-anchor="middle" font-weight="bold" >사난시</text><text x="190.0" y="218.0" font-size="11" fill="#333" text-anchor="middle" font-weight="normal" >직 180±30 · 도 90±30 · 사 31~59, 121~149</text></svg><figcaption><b>그림 4-3.</b> 마이너스 원주 축 범위로 보는 직난시·도난시·사난시</figcaption></figure><figure class="gf" id="fig4-4"><svg class="fig" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TABO 각도 표기: 검사자가 고객을 마주 볼 때 두 눈 모두 오른쪽이 0°, 반시계 방향" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs><marker id="g29c0392b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="g29e07b00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e07b00"/></marker></defs><path d="M28,140 A72,72 0 0 1 172,140" stroke="#1f3a5f" fill="#f7f9fc" stroke-width="2" /><line x1="28.0" y1="140.0" x2="172.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.5" /><line x1="172.0" y1="140.0" x2="164.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="184.0" y="144.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >0</text><line x1="169.5" y1="121.4" x2="165.7" y2="122.4" stroke="#1f3a5f" stroke-width="1.2" /><line x1="162.4" y1="104.0" x2="158.9" y2="106.0" stroke="#1f3a5f" stroke-width="1.2" /><line x1="150.9" y1="89.1" x2="145.3" y2="94.7" stroke="#1f3a5f" stroke-width="1.2" /><text x="159.4" y="84.6" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >45</text><line x1="136.0" y1="77.6" x2="134.0" y2="81.1" stroke="#1f3a5f" stroke-width="1.2" /><line x1="118.6" y1="70.5" x2="117.6" y2="74.3" stroke="#1f3a5f" stroke-width="1.2" /><line x1="100.0" y1="68.0" x2="100.0" y2="76.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="100.0" y="60.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >90</text><line x1="81.4" y1="70.5" x2="82.4" y2="74.3" stroke="#1f3a5f" stroke-width="1.2" /><line x1="64.0" y1="77.6" x2="66.0" y2="81.1" stroke="#1f3a5f" stroke-width="1.2" /><line x1="49.1" y1="89.1" x2="54.7" y2="94.7" stroke="#1f3a5f" stroke-width="1.2" /><text x="40.6" y="84.6" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >135</text><line x1="37.6" y1="104.0" x2="41.1" y2="106.0" stroke="#1f3a5f" stroke-width="1.2" /><line x1="30.5" y1="121.4" x2="34.3" y2="122.4" stroke="#1f3a5f" stroke-width="1.2" /><line x1="28.0" y1="140.0" x2="36.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="16.0" y="144.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >180</text><circle cx="100.0" cy="140.0" r="16.0" fill="#5b3a1e" stroke="#3b2410" stroke-width="1" /><circle cx="100.0" cy="140.0" r="6.0" fill="#111" stroke="#111" stroke-width="0" /><line x1="100.0" y1="140.0" x2="143.8" y2="96.2" stroke="#c0392b" stroke-width="2.5" marker-end="url(#g29c0392b)" /><text x="100.0" y="180.0" font-size="12.5" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >고객 오른눈(R)</text><text x="180.0" y="162.0" font-size="11" fill="#666" text-anchor="end" font-weight="normal" >코 쪽</text><text x="20.0" y="162.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" >귀 쪽</text><path d="M140,140 A40,40 0 0 0 130.6,114.3" stroke="#e07b00" fill="none" stroke-width="1.5" marker-end="url(#g29e07b00)" /><path d="M228,140 A72,72 0 0 1 372,140" stroke="#1f3a5f" fill="#f7f9fc" stroke-width="2" /><line x1="228.0" y1="140.0" x2="372.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.5" /><line x1="372.0" y1="140.0" x2="364.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="384.0" y="144.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >0</text><line x1="369.5" y1="121.4" x2="365.7" y2="122.4" stroke="#1f3a5f" stroke-width="1.2" /><line x1="362.4" y1="104.0" x2="358.9" y2="106.0" stroke="#1f3a5f" stroke-width="1.2" /><line x1="350.9" y1="89.1" x2="345.3" y2="94.7" stroke="#1f3a5f" stroke-width="1.2" /><text x="359.4" y="84.6" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >45</text><line x1="336.0" y1="77.6" x2="334.0" y2="81.1" stroke="#1f3a5f" stroke-width="1.2" /><line x1="318.6" y1="70.5" x2="317.6" y2="74.3" stroke="#1f3a5f" stroke-width="1.2" /><line x1="300.0" y1="68.0" x2="300.0" y2="76.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="300.0" y="60.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >90</text><line x1="281.4" y1="70.5" x2="282.4" y2="74.3" stroke="#1f3a5f" stroke-width="1.2" /><line x1="264.0" y1="77.6" x2="266.0" y2="81.1" stroke="#1f3a5f" stroke-width="1.2" /><line x1="249.1" y1="89.1" x2="254.7" y2="94.7" stroke="#1f3a5f" stroke-width="1.2" /><text x="240.6" y="84.6" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >135</text><line x1="237.6" y1="104.0" x2="241.1" y2="106.0" stroke="#1f3a5f" stroke-width="1.2" /><line x1="230.5" y1="121.4" x2="234.3" y2="122.4" stroke="#1f3a5f" stroke-width="1.2" /><line x1="228.0" y1="140.0" x2="236.0" y2="140.0" stroke="#1f3a5f" stroke-width="1.2" /><text x="216.0" y="144.0" font-size="11" fill="#333" text-anchor="middle" font-weight="bold" >180</text><circle cx="300.0" cy="140.0" r="16.0" fill="#5b3a1e" stroke="#3b2410" stroke-width="1" /><circle cx="300.0" cy="140.0" r="6.0" fill="#111" stroke="#111" stroke-width="0" /><line x1="300.0" y1="140.0" x2="343.8" y2="96.2" stroke="#c0392b" stroke-width="2.5" marker-end="url(#g29c0392b)" /><text x="300.0" y="180.0" font-size="12.5" fill="#1f3a5f" text-anchor="middle" font-weight="bold" >고객 왼눈(L)</text><text x="380.0" y="162.0" font-size="11" fill="#666" text-anchor="end" font-weight="normal" >귀 쪽</text><text x="220.0" y="162.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" >코 쪽</text><path d="M340,140 A40,40 0 0 0 330.6,114.3" stroke="#e07b00" fill="none" stroke-width="1.5" marker-end="url(#g29e07b00)" /><text x="200.0" y="22.0" font-size="12.5" fill="#333" text-anchor="middle" font-weight="bold" >검사자 시점(고객을 마주 봄)</text><text x="200.0" y="232.0" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="normal" >빨간 화살표 = 45° 축 · 두 눈 모두 같은 눈금(0~180°)</text></svg><figcaption><b>그림 4-4.</b> TABO 각도 표기: 검사자가 고객을 마주 볼 때 두 눈 모두 오른쪽이 0°, 반시계 방향</figcaption></figure><p class="note">※ 플러스 원주 표기에서는 축이 90° 바뀌므로 판정 전 반드시 마이너스 표기로 변환합니다. <b>변환(전치) 공식:</b> 새 S = S + C, 새 C = −C, 새 축 = 축 ± 90°. 예) +1.00 +2.00 × 90 → +3.00 −2.00 × 180.</p></section><section class="sec" id="s4-2"><h2>4.2 예시 처방 판별 표 (교육용 가상 값)</h2><div class="tblw"><table class="tbl"><thead><tr><th>예시 처방 (R)</th><th>축 경선</th><th>90° 경선 (S+C)</th><th>구면등가</th><th>판정</th><th>축 분류</th></tr></thead><tbody><tr><td>S −3.00</td><td>−3.00</td><td>−3.00</td><td>−3.00</td><td>근시 (난시 없음)</td><td>—</td></tr><tr><td>S +2.00</td><td>+2.00</td><td>+2.00</td><td>+2.00</td><td>원시 (난시 없음)</td><td>—</td></tr><tr><td>S 0.00 C −1.50 × 180</td><td>0.00</td><td>−1.50</td><td>−0.75</td><td>단순 근시성 난시</td><td>직난시</td></tr><tr><td>S −2.00 C −1.00 × 90</td><td>−2.00</td><td>−3.00</td><td>−2.50</td><td>복합(복성) 근시성 난시</td><td>도난시</td></tr><tr><td>S +1.00 C −1.00 × 180</td><td>+1.00</td><td>0.00</td><td>+0.50</td><td>단순 원시성 난시</td><td>직난시</td></tr><tr><td>S +2.50 C −0.75 × 45</td><td>+2.50</td><td>+1.75</td><td>+2.13(≈)</td><td>복합 원시성 난시</td><td>사난시</td></tr><tr><td>S +1.00 C −2.00 × 180</td><td>+1.00</td><td>−1.00</td><td>0.00</td><td>혼합난시</td><td>직난시</td></tr><tr><td>S −0.50 C −0.75 × 135</td><td>−0.50</td><td>−1.25</td><td>−0.88(≈)</td><td>복합 근시성 난시</td><td>사난시</td></tr></tbody></table></div><p class="note">※ 구면등가 0.00인 혼합난시는 &#x27;평균적으로는 0&#x27;이지만 실제로는 한 방향은 근시, 한 방향은 원시라서 흐림이 있습니다. 구면등가만 보고 &#x27;도수 없음&#x27;으로 판단하지 않습니다.</p><figure class="gf" id="fig4-5"><svg class="fig" viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="두 초선의 위치로 보는 난시 5종류(조절 휴식 상태)" font-family="'NG','Sym','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"><defs></defs><line x1="270.0" y1="24.0" x2="270.0" y2="300.0" stroke="#c0392b" stroke-width="2.5" opacity=".6"/><text x="10.0" y="44.0" font-size="12.5" fill="#2a6fdb" text-anchor="start" font-weight="bold" >복합 근시성 난시</text><text x="10.0" y="62.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >둘 다 망막 앞</text><line x1="160.0" y1="40.0" x2="380.0" y2="40.0" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3" /><line x1="210.0" y1="29.0" x2="210.0" y2="51.0" stroke="#2a6fdb" stroke-width="4" /><line x1="245.0" y1="29.0" x2="245.0" y2="51.0" stroke="#e07b00" stroke-width="4" stroke-dasharray="4 2" /><text x="10.0" y="100.0" font-size="12.5" fill="#2a6fdb" text-anchor="start" font-weight="bold" >단순 근시성 난시</text><text x="10.0" y="118.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >하나는 망막 위</text><line x1="160.0" y1="96.0" x2="380.0" y2="96.0" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3" /><line x1="225.0" y1="85.0" x2="225.0" y2="107.0" stroke="#2a6fdb" stroke-width="4" /><line x1="270.0" y1="85.0" x2="270.0" y2="107.0" stroke="#e07b00" stroke-width="4" stroke-dasharray="4 2" /><text x="10.0" y="156.0" font-size="12.5" fill="#7b3fb5" text-anchor="start" font-weight="bold" >혼합난시</text><text x="10.0" y="174.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >망막을 사이에 둠</text><line x1="160.0" y1="152.0" x2="380.0" y2="152.0" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3" /><line x1="240.0" y1="141.0" x2="240.0" y2="163.0" stroke="#2a6fdb" stroke-width="4" /><line x1="300.0" y1="141.0" x2="300.0" y2="163.0" stroke="#e07b00" stroke-width="4" stroke-dasharray="4 2" /><text x="10.0" y="212.0" font-size="12.5" fill="#c0392b" text-anchor="start" font-weight="bold" >단순 원시성 난시</text><text x="10.0" y="230.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >하나는 망막 위</text><line x1="160.0" y1="208.0" x2="380.0" y2="208.0" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3" /><line x1="270.0" y1="197.0" x2="270.0" y2="219.0" stroke="#2a6fdb" stroke-width="4" /><line x1="315.0" y1="197.0" x2="315.0" y2="219.0" stroke="#e07b00" stroke-width="4" stroke-dasharray="4 2" /><text x="10.0" y="268.0" font-size="12.5" fill="#c0392b" text-anchor="start" font-weight="bold" >복합 원시성 난시</text><text x="10.0" y="286.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >둘 다 망막 뒤</text><line x1="160.0" y1="264.0" x2="380.0" y2="264.0" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3" /><line x1="295.0" y1="253.0" x2="295.0" y2="275.0" stroke="#2a6fdb" stroke-width="4" /><line x1="330.0" y1="253.0" x2="330.0" y2="275.0" stroke="#e07b00" stroke-width="4" stroke-dasharray="4 2" /><text x="270.0" y="314.0" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="normal" >망막</text><text x="160.0" y="314.0" font-size="10.5" fill="#666" text-anchor="start" font-weight="normal" >← 앞(각막 쪽)</text><text x="392.0" y="314.0" font-size="10.5" fill="#666" text-anchor="end" font-weight="normal" >뒤 →</text><text x="394.0" y="18.0" font-size="10.5" fill="#333" text-anchor="end" font-weight="normal" >파랑 = 앞초선, 주황 점선 = 뒤초선</text></svg><figcaption><b>그림 4-5.</b> 두 초선의 위치로 보는 난시 5종류(조절 휴식 상태)</figcaption></figure><div class="lab" id="lab-rx"><h3>🧪 직접 해 보기: 처방 판별기</h3>
+<div class="row"><div><label for="rx-s">S (구면)</label><input id="rx-s" type="number" step="0.25" value="-1.00"></div><div><label for="rx-c">C (원주)</label><input id="rx-c" type="number" step="0.25" value="-1.50"></div><div><label for="rx-a">축 (°)</label><input id="rx-a" type="number" step="1" min="1" max="180" value="180"></div></div>
+<div class="out" id="rx-out"></div><p class="note">플러스 원주를 넣으면 자동으로 마이너스 원주로 바꿔서 판정해요. 교육용 계산기이며 처방을 대신하지 않아요.</p></div></section><section class="sec" id="s4-3"><h2>4.3 증상 비교 표</h2><div class="tblw"><table class="tbl"><thead><tr><th>구분</th><th>먼 곳</th><th>가까운 곳</th><th>흔한 호소</th><th>검사 시 특징</th></tr></thead><tbody><tr><td>근시</td><td>흐림</td><td>상대적으로 잘 보임(벗으면)</td><td>눈 찡그림, 칠판·자막 안 보임, 야간 운전 불편</td><td>운무 시 플러스에 민감, 과마이너스 위험</td></tr><tr><td>원시(경도·젊은층)</td><td>대체로 잘 보임</td><td>피로·흐림 가능</td><td>근거리 피로, 두통, 집중 저하</td><td>조절로 숨겨져(잠복원시) 측정값이 작게 나올 수 있음</td></tr><tr><td>원시(고도·중년 이상)</td><td>흐림 가능</td><td>흐림</td><td>원·근 모두 불편, 노안 증상 조기 발생</td><td>플러스를 잘 받아들이는지 단계적 확인</td></tr><tr><td>난시</td><td>흐림·번짐</td><td>흐림·번짐</td><td>글자 겹침, 빛 번짐, 눈 피로, 두통</td><td>방향에 따라 선명도 다름(난시표), JCC 응답</td></tr><tr><td>혼합난시</td><td>흐림</td><td>흐림</td><td>전반적 흐림, 구면만 바꿔서는 개선 적음</td><td>구면등가가 작아도 원주 교정 시 크게 개선</td></tr><tr><td>노안</td><td>(원용 교정되어 있으면) 잘 보임</td><td>흐림, 멀리 떼어 봄</td><td>폰 글씨 멀리 봄, 어두우면 더 불편</td><td>근점 멀어짐, 조절력 감소</td></tr></tbody></table></div></section><section class="sec qzset" id="quiz"><h2>자가 점검 퀴즈 (4문항)</h2><p class="note">보기를 누르면 바로 정답과 해설이 나와요. 기록은 저장되지 않아요.</p><div class="q gq"><div class="qh"><span class="num">문제 1</span></div><div class="qt">S +1.00 C −2.00 × 180의 판정은?</div><button type="button" class="opt" data-ok="0">① 단순 근시성 난시</button><button type="button" class="opt" data-ok="1">② 혼합난시</button><button type="button" class="opt" data-ok="0">③ 복합 원시성 난시</button><button type="button" class="opt" data-ok="0">④ 원시</button><div class="diag"><div class="res"></div><div>💡 축 경선 +1.00, 90° 경선 −1.00 → 부호가 달라 혼합난시.</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 2</span></div><div class="qt">마이너스 원주 축 90°는?</div><button type="button" class="opt" data-ok="0">① 직난시</button><button type="button" class="opt" data-ok="1">② 도난시</button><button type="button" class="opt" data-ok="0">③ 사난시</button><button type="button" class="opt" data-ok="0">④ 난시 없음</button><div class="diag"><div class="res"></div><div>💡 90 ± 30° = 도난시(수평 경선이 더 강함).</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 3</span></div><div class="qt">+1.00 +2.00 × 90을 마이너스 원주로 바꾸면?</div><button type="button" class="opt" data-ok="1">① +3.00 −2.00 × 180</button><button type="button" class="opt" data-ok="0">② −1.00 +2.00 × 180</button><button type="button" class="opt" data-ok="0">③ +1.00 −2.00 × 90</button><button type="button" class="opt" data-ok="0">④ +3.00 −2.00 × 90</button><div class="diag"><div class="res"></div><div>💡 새 S = 1 + 2 = +3.00, 새 C = −2.00, 축 90 + 90 = 180.</div></div></div><div class="q gq"><div class="qh"><span class="num">문제 4</span></div><div class="qt">처방의 ADD는?</div><button type="button" class="opt" data-ok="0">① 원주 축 방향</button><button type="button" class="opt" data-ok="1">② 근거리용으로 더하는 + 도수</button><button type="button" class="opt" data-ok="0">③ 동공 거리</button><button type="button" class="opt" data-ok="0">④ 프리즘 방향</button><div class="diag"><div class="res"></div><div>💡 ADD = 원용에 더하는 근용 + 도수, 항상 +.</div></div></div><p><span class="qz-score"></span></p><button type="button" class="btn l qz-reset">다시 풀기</button></section><nav class="gnav" aria-label="교재 이동"><a data-l="g06.html" href="g06.html">← 3-③ 양안시·처방</a><a data-l="g00.html" href="g00.html" class="mid">목차</a><a data-l="g08.html" href="g08.html">5 노안·조절 →</a></nav></main>
+<footer>자체 제작 학습 자료(문항·그림 직접 제작, 사진은 재사용 허락 라이선스만 사용 → <a data-l="credits.html" href="credits.html">출처·라이선스</a>). 합격을 보장하지 않아요. 시험 정보는 국시원 공고를 기준으로 하세요.</footer>
+<div class="askbar"><form id="askform" autocomplete="off"><input id="askq" type="text" placeholder="궁금한 걸 물어보세요 (검안 실무)" aria-label="질문"><button type="submit">Grok에 묻기</button><button type="button" class="alt" id="askalt">ChatGPT</button></form></div>
+<script>window.OE_DATA={"cfg": {"qr_base": "https://gl-hub-edu.github.io/", "preview_host": "html-preview.github.io"}, "page": "gbook", "offline": false, "fullBank": false, "qs": [], "mts": {"unit": "단위 바꾸기 실수 — mm, cm, m, D를 헷갈림", "base": "기저 방향 실수 — 프리즘 기저가 안쪽인지 바깥쪽인지", "sign": "부호 실수 — +와 −를 반대로 씀", "vertex": "정점간거리 실수 — 안경과 눈 사이 거리를 빼먹음", "fine": "벌금 vs 과태료 — 형벌인지 돈만 내는 것인지", "punish": "형벌 vs 행정처분 — 징역·벌금과 면허 정지를 헷갈림", "number": "조문·숫자 실수 — 기간·금액 숫자를 바꿔 외움", "phoria": "사위 종류 — 내사위·외사위를 반대로 판단", "age": "근점과 나이 — 나이별 조절력 숫자 혼동", "symptom": "증상 → 질환 연결 — 비슷한 증상의 다른 병을 고름", "concept": "개념 혼동 — 비슷한 용어·원리를 바꿔 기억"}, "theory": {"unit": "p3.html#p3-vergence", "base": "p5.html#p5-prentice", "sign": "p3.html#p3-thinlens", "vertex": "p5.html#p5-vertex", "fine": "p2.html#p2-ladder", "punish": "p2.html#p2-ladder", "number": "p2.html#p2-scope", "phoria": "p7.html#p7-bv", "age": "p5.html#p5-add", "symptom": "eye.html#eye-list", "ch:law": "p2.html#p2-sum-law", "ch:geo": "p3.html#p3-sum-geo", "ch:phy": "p4.html#p4-sum-phy", "ch:sopt": "p5.html#p5-sum-sopt", "ch:mat": "p5.html#p5-sum-mat", "ch:fab": "p5.html#p5-sum-fab", "ch:refr": "p5.html#p5-sum-refr", "ch:cl": "p6.html#p6-sum-cl", "ch:prac": "p6.html#p6-sum-prac", "ch:inst": "p6.html#p6-sum-inst", "ch:anat": "p7.html#p7-sum-anat", "ch:phys": "p7.html#p7-sum-phys", "ch:dis": "p7.html#p7-sum-dis", "ch:bv": "p7.html#p7-sum-bv", "ch:eye": "eye.html#eye-list"}, "chtitle": {"anat": "시기해부학(눈해부학)", "phys": "시기생리학(눈생리학)", "dis": "안질환", "mat": "안경재료학", "sopt": "안경광학", "geo": "기하광학", "phy": "물리광학", "law": "의료관계법규", "refr": "굴절검사", "fab": "안경조제가공", "bv": "시기능이상(양안시기능)", "cl": "콘택트렌즈", "inst": "안광학기기", "prac": "실기시험(시광학 실무)", "eye": "안질환 단원(사진·의뢰)"}, "partsSel": [{"key": "p2", "title": "파트2 의료기사법·의료관계법규", "chs": ["law"]}, {"key": "p3", "title": "파트3 기하광학·행렬", "chs": ["geo"]}, {"key": "p4", "title": "파트4 물리광학", "chs": ["phy"]}, {"key": "p5", "title": "파트5 안경광학·누진·프리즘", "chs": ["sopt", "mat", "fab", "refr"]}, {"key": "p6", "title": "파트6 콘택트렌즈·실기", "chs": ["cl", "prac", "inst"]}, {"key": "p7", "title": "파트7 안과학·양안시·안질환", "chs": ["anat", "phys", "dis", "bv", "eye"]}], "examDate": "2026-12-19"};</script><script>(function(){
+'use strict';
+var D = window.OE_DATA || {}, CFG = D.cfg || {};
+var CIRC = ['①','②','③','④','⑤'];
+function $(s, r){return (r||document).querySelector(s);}
+function $$(s, r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
+function onPreview(){return CFG.preview_host && location.hostname.indexOf(CFG.preview_host) >= 0;}
+// 링크: 로컬/일반 호스팅은 상대 경로, html-preview에서는 미리보기 주소로 감싸기, 한 파일(offline)에서는 페이지 안 이동
+function L(p){
+  if (D.offline){
+    var h = p.indexOf('#') >= 0 ? p.slice(p.indexOf('#')) : '';
+    var f = p.split('#')[0].replace('.html','');
+    if (f === 'quiz' || f === 'cards' || f === 'ask') return h && h.indexOf('=') > 0 ? h : '#' + f;
+    if (h) return h;
+    return '#' + (f === 'index' ? 'home' : f);
+  }
+  if (onPreview()) return CFG.qr_base + p;
+  return p;
+}
+window.OE_L = L;
+function fixLinks(root){ $$('a[data-l]', root).forEach(function(a){ a.href = L(a.getAttribute('data-l')); }); }
+// 저장소
+var KEY = 'oe-study-v1';
+function load(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){ return {}; } }
+var S = load(); S.q = S.q || {}; S.mt = S.mt || {}; S.cards = S.cards || {}; S.days = S.days || {};
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
+function rec(q, ok){
+  var r = S.q[q.id] || {r:0, w:0}; if (ok) r.r++; else r.w++; r.last = ok ? 1 : 0; r.t = Date.now(); if (!q.gen) S.q[q.id] = r;
+  if (q.mt){ var m = S.mt[q.mt] || {r:0, w:0}; if (ok) m.r++; else m.w++; S.mt[q.mt] = m; }
+  save();
+}
+function shuffle(a){ a = a.slice(); for (var i = a.length - 1; i > 0; i--){ var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+function mtName(k){ var s = (D.mts || {})[k] || ''; return s.split(' — ')[0]; }
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+// ---------- 숫자 문제 자동 생성 (같은 실수 종류) ----------
+function pick(a){ return a[Math.floor(Math.random() * a.length)]; }
+function fD(x){ x = Math.round(x * 100) / 100; return (x > 0 ? '+' : (x < 0 ? '−' : '')) + Math.abs(x).toFixed(2) + ' D'; }
+function q4(x){ return Math.round(x * 4) / 4; }
+function mk(mt, q, opts, why, e){
+  var seen = {}, o = [], w = [];
+  for (var i = 0; i < opts.length; i++){ if (!seen[opts[i]]){ seen[opts[i]] = 1; o.push(opts[i]); w.push(why[i]); } }
+  var idx = shuffle(o.map(function(_, i){ return i; }));
+  return {id:'gen-' + mt + '-' + Math.random().toString(36).slice(2, 8), gen:true, tier:'응용', tag:'[출제기준 추정]', mt:mt,
+    q:q + ' <span class="meta">(자동 생성 연습)</span>', o:idx.map(function(i){ return o[i]; }), why:idx.map(function(i){ return w[i]; }), a:idx.indexOf(0), e:e || '', th:''};
+}
+var GEN = {
+  unit: function(){
+    var x = pick([20, 25, 40, 50, 80, 125, 200]); var v = -100 / x;
+    return mk('unit', '물체가 렌즈 앞 ' + x + ' cm에 있을 때 렌즈에 들어오는 빛의 버전스는?',
+      [fD(v), fD(-v), fD(-x / 100), fD(-x), fD(v * 10)],
+      ['앞쪽 거리는 −, ' + x + ' cm = ' + (x / 100) + ' m → −1 ÷ ' + (x / 100) + ' = ' + fD(v) + '.', '부호 실수: 렌즈 앞 물체에서 나온 빛은 퍼지므로 −예요.', 'm 값을 그대로 썼어요(역수를 안 함).', 'cm 숫자를 그대로 썼어요.', 'cm를 m로 바꿀 때 자릿수를 틀렸어요.'],
+      '단위: D = 1 ÷ m. cm면 100 ÷ cm.');
+  },
+  base: function(){
+    var F = pick([-6, -5, -4, -3, -2.5, 2, 2.5, 3, 4, 5, 6]), c = pick([2, 3, 4, 5, 6, 8]);
+    var dir = pick(['코 쪽', '귀 쪽', '위', '아래']);
+    var P = Math.round(c / 10 * Math.abs(F) * 100) / 100;
+    var plus = F > 0;
+    var toward = {'코 쪽':'BO', '귀 쪽':'BI', '위':'BD', '아래':'BU'}, away = {'코 쪽':'BI', '귀 쪽':'BO', '위':'BU', '아래':'BD'}, opp = {BI:'BO', BO:'BI', BU:'BD', BD:'BU'};
+    var b = plus ? toward[dir] : away[dir];
+    var ps = function(x){ return (Math.round(x * 100) / 100) + 'Δ '; };
+    return mk('base', fD(F) + ' 렌즈에서 시선이 광학중심보다 ' + c + ' mm ' + dir + '을(를) 지날 때 생기는 프리즘은?',
+      [ps(P) + b, ps(P) + opp[b], ps(P * 10) + b, ps(P / 10) + b, ps(Math.abs(F) / c) + b],
+      [(c / 10) + ' cm × ' + Math.abs(F) + ' = ' + P + 'Δ. ' + (plus ? '볼록렌즈는 기저가 광학중심 쪽' : '오목렌즈는 기저가 광학중심 반대쪽') + ' → ' + b + '.', '기저 방향 실수: ' + (plus ? '볼록' : '오목') + '렌즈 규칙을 반대로 썼어요.', 'mm를 cm로 바꾸지 않았어요.', '자릿수를 한 번 더 줄였어요.', '곱하지 않고 나눴어요.'],
+      '프렌티스: Δ = c(cm) × F.');
+  },
+  vertex: function(){
+    var F = pick([-12, -10, -9, -8, -7, -6, -5, 5, 6, 7, 8, 10, 12]), dmm = pick([10, 12, 14]), d = dmm / 1000;
+    var fc = F / (1 - d * F), fq = q4(fc), wrongDir = q4(F / (1 + d * F)), approx = F + d * F * F;
+    var opts = [fD(fq), fD(F), fD(wrongDir), fD(fq + (F > 0 ? 0.75 : -0.75)), fD(fq - (F > 0 ? 0.75 : -0.75))];
+    return mk('vertex', '정점간거리 ' + dmm + ' mm에서 ' + fD(F) + ' 안경을 쓰는 사람의 CL 도수(0.25 D 단위)에 가장 가까운 것은?', opts,
+      ['정식: ' + F + ' ÷ (1 − ' + d + ' × ' + F + ') = ' + fc.toFixed(2) + ' → ' + fD(fq) + '. 간편: F + dF² = ' + approx.toFixed(2) + ' D.', '정점간거리를 빼먹었어요.', '방향 실수: 안경 → CL은 F/(1 − dF)예요.', '너무 많이 바꿨어요.', '바꾸는 양이 틀렸어요.'],
+      (F < 0 ? '근시는 CL이 약해져요.' : '원시는 CL이 강해져요.') + ' ±4 D 이상이면 꼭 계산해요.');
+  },
+  sign: function(){
+    var x = pick([20, 25, 40, 50, 100]); var v = -100 / x;
+    return mk('sign', '원점이 눈앞 ' + x + ' cm인 근시안의 완전 교정 도수(정점간거리 무시)는?',
+      [fD(v), fD(-v), fD(-x / 100), fD(-x / 10), fD(v / 2)],
+      ['원점 ' + x + ' cm → 100 ÷ ' + x + ' = ' + Math.abs(v).toFixed(2) + ', 근시는 (−)렌즈 → ' + fD(v) + '.', '부호 실수: 근시는 (−)렌즈예요.', '역수를 하지 않았어요.', '단위 실수예요.', '절반으로 잘못 나눴어요.'],
+      '근시 교정 렌즈의 초점은 원점에 맞춰요.');
+  },
+  age: function(){
+    var a = pick([36, 38, 40, 42, 44, 46, 48, 50, 52, 55]); var amp = Math.round((18.5 - 0.3 * a) * 100) / 100, np = Math.round(100 / amp * 10) / 10;
+    var mn = Math.round((15 - 0.25 * a) * 100) / 100, mx = Math.round((25 - 0.4 * a) * 100) / 100;
+    var f = function(x){ return x.toFixed(2) + ' D, 근점 약 ' + (Math.round(100 / x * 10) / 10) + ' cm'; };
+    return mk('age', 'Hofstetter 평균 조절력 공식으로 ' + a + '세 정시안의 조절력과 근점은?',
+      [f(amp), f(mn), f(mx), amp.toFixed(2) + ' D, 근점 약 ' + (amp * 10).toFixed(0) + ' cm', f(amp + 2)],
+      ['평균 18.5 − 0.3 × ' + a + ' = ' + amp.toFixed(2) + ' D → 근점 100 ÷ ' + amp.toFixed(2) + ' ≈ ' + np + ' cm.', '최소 공식(15 − 0.25 × 나이)이에요.', '최대 공식(25 − 0.4 × 나이)이에요.', 'D를 cm로 바꿀 때 역수를 하지 않았어요.', '나이 계산 실수예요.'],
+      '최소 15 − 0.25×나이 · 평균 18.5 − 0.3×나이 · 최대 25 − 0.4×나이');
+  }
+};
+window.OE_GEN = GEN;
+
+// ---------- 문제 카드 ----------
+var BANK = D.qs || [];
+var byId = {}; BANK.forEach(function(q){ byId[q.id] = q; });
+function theoryLink(q){ var t = D.theory || {}; return t[q.mt] && q.mt !== 'concept' ? t[q.mt] : (t['ch:' + q.ch] || ''); }
+function qCard(q, n, opt){
+  opt = opt || {};
+  var el = document.createElement('div'); el.className = 'q'; el.id = 'q-' + q.id;
+  var tagc = q.tag.indexOf('기출') >= 0 ? 'ok' : 'est';
+  el.innerHTML = '<div class="qh"><span class="num">' + (n ? n + '.' : '') + '</span><span class="tier t-' + q.tier + '">' + q.tier + '</span><span class="tag ' + tagc + '">' + q.tag + '</span>' +
+    (q.ch && D.chtitle ? '<span class="mtl">' + (D.chtitle[q.ch] || '') + '</span>' : '') + '</div><div class="qt">' + q.q + '</div>' +
+    q.o.map(function(o, i){ return '<button class="opt" type="button" data-i="' + i + '"><b>' + CIRC[i] + '</b> ' + o + '</button>'; }).join('') +
+    '<div class="diag" hidden></div>';
+  $$('.opt', el).forEach(function(b){ b.addEventListener('click', function(){ choose(el, q, +b.getAttribute('data-i'), opt); }); });
+  return el;
+}
+function choose(el, q, i, opt){
+  if (el.getAttribute('data-done')) return;
+  if (opt.deferred){ $$('.opt', el).forEach(function(b){ b.classList.remove('pick'); }); $$('.opt', el)[i].classList.add('pick'); el.setAttribute('data-pick', i); if (opt.onPick) opt.onPick(); return; }
+  reveal(el, q, i);
+}
+function reveal(el, q, i){
+  el.setAttribute('data-done', '1');
+  var ok = i === q.a; rec(q, ok);
+  $$('.opt', el).forEach(function(b, k){ b.disabled = true; if (k === q.a) b.classList.add('right'); else if (k === i) b.classList.add('wrong'); });
+  var d = $('.diag', el), h = '';
+  if (i < 0) h += '<div class="no">답을 고르지 않았어요. 정답은 ' + CIRC[q.a] + '</div>';
+  else h += ok ? '<div class="ok">정답이에요! ' + CIRC[q.a] + '</div>' : '<div class="no">아쉬워요. 정답은 ' + CIRC[q.a] + '</div>';
+  if (!ok && i >= 0 && q.why) h += '<p><b>내가 고른 ' + CIRC[i] + '가 틀린 이유</b> ' + q.why[i] + '</p>';
+  h += '<p><b>정답 근거</b> ' + (q.why ? q.why[q.a] + ' ' : '') + (q.e || '') + '</p>';
+  if (q.th) h += '<p class="note"><b>관련 이론</b> ' + q.th + '</p>';
+  if (q.why) h += '<details><summary>보기별 오답 분석 보기</summary><ol>' + q.why.map(function(w, k){ return '<li>' + (k === q.a ? '<b>(정답)</b> ' : '') + w + '</li>'; }).join('') + '</ol></details>';
+  if (q.cite) h += '<p class="src">' + q.cite + '</p>';
+  if (q.mt) h += '<p class="meta">실수 종류: ' + (D.mts[q.mt] || q.mt) + '</p>';
+  var tl = theoryLink(q);
+  h += '<div class="ctrl">' + (tl ? '<a class="btn l" data-l="' + tl + '">이론 보러 가기</a>' : '') + '<button class="btn o sim" type="button">비슷한 문제 더 풀기</button></div><div class="simbox" hidden></div>';
+  d.innerHTML = h; d.hidden = false; fixLinks(d);
+  $('.sim', d).addEventListener('click', function(){ similar(el, q); });
+}
+function similar(el, q){
+  var box = $('.simbox', el); box.hidden = false;
+  var pool = shuffle(BANK.filter(function(x){ return x.mt === q.mt && x.id !== q.id && !(S.q[x.id] && S.q[x.id].last === 1); }));
+  var items = pool.slice(0, GEN[q.mt] ? 2 : 3);
+  if (GEN[q.mt]) items.push(GEN[q.mt]());
+  if (!items.length) items = shuffle(BANK.filter(function(x){ return x.ch === q.ch && x.id !== q.id; })).slice(0, 2);
+  box.innerHTML = '<p class="meta"><b>같은 실수 종류(' + mtName(q.mt) + ') 문제</b></p>';
+  items.forEach(function(x){ box.appendChild(qCard(x, '')); });
+  if (!D.fullBank){ var a = document.createElement('a'); a.className = 'btn l'; a.setAttribute('data-l', 'quiz.html#mt=' + q.mt); a.textContent = '이 실수 종류만 더 풀기'; box.appendChild(a); fixLinks(box); }
+}
+window.OE_qCard = qCard;
+
+// ---------- 페이지 안 문제 묶음 (파트·날짜 페이지) ----------
+function mountSet(root){
+  var ids = (root.getAttribute('data-ids') || '').split(',').filter(Boolean);
+  var qs = ids.map(function(id){ return byId[id]; }).filter(Boolean);
+  var tabs = document.createElement('div'); tabs.className = 'ctrl';
+  var list = document.createElement('div');
+  var tiers = ['전체', '기본', '응용', '심화'];
+  function draw(t){
+    list.innerHTML = ''; var n = 0;
+    qs.forEach(function(q){ if (t === '전체' || q.tier === t){ n++; list.appendChild(qCard(q, n)); } });
+    if (!n) list.innerHTML = '<p class="note">이 단계 문제가 없어요.</p>';
+    $$('.chip', tabs).forEach(function(c){ c.classList.toggle('on', c.textContent.indexOf(t) === 0); });
+  }
+  tiers.forEach(function(t){ var b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = t + ' ' + (t === '전체' ? qs.length : qs.filter(function(q){ return q.tier === t; }).length); b.onclick = function(){ draw(t); }; tabs.appendChild(b); });
+  root.appendChild(tabs); root.appendChild(list); draw('전체');
+}
+
+// ---------- 퀴즈 앱 (quiz.html, offline) ----------
+function weakList(){
+  var arr = Object.keys(S.mt).map(function(k){ var m = S.mt[k]; return {k:k, n:m.r + m.w, rate:m.w / Math.max(1, m.r + m.w)}; }).filter(function(x){ return x.n >= 2 && x.rate > 0; });
+  arr.sort(function(a, b){ return b.rate - a.rate || b.n - a.n; }); return arr;
+}
+window.OE_weak = weakList;
+function mountQuiz(root){
+  var parts = D.partsSel || [];
+  root.innerHTML = '<div class="card"><div class="ctrl"><select id="qz-cat"><option value="">전체 과목</option>' +
+    parts.map(function(p){ return '<optgroup label="' + p.title + '">' + p.chs.map(function(c){ return '<option value="ch:' + c + '">' + (D.chtitle[c] || c) + '</option>'; }).join('') + '</optgroup>'; }).join('') +
+    '</select><select id="qz-mt"><option value="">모든 실수 종류</option>' + Object.keys(D.mts).map(function(k){ return '<option value="' + k + '">' + mtName(k) + '</option>'; }).join('') + '</select>' +
+    '<select id="qz-n"><option>10</option><option selected>20</option><option value="999">전부</option></select></div>' +
+    '<div class="ctrl" id="qz-tier"></div><div class="ctrl"><button class="btn" id="qz-go" type="button">문제 풀기</button><button class="btn o" id="qz-weak" type="button">약한 부분 훈련</button>' +
+    '<button class="btn g" id="qz-mock" type="button">짧은 모의고사 40</button><button class="btn l" id="qz-gc" type="button">기출 응용</button></div><p class="meta" id="qz-info"></p></div><div id="qz-list"></div>';
+  var tier = '전체', tw = $('#qz-tier', root);
+  ['전체', '기본', '응용', '심화'].forEach(function(t){ var b = document.createElement('button'); b.type = 'button'; b.className = 'chip' + (t === tier ? ' on' : ''); b.textContent = t; b.onclick = function(){ tier = t; $$('.chip', tw).forEach(function(c){ c.classList.toggle('on', c.textContent === t); }); }; tw.appendChild(b); });
+  var list = $('#qz-list', root), info = $('#qz-info', root);
+  function show(qs, msg, deferred){
+    list.innerHTML = ''; info.textContent = msg || '';
+    var cards = [];
+    qs.forEach(function(q, i){ var c = qCard(q, i + 1, {deferred:deferred}); cards.push([c, q]); list.appendChild(c); });
+    if (deferred){
+      var t0 = Date.now(), bar = document.createElement('div'); bar.className = 'card';
+      bar.innerHTML = '<p>모의고사: 다 풀고 「채점하기」를 누르세요. <span id="qz-time"></span></p><button class="btn o" type="button" id="qz-grade">채점하기</button><div id="qz-res"></div>';
+      list.appendChild(bar);
+      var tm = setInterval(function(){ var s = Math.floor((Date.now() - t0) / 1000); var e = $('#qz-time'); if (e) e.textContent = '경과 ' + Math.floor(s / 60) + '분 ' + (s % 60) + '초'; else clearInterval(tm); }, 1000);
+      $('#qz-grade', bar).onclick = function(){
+        clearInterval(tm); var by = {};
+        cards.forEach(function(cq){ var c = cq[0], q = cq[1]; var p = c.getAttribute('data-pick'); var i = p === null ? -1 : +p; if (!c.getAttribute('data-done')) reveal(c, q, i); var a = by[q.area] = by[q.area] || {r:0, n:0}; a.n++; if (i === q.a) a.r++; });
+        var tot = 0, n = 0, rows = Object.keys(by).map(function(k){ var a = by[k]; tot += a.r; n += a.n; var p = Math.round(a.r / a.n * 100); return '<tr><td>' + k + '</td><td>' + a.r + '/' + a.n + '</td><td>' + p + '%' + (k === '실기' ? (p >= 60 ? '' : ' (60% 미만)') : (p >= 40 ? '' : ' (40% 미만)')) + '</td></tr>'; }).join('');
+        $('#qz-res', bar).innerHTML = '<div class="tblw"><table class="tbl"><tr><th>영역</th><th>맞힘</th><th>비율</th></tr>' + rows + '</table></div><p>전체 ' + tot + '/' + n + ' (' + Math.round(tot / n * 100) + '%). 실제 기준: 필기 총점 60% + 과목별 40%, 실기 60%.</p><p class="note">짧은 연습용 점검이에요. 이 점수로 합격을 예측하거나 보장할 수 없어요. 틀린 문제는 「약한 부분 훈련」에 모여요.</p>';
+        bar.scrollIntoView({behavior:'smooth'});
+      };
+    }
+    if (!qs.length) list.innerHTML = '<p class="card">조건에 맞는 문제가 없어요.</p>';
+  }
+  function filtered(){
+    var cat = $('#qz-cat', root).value, mt = $('#qz-mt', root).value;
+    return BANK.filter(function(q){ return (!cat || ('ch:' + q.ch) === cat || ('part:' + q.part) === cat) && (!mt || q.mt === mt) && (tier === '전체' || q.tier === tier); });
+  }
+  function go(){ var n = +$('#qz-n', root).value; var qs = shuffle(filtered()); var tot = qs.length; qs = qs.slice(0, n); var mt = $('#qz-mt', root).value; if (mt && GEN[mt]) { qs.push(GEN[mt]()); } show(qs, '조건에 맞는 ' + tot + '문제 중 ' + Math.min(n, tot) + '문제' + (mt && GEN[mt] ? ' + 자동 생성 1문제' : '')); }
+  function weak(){
+    var w = weakList(), wrong = BANK.filter(function(q){ return S.q[q.id] && S.q[q.id].last === 0; });
+    if (!w.length && !wrong.length){ show(shuffle(BANK.filter(function(q){ return q.tier === '기본'; })).slice(0, 10), '아직 틀린 기록이 없어요. 먼저 기본 문제 10개로 시작해요.'); return; }
+    var top = w.slice(0, 3).map(function(x){ return x.k; });
+    var qs = shuffle(wrong).slice(0, 8);
+    var more = shuffle(BANK.filter(function(q){ return top.indexOf(q.mt) >= 0 && qs.indexOf(q) < 0 && !(S.q[q.id] && S.q[q.id].last === 1); })).slice(0, 15 - qs.length);
+    qs = qs.concat(more); top.forEach(function(k){ if (GEN[k]) qs.push(GEN[k]()); });
+    show(qs, '약한 실수 종류: ' + (top.map(mtName).join(', ') || '없음') + ' · 최근 틀린 문제 ' + wrong.length + '개');
+  }
+  function mock(){
+    var plan = {법규:4, 이론:14, 응용:14, 실기:8}, qs = [];
+    Object.keys(plan).forEach(function(k){ qs = qs.concat(shuffle(BANK.filter(function(q){ return q.area === k; })).slice(0, plan[k])); });
+    show(qs, '짧은 모의고사 40문제 (법규 4 · 이론 14 · 응용 14 · 실기 8). 권장 시간 약 30분.', true);
+  }
+  function gc(){ show(BANK.filter(function(q){ return q.tag.indexOf('기출') >= 0; }), '[기출 확인] 유형: 국시원 공개 예시문항과 같은 형식의 문제'); }
+  $('#qz-go', root).onclick = go; $('#qz-weak', root).onclick = weak; $('#qz-mock', root).onclick = mock; $('#qz-gc', root).onclick = gc;
+  function applyHash(){
+    var h = decodeURIComponent(location.hash.slice(1)); if (!h || h.indexOf('=') < 0) return false;
+    var p = {}; h.split('&').forEach(function(kv){ var x = kv.split('='); p[x[0]] = x[1]; });
+    if (p.ch) $('#qz-cat', root).value = 'ch:' + p.ch;
+    if (p.part){ var o = document.createElement('option'); o.value = 'part:' + p.part; o.textContent = '파트 전체'; $('#qz-cat', root).appendChild(o); $('#qz-cat', root).value = 'part:' + p.part; }
+    if (p.mt) $('#qz-mt', root).value = p.mt;
+    if (p.tier){ tier = p.tier; $$('.chip', tw).forEach(function(c){ c.classList.toggle('on', c.textContent === tier); }); }
+    if (p.mode === 'weak') weak(); else if (p.mode === 'mock') mock(); else if (p.mode === 'gichul') gc(); else go();
+    if (D.offline){ var z = document.getElementById('quiz'); if (z) z.scrollIntoView(); }
+    return true;
+  }
+  window.addEventListener('hashchange', applyHash);
+  if (!applyHash()) go();
+}
+
+// ---------- 플래시카드 (라이트너) ----------
+var INTERVAL = [0, 1, 3, 7, 14];
+function mountCards(root){
+  var cards = D.cards || [], DAY = 86400000;
+  root.innerHTML = '<div class="card"><div class="boxes" id="fc-boxes"></div><div class="ctrl"><select id="fc-part"><option value="">모든 파트</option>' + (D.partsSel || []).map(function(p){ return '<option value="' + p.key + '">' + p.title + '</option>'; }).join('') + '</select></div></div><div class="flash" id="fc"></div><div class="ctrl"><button class="btn l" id="fc-show" type="button">뒤집기</button><button class="btn g" id="fc-ok" type="button">알았어요</button><button class="btn o" id="fc-no" type="button">몰랐어요</button></div>';
+  var cur = null, part = '';
+  function st(c){ return S.cards[c.id] || {b:0, due:0}; }
+  function counts(){ var n = [0, 0, 0, 0, 0]; cards.forEach(function(c){ n[st(c).b]++; }); $('#fc-boxes', root).innerHTML = n.map(function(x, i){ return '<span>' + (i < 4 ? '상자' + (i + 1) : '완료') + ' ' + x + '</span>'; }).join(''); }
+  function next(){
+    var now = Date.now(); var pool = cards.filter(function(c){ return (!part || c.part === part) && st(c).due <= now; });
+    counts();
+    if (!pool.length){ $('#fc', root).innerHTML = '<p>오늘 볼 카드를 다 봤어요. 내일 다시 와요!</p>'; cur = null; return; }
+    pool.sort(function(a, b){ return st(a).b - st(b).b; }); var low = st(pool[0]).b; pool = shuffle(pool.filter(function(c){ return st(c).b === low; }));
+    cur = pool[0]; $('#fc', root).innerHTML = '<div class="meta">' + (cur.ptitle || '') + ' · ' + (st(cur).b < 4 ? '상자' + (st(cur).b + 1) : '완료') + '</div><div class="front">' + cur.f + '</div><div class="back" hidden>' + cur.b + '</div>';
+  }
+  function mark(ok){ if (!cur) return; var s = st(cur); s.b = ok ? Math.min(4, s.b + 1) : 0; s.due = Date.now() + INTERVAL[s.b] * DAY; S.cards[cur.id] = s; save(); next(); }
+  $('#fc-show', root).onclick = function(){ var b = $('#fc .back', root); if (b) b.hidden = !b.hidden; };
+  $('#fc-ok', root).onclick = function(){ mark(true); }; $('#fc-no', root).onclick = function(){ mark(false); };
+  $('#fc-part', root).onchange = function(){ part = this.value; next(); };
+  next();
+}
+
+// ---------- 질문 바 (AI로 연결) ----------
+function askUrl(svc, text){
+  var cat = (document.body.getAttribute('data-cat') || '기타');
+  var prompt = '저는 한국 안경사 국가시험을 준비하는 학생입니다. [' + cat + '] 쉬운 말로, 근거(이론·공식·법조문)와 함께 설명해 주세요: ' + text;
+  return (svc === 'gpt' ? 'https://chatgpt.com/?q=' : 'https://grok.com/?q=') + encodeURIComponent(prompt);
+}
+function mountAsk(){
+  var f = $('#askform'); if (!f) return;
+  function go(svc){ var t = $('#askq').value.trim(); if (!t){ $('#askq').focus(); return; } window.open(askUrl(svc, t), '_blank', 'noopener'); }
+  f.addEventListener('submit', function(e){ e.preventDefault(); go('grok'); });
+  var alt = $('#askalt'); if (alt) alt.addEventListener('click', function(){ go('gpt'); });
+  $$('.bigbtns button').forEach(function(b){ b.addEventListener('click', function(){ document.body.setAttribute('data-cat', b.textContent); $$('.bigbtns button').forEach(function(x){ x.classList.toggle('on', x === b); }); var q = $('#askq'); q.placeholder = '[' + b.textContent + '] 궁금한 걸 적어 주세요'; q.focus(); }); });
+}
+
+// ---------- 홈: D-day, 오늘, 진행 ----------
+function mountHome(){
+  var ex = new Date(D.examDate + 'T09:00:00+09:00'), now = new Date();
+  var dd = Math.ceil((ex - now) / 86400000), e = $('#dday'); if (e) e.textContent = dd > 0 ? 'D-' + dd : (dd === 0 ? 'D-DAY' : '시험 종료');
+  var start = new Date('2026-11-10T00:00:00+09:00'), k = Math.floor((now - start) / 86400000);
+  var t = $('#today');
+  if (t){
+    if (k < 0) t.innerHTML = '11월 10일에 D1부터 시작해요.';
+    else if (k < 21){ var d = (k % 10) + 1; t.innerHTML = '오늘은 <b>' + (k < 10 ? '1회차' : (k < 20 ? '2회차' : '마무리')) + ' D' + d + '</b> → <a data-l="d' + (d < 10 ? '0' + d : d) + '.html">오늘 할 일 열기</a>'; }
+    else if (dd > 0) t.innerHTML = '지금은 <b>복습 기간</b>이에요 → <a data-l="quiz.html#mode=weak">약한 부분 훈련</a> · <a data-l="quiz.html#mode=mock">모의고사</a>';
+    else t.innerHTML = '시험이 끝났어요. 수고했어요!';
+  }
+  $$('[data-day]').forEach(function(a){ if (S.days[a.getAttribute('data-day')]) a.classList.add('done'); });
+  var n = 0, r = 0; Object.keys(S.q).forEach(function(k){ n++; if (S.q[k].last) r++; });
+  var st = $('#stats'); if (st){ var w = weakList().slice(0, 3); st.innerHTML = '푼 문제 ' + n + '개 · 최근 정답 ' + r + '개' + (n ? ' (' + Math.round(r / n * 100) + '%)' : '') + (w.length ? '<br>약한 실수 종류: ' + w.map(function(x){ return mtName(x.k) + ' ' + Math.round(x.rate * 100) + '%'; }).join(', ') : ''); }
+  fixLinks(t);
+}
+function mountDayDone(){
+  var c = $('#daydone'); if (!c) return; var k = c.getAttribute('data-d');
+  c.checked = !!S.days[k]; c.addEventListener('change', function(){ S.days[k] = c.checked ? Date.now() : 0; save(); });
+}
+// ---------- 해시 → 섹션 이동 ----------
+function scrollHash(){
+  var h = decodeURIComponent(location.hash.slice(1)); if (!h || h.indexOf('=') >= 0) return;
+  var el = document.getElementById(h); if (el) setTimeout(function(){ el.scrollIntoView(); }, 60);
+}
+// ---------- QA 훅 (#qa 일 때만) ----------
+function qa(){
+  if (location.hash.indexOf('qa') < 0) return;
+  var W = document.documentElement.clientWidth, over = [];
+  $$('body *').forEach(function(el){ var r = el.getBoundingClientRect(); if (r.width > 0 && (r.right > W + 1 || r.left < -1) && !el.closest('.tblw') && !el.closest('nav.tabs') && getComputedStyle(el).position !== 'fixed') over.push(el.tagName + '.' + el.className); });
+  var b = $('.q .opt'), clicked = 'none';
+  if (b){ b.click(); var d = b.closest('.q').querySelector('.diag'); clicked = d && !d.hidden ? 'ok' : 'fail'; var s = d && d.querySelector('.sim'); if (s){ s.click(); clicked += (d.querySelector('.simbox .q') ? '+sim' : '+nosim'); } }
+  document.body.setAttribute('data-qa', JSON.stringify({w:W, sw:document.documentElement.scrollWidth, over:over.slice(0, 10), click:clicked, qn:$$('.q').length}));
+}
+document.addEventListener('DOMContentLoaded', function(){
+  fixLinks();
+  var on = $('nav.tabs a.on'); if (on) on.parentNode.scrollLeft = Math.max(0, on.offsetLeft - 60);
+  $$('[data-set]').forEach(mountSet);
+  var qz = $('#quizapp'); if (qz) mountQuiz(qz);
+  var fc = $('#cardapp'); if (fc) mountCards(fc);
+  mountAsk(); mountDayDone();
+  if (D.page === 'home' || D.offline) mountHome();
+  scrollHash(); window.addEventListener('hashchange', scrollHash);
+  setTimeout(qa, 300);
+});
+})();
+</script><script>
+(function(){
+function $(i){return document.getElementById(i)}
+function f2(x){var s=(Math.abs(x)<0.005?0:x).toFixed(2);return (x>0.004?'+':(x<-0.004?'−':''))+s.replace('-','')}
+if($('lab-focus')){var A=$('lf-a'),Lz=$('lf-l');function uf(){var a=+A.value,l=+Lz.value,r=a-l;$('lf-av').textContent=f2(a);$('lf-lv').textContent=f2(l);
+var x=300+r*14;x=Math.max(170,Math.min(332,x));var pt=$('lf-pt');pt.setAttribute('cx',x);
+var g=$('lf-rays');var ys=[45,60,90,105],h='';ys.forEach(function(y){h+='<path d="M0,'+y+' L65,'+y+' L145,'+(y+(75-y)*0.18)+' L'+x+',75'+(x<300?' L300,'+(75+(75-(y+(75-y)*0.18))*-(300-x)/(x-145)):'')+'"/>'});g.innerHTML=h;
+$('lf-lens').setAttribute('fill',l<0?'#ffe3c7':(l>0?'#cfe3ff':'#eef1f5'));
+var msg=Math.abs(r)<0.13?'<b style="color:#1b7a43">초점이 망막 위 → 선명(완전교정)</b>':(r<0?'초점이 망막 <b>앞</b> (근시 상태, 잔여 '+f2(r)+' D) → 먼 곳이 흐림. 마이너스를 '+f2(-r).replace('+','')+' D 더 필요':'초점이 망막 <b>뒤</b> (원시 상태, 잔여 '+f2(r)+' D) → 조절해야 선명. '+(a<0&&l<a?'<b style="color:#c0392b">근시 과교정(과마이너스)</b>':'플러스가 '+f2(r).replace('+','')+' D 더 필요'));
+$('lf-out').innerHTML='잔여 굴절이상 = '+f2(a)+' − ('+f2(l)+') = <b>'+f2(r)+' D</b><br>'+msg}A.oninput=uf;Lz.oninput=uf;uf()}
+if($('lab-rx')){function ur(){var s=parseFloat($('rx-s').value)||0,c=parseFloat($('rx-c').value)||0,ax=parseInt($('rx-a').value)||180,note='';
+if(c>0){s=s+c;c=-c;ax=ax>90?ax-90:ax+90;note='마이너스 원주로 변환: <b>'+f2(s)+' '+f2(c)+' × '+ax+'</b><br>'}
+ax=((ax%180)+180)%180;if(ax===0)ax=180;var m1=s,m2=s+c,o=ax>90?ax-90:ax+90,se=s+c/2,t;
+if(Math.abs(c)<0.01)t=s<0?'근시(난시 없음)':(s>0?'원시(난시 없음)':'정시');else if(m1<=0&&m2<=0)t=(Math.abs(m1)<0.01||Math.abs(m2)<0.01?'단순':'복합')+' 근시성 난시';else if(m1>=0&&m2>=0)t=(Math.abs(m1)<0.01||Math.abs(m2)<0.01?'단순':'복합')+' 원시성 난시';else t='혼합난시';
+var k=Math.abs(c)<0.01?'':((ax<=30||ax>=150)?'직난시(축 180±30)':((ax>=60&&ax<=120)?'도난시(축 90±30)':'사난시'));
+$('rx-out').innerHTML=note+'축 '+ax+'° 경선 = <b>'+f2(m1)+' D</b>, '+o+'° 경선 = <b>'+f2(m2)+' D</b><br>구면등가 SE = <b>'+f2(se)+' D</b><br>판정: <b>'+t+'</b>'+(k?' · '+k:'')}
+['rx-s','rx-c','rx-a'].forEach(function(i){$(i).oninput=ur});ur()}
+if($('lab-add')){function ua(){var age=+$('ad-age').value||45,am=$('ad-amp').value,d=+$('ad-d').value||40;var avg=Math.max(0,18.5-0.3*age),mn=Math.max(0,15-0.25*age),amp=am===''?mn:+am;
+var add=1/(d/100)-amp/2;add=Math.max(0,Math.round(add*4)/4);var near=1/(add+amp)*100,far=add>0?100/add:Infinity;
+$('ad-out').innerHTML='Hofstetter: 최소 '+mn.toFixed(2)+' D · 평균 '+avg.toFixed(2)+' D<br>사용한 조절력 '+amp.toFixed(2)+' D, 작업거리 '+d+' cm → 필요 '+(100/d).toFixed(2)+' D<br>잠정 ADD = <b>'+f2(add)+' D</b><br>이 ADD의 이론적 선명 범위: 약 '+near.toFixed(0)+' cm ~ '+(isFinite(far)?far.toFixed(0)+' cm':'무한대')+' (조절력 전부 사용 시)'}
+['ad-age','ad-amp','ad-d'].forEach(function(i){$(i).oninput=ua});ua()}
+if($('lab-degr')){function ud(){var ad=+$('dg-add').value||0,dg=+$('dg-deg').value||0,r=ad-dg;$('dg-out').innerHTML='맨 위 남은 근용 도수 = '+f2(ad)+' − '+dg.toFixed(2)+' = <b>'+f2(r)+' D</b><br>'+(r<=0.01?'남은 도수가 0 이하 → 이론상 먼 곳까지(이 경우 일반 누진과 비슷)':'선명 한계 ≈ 1 ÷ '+r.toFixed(2)+' = <b>'+(1/r).toFixed(2)+' m</b> (그보다 먼 곳은 흐림 → 실내 전용)')}
+['dg-add','dg-deg'].forEach(function(i){$(i).oninput=ud});ud()}
+document.querySelectorAll('.gq').forEach(function(q){q.querySelectorAll('button.opt').forEach(function(b){b.addEventListener('click',function(){if(q.classList.contains('done'))return;var ok=b.getAttribute('data-ok')==='1';q.classList.add('done');
+q.querySelectorAll('button.opt').forEach(function(x){x.disabled=true;if(x.getAttribute('data-ok')==='1')x.classList.add('right')});if(!ok)b.classList.add('wrong');var d=q.querySelector('.diag');d.querySelector('.res').innerHTML=ok?'<span class="ok">정답이에요!</span>':'<span class="no">아쉬워요.</span> 정답은 초록색 보기예요.';
+var box=q.closest('.qzset');if(box){var n=box.querySelectorAll('.gq.done').length,r=box.querySelectorAll('.gq.done button.opt.right:not(.wrong)').length,w=box.querySelectorAll('.gq.done button.wrong').length;box.querySelector('.qz-score').textContent='푼 문제 '+n+' / '+box.querySelectorAll('.gq').length+' · 맞힌 문제 '+(n-w)}})})});
+var rs=document.querySelectorAll('.qz-reset');rs.forEach(function(b){b.onclick=function(){var box=b.closest('.qzset');box.querySelectorAll('.gq').forEach(function(q){q.classList.remove('done');q.querySelectorAll('button.opt').forEach(function(x){x.disabled=false;x.classList.remove('right','wrong')})});box.querySelector('.qz-score').textContent=''}});
+var gs=$('gsearch');if(gs){gs.oninput=function(){var v=gs.value.trim().toLowerCase();document.querySelectorAll('#gloss tbody tr').forEach(function(tr){tr.style.display=!v||tr.textContent.toLowerCase().indexOf(v)>=0?'':'none'})}}
+})();
+</script></body></html>
